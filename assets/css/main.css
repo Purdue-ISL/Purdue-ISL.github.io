@@ -9,8 +9,8 @@
       
       
     .bg-img {
-        @apply min-w-[100vw] min-h-[100vh];
-        background-image: url("/images/x11.png");
+        @apply min-w-[100%] min-h-[100%] ;
+        background-image: url("/images/bg.png");
         background-repeat: repeat;
 
     }
@@ -266,7 +266,7 @@
     
     .banner-bg-img {
         @apply  w-[100vw] lg:w-[100%] mx-auto mt-[1em];
-        background-image: url('/images/purdue-overlay-3.jpg') ;
+        background-image: url('images/purdue-overlay-3.jpg') ;
         /*
         Image by <a href="https://www.freepik.com/free-vector/wavy-background_7405159.htm#page=12&query=blue%20technical%20background&position=44&from_view=keyword&track=ais#position=44&page=12&query=blue%20technical%20background">Freepik</a>
         */
@@ -307,7 +307,7 @@
 
 
     .header-bg-img {
-        @apply  w-[100vw] mx-auto mt-[1em];
+        @apply  w-[100%] mx-auto mt-[1em];
         /* Calculating height based on width and height of screen */
         height: calc(min(100px,max(.4 * 100vh,.5*100vw)));
         background-repeat: no-repeat;

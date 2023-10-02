@@ -22,9 +22,9 @@ onMounted(() => {
     areaTag.value.classList.remove("hidden");
   }
   if (props.img != undefined) {
-    imgTag.value.src = props.img;
+    imgTag.value.src = "images/team-images/" + props.img;
   } else {
-    imgTag.value.src = "/images/team-images/placeholder-image.png";
+    imgTag.value.src = "images/team-images/placeholder-image.png";
   }
 });
 </script>

@@ -11,7 +11,7 @@
         <h1 class="team-group-header">Faculty</h1>
         <div class="team-members-container">
           <TeamMember
-            img="/images/team-images/image8801.jpeg"
+            img="image8801.jpeg"
             name="Sanjay Rao"
             title="Professor"
             area=""
@@ -41,8 +41,6 @@
             title="Undergraduate researcher"
             area=""
           />
-          <TeamMember name="xxxx" title="yyy" area="" />
-          <TeamMember name="xxzzxxx" title="yyy" area="" />
         </div>
       </div>
 
@@ -171,7 +169,6 @@ export default {
         team_div.classList.toggle("show-up");
       }
     });
-    console.log(teams_divs);
     window.addEventListener("scroll", this.handleScroll);
     // in case height is small.
     this.handleScroll();

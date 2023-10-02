@@ -11,14 +11,7 @@ export default defineNuxtConfig({
         tailwindcss: {},
         autoprefixer: {},
     },
-  },
-  app: {
-    head: {
-      script: []
-    },
-    buildAssetsDir: 'assets',
-  },
- 
+  }, 
 })
 
 

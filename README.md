@@ -1,63 +1,16 @@
-# Nuxt 3 Minimal Starter
+# ISL Webpage
+This repo contains the isl webpage content which is build using nodejs, VueJs and NUXT3.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Webpage Structure
+- The main pages (e.g., homepage, team, and publication) are placed under the pages directory
+- Each main page is split into multiple components for simplicity and reusability. These component can be found under `components/<page>/<component>.vue`
+- For styling the pages, we used tailwind css library. The css file can be found under the following path `/assets/css/main.css`
+- Images and videos data are place under the `public` directory
 
-## Setup
+## Build Website
+To build the website you need to install all node modules using the command `npm install`
 
-Make sure to install the dependencies:
+## Start Website
+To run the website, use the command `npm run dev`, this should publish the website on `https://<ip>:3000/`
 
-```bash
-# npm
-npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

@@ -4,19 +4,21 @@
     <span> {{ authors }}. </span>
     In <span class="font-light italic">{{ conference }}. </span>
     <span ref="paperTag" class="hidden"
-      ><a href="" class="text-sky-900 text-base">[Paper]</a></span
+      ><a href="" class="text-sky-900 text-base" target="_blank"
+        >[Paper]</a
+      ></span
     >
     <span ref="slidesTag" class="hidden"
-      ><a class="text-sky-900 text-base">[Slides]</a></span
+      ><a class="text-sky-900 text-base" target="_blank">[Slides]</a></span
     >
     <span ref="videoTag" class="hidden"
-      ><a class="text-sky-900 text-base">[Video]</a></span
+      ><a class="text-sky-900 text-base" target="_blank">[Video]</a></span
     >
     <span ref="datasetTag" class="hidden"
-      >[<a class="text-sky-900 text-base">[Dataset]</a></span
+      >[<a class="text-sky-900 text-base" target="_blank">[Dataset]</a></span
     >
     <span ref="githubTag" class="hidden"
-      >[<a class="text-sky-900 text-base">[Github]</a></span
+      >[<a class="text-sky-900 text-base" target="_blank">[Github]</a></span
     >
     <p ref="noteTag" class="hidden font-light">{{ note }}</p>
   </div>
@@ -46,23 +48,23 @@ const noteTag = ref(null);
 onMounted(() => {
   if (props.paper != undefined) {
     paperTag.value.classList.remove("hidden");
-    paperTag.value.childNodes[0].href = props.Paper;
+    paperTag.value.childNodes[0].href = props.paper;
   }
   if (props.slides != undefined) {
     slidesTag.value.classList.remove("hidden");
-    slidesTag.value.childNodes[0].href = props.Slides;
+    slidesTag.value.childNodes[0].href = props.slides;
   }
   if (props.video != undefined) {
     videoTag.value.classList.remove("hidden");
-    videoTag.value.childNodes[0].href = props.Video;
+    videoTag.value.childNodes[0].href = props.video;
   }
   if (props.dataset != undefined) {
     datasetTag.value.classList.remove("hidden");
-    datasetTag.value.childNodes[0].href = props.Dataset;
+    datasetTag.value.childNodes[0].href = props.dataset;
   }
   if (props.github != undefined) {
     githubTag.value.classList.remove("hidden");
-    githubTag.value.childNodes[0].href = props.Github;
+    githubTag.value.childNodes[0].href = props.github;
   }
   if (props.note != undefined) {
     noteTag.value.classList.remove("hidden");

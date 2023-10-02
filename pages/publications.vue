@@ -26,6 +26,12 @@
           </h1>
           <div class="publication-div">
             <PublicationsPublication
+              title="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
+              authors="Ehab Ghabashneh, Chandan Bothra, Ramesh Govindan, Antonio Ortega, and Sanjay Rao"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
+              paper="papers-pdf/dfly.pdf"
+            /><PublicationsSeparator />
+            <PublicationsPublication
               title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
               authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
               conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS), 2022"

@@ -59,7 +59,7 @@
             </h2>
             <div class="main-page-projects-container relative">
               <video class="main-page-video">
-                <source src="videos/ISL.mp4" type="video/webm" />
+                <source src="/videos/ISL.mp4" type="video/webm" />
               </video>
               <div id="video-overlay" class="video-overlay">
                 <button class="play_button" @click="playVideo">

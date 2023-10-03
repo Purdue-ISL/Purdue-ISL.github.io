@@ -8,7 +8,7 @@
       </div>
     </div>
     <div>
-      <img class="seal-img" src="images/purdue-seal.png" />
+      <img class="seal-img" src="/images/purdue-seal.png" />
     </div>
   </div>
 </template>

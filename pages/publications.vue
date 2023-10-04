@@ -216,7 +216,6 @@ export default {
       }
       return false;
     },
-
     handleScroll() {
       var filtered = [];
       for (var idx in publications_divs) {
@@ -234,7 +233,6 @@ export default {
   },
   mounted() {
     window.scrollTo(0, 0);
-
     let publications_divs_nodelist = document.querySelectorAll(
       ".publication-project-container"
     );
@@ -244,7 +242,6 @@ export default {
         publications_div.classList.toggle("show-up");
       }
     });
-
     window.addEventListener("scroll", this.handleScroll);
     // in case height is small.
     this.handleScroll();

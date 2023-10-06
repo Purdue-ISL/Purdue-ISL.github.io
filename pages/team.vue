@@ -25,7 +25,6 @@
           <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" />
           <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" />
           <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" />
-          <TeamMember name="Testing" title="Ph.D. Student" area="" />
         </div>
       </div>
 

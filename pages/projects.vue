@@ -39,14 +39,16 @@
           />
 
           <ProjectsProject
-            title="A Program Synthesis Approach to Designing Networks with Indeterminate Objectives"
-            content="Computer networks are difficult to manage since there exists a wide gulf between the high-level goals that operators have for their networks and the low-level decisions that operators should make. This project develops a novel framework that we term comparative synthesis (inspired by program synthesis from the Programming Language community), where a user's design objective, and the synthesis of a network design that optimizes that objective are done in tandem."
+            title="A Program Synthesis Approach to Designing Networks with Provable Properties"
+            content="Computer networks are difficult to manage since there exists a wide gulf between the high-level goals that operators have for 
+                     their networks and the low-level decisions that operators should make. Unlike the chip and software industry, where design and 
+                     verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are 
+                     exploring approaches to synthesizing network designs with formally certifiable properties. A recent development is a novel 
+                     framework that we term comparative synthesis (inspired by program synthesis from the Programming Language community), where a user's design objective, 
+                     and the synthesis of a network design that optimizes that objective are done in tandem."
           />
 
-          <ProjectsProject
-            title="ML and Data-Driven Optimization of Internet Video Delivery from the Network Edge"
-            content="Video dominates the Internet today, accounting for over 80% of Internet traffic by some estimates. A key challenge is delivering high quality Internet video over variable Internet environments. In this project, we are investigating whether high Quality of Experience can be enabled for Internet video by leveraging ML-frameworks at the network edge. Our work extensively uses insights from real-world data sets of Internet video sessions."
-          />
+          
 
           <ProjectsProject
             title="Causal ML models for Data-Driven Networking"
@@ -69,10 +71,14 @@
           <ProjectsProject
             title="Synthesizing network designs with certifiable performance properties"
             content="Network design is ad-hoc today, and validating the design normally comes as an afterthought. Unlike the chip and software industry, where design and verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are exploring approaches to synthesizing network designs with formally certifiable performance properties under failures. The work may be viewed as an early step towards verifying quanititative network properties."
-          />
+          /> 
         </div>
 
-      </div>
+        <ProjectsProject
+            title="ML and Data-Driven Optimization of Internet Video Delivery from the Network Edge"
+            content="Video dominates the Internet today, accounting for over 80% of Internet traffic by some estimates. A key challenge is delivering high quality Internet video over variable Internet environments. In this project, we are investigating whether high Quality of Experience can be enabled for Internet video by leveraging ML-frameworks at the network edge. Our work extensively uses insights from real-world data sets of Internet video sessions."
+          />
+       </div>
     </div>
     <div class="pb-[150px]"></div>
   </div>

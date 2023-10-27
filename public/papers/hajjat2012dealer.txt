@@ -1,0 +1,5 @@
+@inproceedings{hajjat2012dealer,
+  title={{Dealer: Application-aware Request Splitting for Interactive Cloud Applications}},
+  author={Mohammad Hajjat and Shankaranarayanan P N and David Maltz and Sanjay Rao and Kunwadee Sripanidkulchai},
+  booktitle={ACM CoNEXT 2012}
+}

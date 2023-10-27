@@ -49,13 +49,20 @@
               title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
               authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
               conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS), 2022"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3491056"
+              slides="papers-pdf/Xatu-Sigmetrics-2022.pdf"
+              video="videos/Xatu-Sigmetrics-2022.mp4"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming"
               authors="P. C. Sruthi, Sanjay Rao, Bruno Ribeiro"
               conference="ACM SIGCOMM Workshop on Network Meets AI & ML (NetAI), 2020"
+              paper="papers/sigcomm-netai2020.pdf"
+              slides="slides/sigcomm-netai2020-slides.pdf"
+              video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
             /><PublicationsSeparator />
+
             <PublicationsPublication
               title="Exploring the interplay between CDN caching and video streaming performance"
               authors="Ehab Ghabashneh, Sanjay Rao"

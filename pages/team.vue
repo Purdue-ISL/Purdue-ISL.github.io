@@ -38,17 +38,20 @@
             title="Undergraduate researcher"
             area=""
           />
-          <TeamMember
-            name="Jagan Krishnasamy"
-            title="Undergraduate researcher"
-            area=""
-          />
         </div>
       </div>
 
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Jagan Krishnasamy"
+            degree="BSc"
+            graduation_year="2022"
+          /><TeamSeparator />
+
+          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."

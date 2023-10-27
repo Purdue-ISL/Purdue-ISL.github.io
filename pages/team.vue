@@ -22,11 +22,11 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" />
+          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" img="1_ehab.jpg"/>
           <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" />
           <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" />
-          <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" />
-          <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" />
+          <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
+          <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>
       </div>
 

@@ -173,10 +173,27 @@
           /><TeamSeparator />
         </div>
       </div>
+
+      <div class="team-group-container">
+        <h1 class="team-group-header">Visiting Researchers</h1>
+        <div class="alumni-members-container">
+          <TeamAlumni
+            name="Alessandro Finamore"
+            degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            graduation_year=" Oct 2010 - May 2011"
+          /><TeamSeparator />
+        </div>
+      </div>
+
+      
+      
     </div>
     <div class="pb-[150px]"></div>
   </div>
 </template>
+
+
+
 
 <script type="module">
 let teams_divs = [];

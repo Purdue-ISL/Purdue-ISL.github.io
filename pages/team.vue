@@ -180,12 +180,23 @@
 
       <div class="team-group-container">
         <h1 class="team-group-header">Visiting Researchers</h1>
-        <div class="alumni-members-container">
+        <div class="alumni-members-container
           <TeamAlumni
             name="Alessandro Finamore"
             degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
             graduation_year=" Oct 2010 - May 2011"
+            position=""
+            thesis_title=""
           /><TeamSeparator />
+
+          <TeamAlumni
+            name="Alessandro Finamore"
+            degree="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
+            graduation_year="May 2014 - July 2014"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+        
         </div>
       </div>
 

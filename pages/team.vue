@@ -23,8 +23,8 @@
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
           <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" img="1_ehab.jpg"/>
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" />
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" />
+          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" img="5_chandan.jpg"/>
+          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" img="4_usman.jpg"/>
           <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
           <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>

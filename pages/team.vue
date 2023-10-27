@@ -25,8 +25,8 @@
           <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" />
           <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" />
           <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" />
-          <TeamMember name="Xinqi (Jimmy) Jiang" title="Ph.D. Student" area="" />
-          <TeamMember name="Abd Al Rhman" title="Ph.D. Student" area="" />
+          <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" />
+          <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" />
         </div>
       </div>
 

@@ -13,7 +13,7 @@
         </h1>
         <div class="projects-container">
           <ProjectsProject
-            title="Self-correcting ML-driven Synthesis of Network Designs from Hints",
+            title="Self-correcting ML-driven Synthesis of Network Designs from Hints"
             content="Despite much progress, the goal of driving network design from higher level intent remains elusive. 
             The challenges stem from the fact that while network architects often do have informal knowledge of 
              conditions under which their network must operate, existing design tools (based on optimization and constraint 

@@ -67,28 +67,41 @@
               title="Exploring the interplay between CDN caching and video streaming performance"
               authors="Ehab Ghabashneh, Sanjay Rao"
               conference="Proceedings of IEEE International Conference on Computer Communications (INFOCOM), 2020"
+              paper="papers/infocom2020.pdf"
+              slides="slides/infocom2020.pptx"
+              video="videos/infocom2020.mp4"
             /><PublicationsSeparator />
+
             <PublicationsPublication
               title="Oboe: Auto-tuning video ABR algorithms to network conditions"
               authors="Zahaib Akhtar*, Yun Seong Nam*, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz-Bassett, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
               conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2018"
+              paper="papers/sigcomm18-final128.pdf"
               note="(* : Both authors contributed equally)"
             /><PublicationsSeparator />
+
             <PublicationsPublication
               title="Understanding Video Management Planes"
               authors="Zahaib Akhtar*, Yun Seong Nam*, Jessica Chen, Ramesh Govindan, Ethan Katz-Bassett, Sanjay Rao, Jibin Zhan, Hui Zhang"
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2018"
+              paper="papers/imc2018.pdf"
               note="(* : Both authors contributed equally)"
             /><PublicationsSeparator />
+
             <PublicationsPublication
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2011"
+              paper="paper/imc11.pdf"
+              slides="slides/imc11_finamore.pptx"
             /><PublicationsSeparator />
+
             <PublicationsPublication
               title="Dissecting Video Server Selection Strategies in the YouTube CDN"
               authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of IEEE  International Conference on Distributed Computing Systems (ICDCS), 2011"
+              paper="paper/ICDCS11.pdf"
+              slides="slides/icdcs11_final.pdf"
             />
           </div>
         </div>

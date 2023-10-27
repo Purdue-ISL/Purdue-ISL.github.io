@@ -13,9 +13,14 @@
         </h1>
         <div class="projects-container">
           <ProjectsProject
-            title="Self-correcting ML-driven Synthesis of Network Designs from Hints",
-            content="Network design is ad-hoc today, and validating the design normally comes as an afterthought. Unlike the chip and software industry, where design and verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are exploring approaches to synthesizing network designs with formally certifiable performance properties under failures. The work may be viewed as an early step towards verifying quanititative network properties."
-          />
+            title="Self-correcting ML-driven Synthesis of Network Designs from Hints"
+            content="Despite much progress, the goal of driving network design from higher level intent remains elusive. 
+            The challenges stem from the fact that while network architects often do have informal knowledge of 
+             conditions under which their network must operate, existing design tools (based on optimization and constraint 
+            solvers) need \textbf{precise} characterizations of these conditions. The goal of this project is to automate the 
+            process of designing networks from informal operator hints. The proposal will tackle this goal through recent 
+            developments in ML, and ML-based techiques for network design." 
+           />
 
           <ProjectsProject
             title="Next Generation Multi-Perspective Video Delivery at Internet Scale"

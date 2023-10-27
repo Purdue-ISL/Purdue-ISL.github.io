@@ -22,9 +22,9 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" img="1_ehab.jpg"/>
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" img="5_chandan.jpg/>
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" img="4_usman.jpg/>
+          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="Internet Video, Mobile Networks" img="1_ehab.jpg"/>
+          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="Internet video, Data-driven network optimization" img="5_chandan.jpg"/>
+          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="Synthesizing network designs with verifiable performance properties" img="4_usman.jpg"/>
           <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
           <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>
@@ -148,6 +148,7 @@
             name="Sunil Krothapalli  "
             degree="MSc Thesis"
             graduation_year="2009"
+            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
@@ -155,6 +156,7 @@
             name="Karukurichi Kripashankar "
             degree="MSc Thesis"
             graduation_year="2009"
+            thesis_title=""
             position="Amazon"
           /><TeamSeparator />
 
@@ -162,6 +164,7 @@
             name="Prashant Garimella "
             degree="MSc Thesis"
             graduation_year="2008"
+            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
@@ -169,14 +172,32 @@
             name="Michael Bishop "
             degree="MSc Thesis"
             graduation_year="2006"
+            thesis_title=""
             position="Microsoft"
           /><TeamSeparator />
         </div>
       </div>
+
+      <div class="team-group-container">
+        <h1 class="team-group-header">Visiting Researchers</h1>
+        <div class="alumni-members-container">
+          <TeamAlumni
+            name="Alessandro Finamore"
+            degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            graduation_year=" Oct 2010 - May 2011"
+          /><TeamSeparator />
+        </div>
+      </div>
+
+      
+      
     </div>
     <div class="pb-[150px]"></div>
   </div>
 </template>
+
+
+
 
 <script type="module">
 let teams_divs = [];

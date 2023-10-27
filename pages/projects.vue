@@ -50,8 +50,15 @@
 
           <ProjectsProject
             title="Causal ML models for Data-Driven Networking"
-            content="A central theme of data-driven networking is answering what-if questions -- what would be the impact of changing the design of a networked system, given data obtained from a real-world deployment of an existing system. In this project, we are investigating the use of causal reasoning approaches to answer “what-if questions” using data collected from prior deployments of systems."
+            content="A central theme of data-driven networking is answering what-if questions -- what would be the impact of changing the design of a 
+                     networked system, given data obtained from a real-world deployment of an existing system. In this project, we are investigating the 
+                     use of causal reasoning approaches to answer “what-if questions” using data collected from prior deployments of systems. 
+                     A particular area of focus is Internet video, given video accounts for over 80% of Internet traffic today, and it is critical
+                     to deliver high quality Internet video over variable Internet environments. Our work extensively uses insights from real-world data sets of 
+                     Internet video sessions."
           />
+      
+            
         </div>
         <h1
           class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"

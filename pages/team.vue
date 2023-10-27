@@ -190,7 +190,7 @@
           /><TeamSeparator />
 
           <TeamAlumni
-            name="Alessandro Finamore"
+            name="José Luis García Dorado"
             degree="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
             graduation_year="May 2014 - July 2014"
             position=""

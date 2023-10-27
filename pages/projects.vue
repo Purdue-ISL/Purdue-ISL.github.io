@@ -30,7 +30,7 @@
             to even terabits per second, it is challenging to analyze network traffic at line rates today. Many production intrusion detection systems 
             rely on out-of-band analysis resulting in slow reaction times that may take the order of minutes to resolve security issues
             besides requiring significant bandwidth to export data from routers. This project is tackling the challenge of inline traffic analysis 
-            using programmable switches and programmable hardware. 
+            using programmable switches and programmable hardware."
            />
             
           <ProjectsProject

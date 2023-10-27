@@ -22,9 +22,9 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" img="1_ehab.jpg"/>
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" img="5_chandan.jpg/>
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" img="4_usman.jpg/>
+          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="Internet Video, Mobile Networks" img="1_ehab.jpg"/>
+          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="Internet video, Data-driven network optimization" img="5_chandan.jpg"/>
+          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="Synthesizing network designs with verifiable performance properties" img="4_usman.jpg"/>
           <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
           <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>

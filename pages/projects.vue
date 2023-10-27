@@ -37,6 +37,18 @@
             content="A central theme of data-driven networking is answering what-if questions -- what would be the impact of changing the design of a networked system, given data obtained from a real-world deployment of an existing system. In this project, we are investigating the use of causal reasoning approaches to answer “what-if questions” using data collected from prior deployments of systems."
           />
         </div>
+        <h1
+          class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
+        >
+          Past Projects
+        </h1>
+        <div class="projects-container">
+          <ProjectsProject
+            title="Synthesizing network designs with certifiable performance properties"
+            content="Network design is ad-hoc today, and validating the design normally comes as an afterthought. Unlike the chip and software industry, where design and verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are exploring approaches to synthesizing network designs with formally certifiable performance properties under failures. The work may be viewed as an early step towards verifying quanititative network properties."
+          />
+        </div>
+
       </div>
     </div>
     <div class="pb-[150px]"></div>

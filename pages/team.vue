@@ -148,6 +148,7 @@
             name="Sunil Krothapalli  "
             degree="MSc Thesis"
             graduation_year="2009"
+            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
@@ -155,6 +156,7 @@
             name="Karukurichi Kripashankar "
             degree="MSc Thesis"
             graduation_year="2009"
+            thesis_title=""
             position="Amazon"
           /><TeamSeparator />
 
@@ -162,6 +164,7 @@
             name="Prashant Garimella "
             degree="MSc Thesis"
             graduation_year="2008"
+            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
@@ -169,6 +172,7 @@
             name="Michael Bishop "
             degree="MSc Thesis"
             graduation_year="2006"
+            thesis_title=""
             position="Microsoft"
           /><TeamSeparator />
         </div>

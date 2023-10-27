@@ -23,8 +23,8 @@
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
           <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" img="1_ehab.jpg"/>
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" img="5_chandan.jpg"/>
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" img="4_usman.jpg"/>
+          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" img="5_chandan.jpg/>
+          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" img="4_usman.jpg/>
           <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
           <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>
@@ -38,17 +38,20 @@
             title="Undergraduate researcher"
             area=""
           />
-          <TeamMember
-            name="Jagan Krishnasamy"
-            title="Undergraduate researcher"
-            area=""
-          />
         </div>
       </div>
 
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Jagan Krishnasamy"
+            degree="BSc"
+            graduation_year="2022"
+          /><TeamSeparator />
+
+          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."
@@ -123,6 +126,50 @@
             thesis_title="Towards Systematic Migration of Enterprise Networks"
             position="Assistant Professor @ Florida International University"
             c_position="Assistant Professor @ Ball State (Winner of NSF Career Research Initiation Initiative Award)"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Ruben Torres "
+            degree="Ph.D."
+            graduation_year="2011"
+            thesis_title="Measurement-Driven Characterization of Emerging Trends in Internet Content Delivery"
+            position="Narus"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Yu-Wei Eric Sung "
+            degree="Ph.D."
+            graduation_year="2010"
+            thesis_title="An Abstraction-Driven Approach to Systematic Enterprise Network Design, Configuration and Validation"
+            position="Engineering Manager, Facebook; Network Platforms Team"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Sunil Krothapalli  "
+            degree="MSc Thesis"
+            graduation_year="2009"
+            position="Cisco"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Karukurichi Kripashankar "
+            degree="MSc Thesis"
+            graduation_year="2009"
+            position="Amazon"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Prashant Garimella "
+            degree="MSc Thesis"
+            graduation_year="2008"
+            position="Cisco"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Michael Bishop "
+            degree="MSc Thesis"
+            graduation_year="2006"
+            position="Microsoft"
           /><TeamSeparator />
         </div>
       </div>

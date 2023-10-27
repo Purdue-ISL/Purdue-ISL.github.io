@@ -180,7 +180,7 @@
 
       <div class="team-group-container">
         <h1 class="team-group-header">Visiting Researchers</h1>
-        <div class="alumni-members-container
+        <div class="alumni-members-container">
           <TeamAlumni
             name="Alessandro Finamore"
             degree="Visiting Ph.D student from Politecnico Di Torino, Italy"

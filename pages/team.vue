@@ -44,13 +44,6 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
-
-          <TeamAlumni
-            name="Jagan Krishnasamy"
-            degree="BSc"
-            graduation_year="2022"
-          /><TeamSeparator />
-
           
           <TeamAlumni
             name="Chuan Jiang"
@@ -204,22 +197,32 @@
         <h1 class="team-group-header">Undergraduate Students</h1>
         <p>Several undergraduate students have worked with our laboratory as part of Purdue's PURE and SURF programs, or as undergraduate research assistants, or for undergradate research credits. Some of the work has led to publications and open source software tools, and has helped students take up both industry positions, and get admitted to top graduate programs.</p>
         <div class="alumni-members-container">
+
           <TeamAlumni
-            name="Alessandro Finamore"
-            degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
-            graduation_year=" Oct 2010 - May 2011"
+            name="Jagan Krishnasamy"
+            graduation_year="2022"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+          
+          <TeamAlumni
+            name="Nathan Cohen"
+            graduation_year="2020"
+            degree="Purdue Computer Science"
             position=""
             thesis_title=""
           /><TeamSeparator />
 
           <TeamAlumni
-            name="José Luis García Dorado"
-            degree="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
-            graduation_year="May 2014 - July 2014"
+            name="Harsh Agrawal"
+            graduation_year="2018"
+            degree="IIT, Hyderabad; PURE Program"
             position=""
             thesis_title=""
           /><TeamSeparator />
-        
+
+          
+          
         </div>
       </div>
 

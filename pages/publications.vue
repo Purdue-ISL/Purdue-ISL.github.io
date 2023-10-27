@@ -16,6 +16,9 @@
               authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
               paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
+              slides="slides/imc2022.pptx"
+              video="videos/imc2022.m4v"
+              dataset="https://github.com/facebookresearch/Millisampler-data"
             />
           </div>
         </div>
@@ -115,30 +118,41 @@
               title="Flexile: Meeting bandwidth objectives almost always"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
               conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
+              paper="papers/Flexile-ACM-CoNEXT-2022.pdf"
+              github="https://github.com/Purdue-ISL/Flexile"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="PCF: Provably Resilient Flexible Routing"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
               conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2020"
+              paper="papers/SIGCOMM2020_76_final.pdf"
+              slides="slides/PCF_slides.pdf"
+              video="videos/SIGCOMM_76_long.mp4"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Lancet: Better network resilience by designing for pruned failure sets"
               authors="Yiyang Chang, Chuan Jiang, Ashish Chandra, Sanjay Rao, Mohit Tawarmalani"
               conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS), 2020"
+              paper="papers/Sigmetrics2020_Lancet.pdf"
+              slides="slides/sigmetrics2020_yiyang_v8.pdf"
+              video="videos/sigmetrics2020.mp4"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Learning Network Design Objectives Using A Program Synthesis Approach"
               authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
               conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
+              paper="papers/HotNets_2019_Paper.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Robust validation of network designs under uncertain demands and failures"
               authors="Yiyang Chang, Sanjay Rao, Mohit Tawarmalani"
               conference="Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI), 2017"
+              paper="papers/nsdi17-final59.pdf"
+              slides="papers/nsdi2017_validation_slides.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
@@ -146,24 +160,29 @@
               authors="Nanxi Kang, Ori Rottenstreich, Sanjay Rao and Jennifer Rexford"
               conference="IEEE/ACM Transactions on Networking, 2017."
               note=" An earlier version of this paper appeared in ACM CoNext 2015"
+              paper="https://ieeexplore.ieee.org/abstract/document/7855776"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Hydra: Leveraging Functional Slicing for Efficient Distributed SDN Controllers"
               authors="Yiyang Chang, Ashkan Rezaei, Balajee Vamanan, Jahangir Hasan, Sanjay Rao, and T. N. Vijaykumar"
               conference="proceedings of the 9th IEEE International Conference on COMmunication Systems and NETworkS (IEEE COMSNETS), 2017"
+              paper="papers/comsnets17_hydra.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Composing middlebox and traffic engineering policies in SDNs"
               authors="Yiyang Chang, Gustavo Petri, Sanjay Rao, Tiark Rompf"
               conference="Proceedings of the 2nd International INFOCOM Workshop on Software-Driven Flexible and Agile Networking (IEEE INFOCOM Workshop SWFAN), 2017"
+              paper="papers/paper_swfan2017_yiyang.pdf"
+              slides="papers/slides_swfan2017_yiyang.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Modeling Complexity of Enterprise Routing Design"
               authors="Xin Sun, Sanjay G. Rao and Geoffrey G. Xie"
               conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
+              paper="papers/conext172-sun.pdf"
               note="See Purdue Technical Report version TR-ECE-12-10"
             /><PublicationsSeparator />
 

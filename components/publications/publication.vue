@@ -18,7 +18,7 @@
       >[<a class="text-sky-900 text-base" target="_blank">[Dataset]</a></span
     >
     <span ref="githubTag" class="hidden"
-      >[<a class="text-sky-900 text-base" target="_blank">[Github]</a></span
+      ><a class="text-sky-900 text-base" target="_blank">[Github]</a></span
     >
     <p ref="noteTag" class="hidden font-light">{{ note }}</p>
   </div>

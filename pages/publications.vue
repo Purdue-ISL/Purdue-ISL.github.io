@@ -34,6 +34,17 @@
               video="https://www.youtube.com/watch?v=FHyaGPMBV6c"
               github="https://github.com/Purdue-ISL/Dragonfly"
             /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Veritas: Answering Causal Queries from Video Streaming Traces"
+              authors="Chandan Bothra, Jianfei Gao, Sanjay Rao, and Bruno Ribeiro"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3603269.3604828"
+              slides="papers-pdf/veritas_slides.pptx"
+              video="https://www.youtube.com/watch?v=ZqIKtuQ1gtY"
+              github="https://github.com/Purdue-ISL/Veritas"
+            /><PublicationsSeparator />
+
             <PublicationsPublication
               title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
               authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"

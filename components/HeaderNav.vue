@@ -1,87 +1,90 @@
 <template >
-  <nav id="nav-container" class="invisible h-[0] sm:visible sm:nav-bar">
-    <NuxtLink class="nxt-link-btn" @click="toggleNavBar">
-      <div class="flex flex-col items-center">
-        <p class="menu-hamburger-line"></p>
-        <p class="menu-hamburger-line"></p>
-        <p class="menu-hamburger-line"></p>
-      </div>
-    </NuxtLink>
-    <NuxtLink class="nxt-link-btn" to="/">Home</NuxtLink>
+  <root>
+    <nav id="nav-container" class="invisible h-[0] sm:visible sm:nav-bar">
+      <NuxtLink class="nxt-link-btn" @click="toggleNavBar">
+        <div class="flex flex-col items-center">
+          <p class="menu-hamburger-line"></p>
+          <p class="menu-hamburger-line"></p>
+          <p class="menu-hamburger-line"></p>
+        </div>
+      </NuxtLink>
+      <NuxtLink class="nxt-link-btn" to="/">Home</NuxtLink>
 
-    <NuxtLink class="nxt-link-btn" to="/team">Team</NuxtLink>
+      <NuxtLink class="nxt-link-btn" to="/team">Team</NuxtLink>
 
-    <NuxtLink class="nxt-link-btn" to="/projects">Projects</NuxtLink>
+      <NuxtLink class="nxt-link-btn" to="/projects">Projects</NuxtLink>
 
-    <NuxtLink class="nxt-link-btn" to="/publications">Publications</NuxtLink>
+      <NuxtLink class="nxt-link-btn" to="/publications">Publications</NuxtLink>
 
-    <NuxtLink class="nxt-link-btn">Open Source</NuxtLink>
-    <NuxtLink class="nxt-link-btn">Contact Us</NuxtLink>
-  </nav>
-  <div
-    id="menu-bar"
-    class="invisible sm:visible menu-hamburger"
-    @click="toggleNavBar"
-  >
-    <p class="menu-hamburger-line"></p>
-    <p class="menu-hamburger-line"></p>
-    <p class="menu-hamburger-line"></p>
-  </div>
-  <div class="h-16"></div>
-
-  <nav id="nav-container-mobile" class="nav-bar-mobile sm:invisible">
-    <button
-      @click="toggleNavBarMobile"
-      @focusout="hideNavBarMobile($event)"
-      class="mobile-menu-ham"
+      <NuxtLink class="nxt-link-btn" to="/opensource">Open Source</NuxtLink>
+      <NuxtLink class="nxt-link-btn">Contact Us</NuxtLink>
+    </nav>
+    <div
+      id="menu-bar"
+      class="invisible sm:visible menu-hamburger"
+      @click="toggleNavBar"
     >
-      <div class="flex flex-col items-center pb-[3px]">
-        <p class="menu-hamburger-line"></p>
-        <p class="menu-hamburger-line"></p>
-        <p class="menu-hamburger-line"></p>
-      </div>
-    </button>
-    <ul id="mobile-menu-buttons" class="mobile-menu-buttons">
-      <NuxtLink
-        class="mobile-button mobile-button1"
+      <p class="menu-hamburger-line"></p>
+      <p class="menu-hamburger-line"></p>
+      <p class="menu-hamburger-line"></p>
+    </div>
+    <div class="h-16"></div>
+
+    <nav id="nav-container-mobile" class="nav-bar-mobile sm:invisible">
+      <button
         @click="toggleNavBarMobile"
-        to="/"
-        >Home</NuxtLink
+        @focusout="hideNavBarMobile($event)"
+        class="mobile-menu-ham"
       >
-      <NuxtLink
-        class="mobile-button mobile-button2"
-        @click="toggleNavBarMobile"
-        to="/team"
-        >Team</NuxtLink
-      >
-      <NuxtLink
-        class="mobile-button mobile-button3"
-        @click="toggleNavBarMobile"
-        to="/projects"
-      >
-        Projects
-      </NuxtLink>
-      <NuxtLink
-        class="mobile-button mobile-button4"
-        @click="toggleNavBarMobile"
-        to="/publications"
-      >
-        Publications
-      </NuxtLink>
-      <NuxtLink
-        class="mobile-button mobile-button5"
-        @click="toggleNavBarMobile"
-      >
-        Open Source
-      </NuxtLink>
-      <NuxtLink
-        class="mobile-button mobile-button6"
-        @click="toggleNavBarMobile"
-      >
-        Contact Us
-      </NuxtLink>
-    </ul>
-  </nav>
+        <div class="flex flex-col items-center pb-[3px]">
+          <p class="menu-hamburger-line"></p>
+          <p class="menu-hamburger-line"></p>
+          <p class="menu-hamburger-line"></p>
+        </div>
+      </button>
+      <ul id="mobile-menu-buttons" class="mobile-menu-buttons">
+        <NuxtLink
+          class="mobile-button mobile-button1"
+          @click="toggleNavBarMobile"
+          to="/"
+          >Home</NuxtLink
+        >
+        <NuxtLink
+          class="mobile-button mobile-button2"
+          @click="toggleNavBarMobile"
+          to="/team"
+          >Team</NuxtLink
+        >
+        <NuxtLink
+          class="mobile-button mobile-button3"
+          @click="toggleNavBarMobile"
+          to="/projects"
+        >
+          Projects
+        </NuxtLink>
+        <NuxtLink
+          class="mobile-button mobile-button4"
+          @click="toggleNavBarMobile"
+          to="/publications"
+        >
+          Publications
+        </NuxtLink>
+        <NuxtLink
+          class="mobile-button mobile-button5"
+          @click="toggleNavBarMobile"
+          to="/opensource"
+        >
+          Open Source
+        </NuxtLink>
+        <NuxtLink
+          class="mobile-button mobile-button6"
+          @click="toggleNavBarMobile"
+        >
+          Contact Us
+        </NuxtLink>
+      </ul>
+    </nav>
+  </root>
 </template>
 
 <script>

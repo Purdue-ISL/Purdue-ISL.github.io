@@ -13,7 +13,7 @@
             <span class="paper-title"
               >Flexile: Meeting bandwidth objectives almost always
             </span>
-            <span class="paper-conference">ACM ConNEXT 2022</span>
+            <span class="paper-conference">ACM CoNEXT 2022</span>
           </p>
         </div>
 

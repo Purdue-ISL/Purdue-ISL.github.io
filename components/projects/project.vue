@@ -4,13 +4,20 @@
     <p class="px-6 pb-6 text-justify">
       {{ content }}
     </p>
-    <p class="more">... more</p>
+    <span ref="linkTag" class="more hidden"
+      ><NuxtLink :to="toPage"> ... more </NuxtLink></span
+    >
   </div>
 </template>
 
 <script setup>
-const props = defineProps(["title", "content"]);
+const props = defineProps(["title", "content", "toPage"]);
+const linkTag = ref(null);
 
-onMounted(() => {});
+onMounted(() => {
+  if (props.toPage != undefined) {
+    linkTag.value.classList.remove("hidden");
+  }
+});
 </script>
 

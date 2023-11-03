@@ -1,6 +1,8 @@
 <template>
-  <div class="opensource-pages-section-container-div sticky top-0 z-10">
-    <div class="flex justify-evenly text-center text-lg px-[50px] lg:px-[80px]">
+  <div
+    class="hidden sm:block opensource-pages-section-container-div sticky top-0 z-10"
+  >
+    <div class="flex justify-evenly text-center text-lg px-[30px] lg:px-[80px]">
       <div
         class="flex-grow py-4"
         v-for="(d, index) in data"

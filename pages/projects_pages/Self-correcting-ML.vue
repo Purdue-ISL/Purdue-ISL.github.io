@@ -7,12 +7,12 @@
     <div class="limit-width">
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
-        <!--Project title-->
+        Self-correcting ML-driven Synthesis of Network Designs from Hints
       </h1>
       <SubPageNav
         v-bind:data="[
           ['Description', 'des'],
-          ['Publications', 'pub'],
+          // ['Publications', 'pub'],
           ['People', 'ppl'],
         ]"
       />
@@ -24,31 +24,64 @@
         <div class="subpages-section-content">
           <p>
             <!--Project Description-->
-            Despite much progress, the goal of driving network design from higher level intent remains elusive. The challenges stem from the fact that while network architects often do have informal knowledge of conditions under which their network must operate, existing design tools (based on optimization and constraint solvers) need \textbf{precise} characterizations of these conditions. The goal of this project is to automate the process of designing networks from informal operator hints. The proposal will tackle this goal through recent developments in ML, and ML-based techiques for network design.
+            Despite much progress, the goal of driving network design from
+            higher level intent remains elusive. The challenges stem from the
+            fact that while network architects often do have informal knowledge
+            of conditions under which their network must operate, existing
+            design tools (based on optimization and constraint solvers) need
+            <span class="font-bold">precise</span> characterizations of these
+            conditions. The goal of this project is to automate the process of
+            designing networks from informal operator hints. The proposal will
+            tackle this goal through recent developments in ML, and ML-based
+            techniques for network design.
           </p>
         </div>
       </div>
 
-      <div id="pub" class="subpages-section-container-div">
+      <!-- <div id="pub" class="subpages-section-container-div">
         <div class="subpages-section-title-container-div">
           <h1 class="subpages-section-title">Publications</h1>
         </div>
         <div class="subpages-section-content">
           <p>
-            <!--Project publications-->
+            Project publications
           </p>
         </div>
-      </div>
+      </div> -->
 
       <div id="ppl" class="subpages-section-container-div">
         <div class="subpages-section-title-container-div">
           <h1 class="subpages-section-title">Team</h1>
         </div>
         <div class="subpages-section-content">
-          <p>
-            <!--Project Team-->
-            Abd AlRhman AlQiam, Prof. Sanjay Rao, Prof. Mohit Tawarmalani, Prof. Bruno Ribeiro
-          </p>
+          <!--Project Team-->
+          <div>
+            <span class="font-bold text-xl">Faculty</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li class="font-mono tracking-tighter">Prof. Sanjay Rao</li>
+                <li class="font-mono tracking-tighter">
+                  Prof. Mohit Tawarmalani
+                </li>
+                <li class="font-mono tracking-tighter">Prof. Bruno Ribeiro</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+          <div>
+            <span class="font-bold text-xl">Students</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Abd AlRhman AlQiam
+                  </span>
+                  <span>— Ph.D. student</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
         </div>
       </div>
     </div>

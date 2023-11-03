@@ -53,6 +53,7 @@
             perspective retrieval from CDN servers or from nearby caches.
             Finally, the project will explore methods to predict and guide user
             behavior to improve delivery quality based on user studies.
+            <br /><br />
           </p>
         </div>
       </div>

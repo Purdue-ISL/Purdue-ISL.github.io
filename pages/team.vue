@@ -69,6 +69,13 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Zixuan Li"
+            degree="MS"
+            graduation_year="2023"
+           /><TeamSeparator />
+          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."
@@ -93,6 +100,11 @@
             thesis_title="Characterizing and Optimizing Internet Video Streaming"
             position="Google"
           /><TeamSeparator />
+
+          <TeamAlumni
+            name="Sruthi Panchapakesan"
+            graduation_year="2020"
+           /><TeamSeparator />
 
           <TeamAlumni
             name="Yiyang Chang "

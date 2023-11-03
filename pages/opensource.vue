@@ -24,26 +24,24 @@
             to-page="https://github.com/Purdue-ISL/Veritas"
           />
           <OpensourceToolkit
+            title="Chimera UAS Throughput Generation Tool"
+            content="This repository contains Chimera UAS flight throughput trace generation tool and synthetic traces used in testing Chimera."
+            to-page="https://github.com/Purdue-ISL/ChimeraTraceGeneration"
+          />
+          <OpensourceToolkit
             title="D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage"
             content="D-Tunes is a web tool that helps application developers configure replication strategies for geo-distributed datastores like Cassandra which uses quorum-based protocols."
             to-page="/opensource_pages/dtunes"
           />
           <OpensourceToolkit
-            title="Routing Visualization Toolkit"
-            content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
-            to-page="https://engineering.purdue.edu/~isl/rvtool/"
-          />
-
-          <OpensourceToolkit
             title="VLAN Management Toolkit"
             content="The toolkit automates and visualizing typical VLAN-related management tasks."
             to-page="https://engineering.purdue.edu/~isl/vlantool/"
           />
-
           <OpensourceToolkit
-            title="Chimera UAS Throughput Generation Tool"
-            content="This repository contains Chimera UAS flight throughput trace generation tool and synthetic traces used in testing Chimera."
-            to-page="https://github.com/Purdue-ISL/ChimeraTraceGeneration"
+            title="Routing Visualization Toolkit"
+            content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
+            to-page="https://engineering.purdue.edu/~isl/rvtool/"
           />
         </div>
 

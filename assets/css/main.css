@@ -7,7 +7,6 @@
         --max-width: 1200px;
       }
       
-      
     .bg-img {
         @apply min-w-[100%] min-h-[100%] ;
         background-image: url("/images/bg.png");
@@ -24,7 +23,7 @@
         /* mt-[1.8rem] */
         @apply h-[50px] w-[50px] bg-slate-200 flex flex-col fixed items-center justify-center  pb-[4px] mt-[1em];
         border-radius: 25px;
-        z-index: 10;
+        z-index: 20;
         transform: translateX(0px);
         opacity: 1;
         box-shadow: 0px 0 5px rgb(110, 131, 157);
@@ -67,7 +66,7 @@
         max-width: var(--max-width);
         box-shadow: 1px 0 10px rgb(123, 132, 142);
         border-radius: 15px 15px 15px 15px;
-        z-index: 10;
+        z-index: 20;
         transform:translateX(-101%);
         
         opacity: 0;
@@ -585,7 +584,6 @@
         transform: translateY(100px);
         scale: 95%;
         opacity: 0;
-
     }
     .project-container-div.show-up {
         scale: 100%;
@@ -594,30 +592,101 @@
         transition: all 1.5s ease;
     }
 
-    .project-more{
+    .more{
+        @apply absolute bottom-0 right-[10px] w-[100px] mb-[2px] text-right;
         @apply float-right font-light italic cursor-pointer;
         transition: all .5s ease-in-out;
       }
-    .project-more:hover{
+    .more:hover{
         @apply text-indigo-800 font-extrabold;
         
     }
 
-
-}
-
-@keyframes show {
-    0% {
+    .opensource-section-container{   
+        @apply px-[4%] ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .opensource-section-container-div {
+        @apply bg-slate-100 m-6 rounded-sm;
+        box-shadow: 1px 1px 4px gray;
+        flex: 1 0 44%;
+        transform: translateY(100px);
+        scale: 95%;
         opacity: 0;
     }
-    50% {
-        opacity: .5;
+
+    .opensource-section-container-div.show-up {
+        scale: 100%;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: all 1.5s ease;
     }
 
-    100% {
-        opacity: 1;
+    .opensource-pages-title{
+        @apply md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600;
     }
+
+    .opensource-pages-section-container-div{
+        @apply bg-slate-100 m-6 rounded-sm;
+        box-shadow: 1px 1px 4px gray;
+        flex: 1 0 44%;
+        transform: translateY(100px);
+        scale: 95%;
+        opacity: 0;
+        scroll-margin-top: 180px;
+    }
+
+    .opensource-pages-section-container-div.show-up{
+        scale: 100%;
+        opacity: 1;
+        transform: translateY(0px);
+        transition: all 1.5s ease;
+    }
+
+    .opensource-pages-section-title-container-div{
+        @apply pt-8 px-12 text-4xl;
+    }
+
+    .opensource-pages-section-title{
+        @apply border-b-2 pb-2 text-center md:text-left border-slate-300;
+    }
+    
+    .opensource-pages-section-content{
+        @apply px-12 py-4 pt-8 pb-6 text-justify;
+    }
+
+    .code-block{
+        @apply pl-5 bg-slate-200 rounded-md;
+    }
+
+    pre {
+        white-space: pre-wrap;       /* Since CSS 2.1 */
+        white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+        white-space: -pre-wrap;      /* Opera 4-6 */
+        white-space: -o-pre-wrap;    /* Opera 7 */
+        word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre, code{
+        white-space:pre-line;
+    }
+    .mark-section{
+        @apply  text-blue-700;
+        transition: all .7s ease-out;
+    }
+    .marker{
+        @apply bg-slate-400 absolute;
+        width: 0px;
+        height: 100%;
+        opacity: 0;
+    }
+    
 }
+
+
 
 @keyframes typing {
     from {

@@ -114,14 +114,13 @@
             Synthesizing network designs with certifiable properties
           </h1>
           <div class="publication-div">
-          <div class="publication-div">
             <PublicationsPublication
               title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
               authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
               conference="Proceedings of the ACM on Programming Languages, 2023"
               paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
             /><PublicationsSeparator />
-            
+
             <PublicationsPublication
               title="Flexile: Meeting bandwidth objectives almost always"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
@@ -273,7 +272,6 @@
             Architecting latency-sensitive applications for the cloud
           </h1>
           <div class="publication-div">
-
             <PublicationsPublication
               title="Cost-aware Multi Data-Center Bulk Transfers in the Cloud from a Customer-Side Perspective"
               authors="Jose Luis Garcia-Dorado and Sanjay G. Rao"
@@ -354,7 +352,6 @@
             Data-driven analysis of Internet content delivery systems
           </h1>
           <div class="publication-div">
-
             <PublicationsPublication
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
@@ -399,7 +396,6 @@
             Network configuration verification and enterprise network management
           </h1>
           <div class="publication-div">
-
             <PublicationsPublication
               title="A Software Toolkit for Visualizing Enterprise Routing Design"
               authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
@@ -429,7 +425,6 @@
             /><PublicationsSeparator />
 
             <PublicationsPublication
-<<<<<<< HEAD
               title="A Toolkit for Automating and Visualizing VLAN Configuration"
               authors="Sunil Krothapalli, Xin Sun, Yu-Wei Sung, Suan Aik Yeo and Sanjay Rao"
               conference="In Proceedings of ACM CCS Workshop on Assurable & Usable Security Configuration (SafeConfig), Chicago, IL, November 2009"
@@ -605,9 +600,7 @@
         </div>
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            End System Multicast
-          </h1>
+          <h1 class="publication-main-headers">End System Multicast</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="Early Experience with an Internet Broadcast System Based on Overlay Multicast"
@@ -647,9 +640,7 @@
         </div>
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            Miscellaneous
-          </h1>
+          <h1 class="publication-main-headers">Miscellaneous</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="MERCURY: A Scalable Publish-Subscribe System for Internet Games"
@@ -667,9 +658,7 @@
         </div>
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            Education Related
-          </h1>
+          <h1 class="publication-main-headers">Education Related</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="Laboratory Guides for Computer Security Courses"
@@ -681,9 +670,7 @@
         </div>
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            Posters/Demos
-          </h1>
+          <h1 class="publication-main-headers">Posters/Demos</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="D-Tunes: Self Tuning Datastores for Geo-distributed Interactive Applications"
@@ -738,16 +725,9 @@
               authors="Ruben Torres, Xin Sun, Aaron Walters, Cristina Nita-Rotaru, and Sanjay Rao"
               conference="presented as POSTER in The 7th Annual CERIAS Information Security Symposium Purdue University : CERIAS, 2006"
               paper="papers/DB1-B75.pdf"
-=======
-              title="RelSamp: Preserving Application Structure in Sampled Flow Measurements"
-              authors="M. Lee, M. Hajjat, R.Kompella and S.G. Rao"
-              conference="Proceedings of IEEE Infocom, Shanghai, April 2011"
-              paper="paper/relsamp-infocom11.pdf"
->>>>>>> e94aa881db0f57762c0f0e69ed2db5c02eeaf2eb
             /><PublicationsSeparator />
           </div>
         </div>
-
       </div>
     </div>
     <div class="pb-[150px]"></div>

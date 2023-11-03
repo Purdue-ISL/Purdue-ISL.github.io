@@ -3,6 +3,9 @@
     <h1 class="main-page-main-headers">What's new?</h1>
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6">
+
+        
+       
         <div class="entry-container">
           <div class="square"></div>
           <p class="entry">
@@ -10,7 +13,7 @@
             <span class="paper-title"
               >Flexile: Meeting bandwidth objectives almost always
             </span>
-            <span class="paper-conference">ACM ConNEXT 2022</span>
+            <span class="paper-conference">ACM CoNEXT 2022</span>
           </p>
         </div>
 

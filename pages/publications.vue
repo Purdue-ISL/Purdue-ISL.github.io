@@ -570,7 +570,6 @@
               paper="papers/p2pVideoSurvey.pdf"
             /><PublicationsSeparator />
 
-            <div class="publication-div">
             <PublicationsPublication
               title="Enabling Contribution Awareness in an Overlay Broadcasting System"
               authors="Yu-Wei Sung, Mike Bishop, Sanjay G. Rao"
@@ -698,7 +697,6 @@
               paper="http://conferences.sigcomm.org/sigcomm/2009/demos/sigcomm-pd-2009-final18.pdf"
             /><PublicationsSeparator />
 
-            <div class="publication-div">
             <PublicationsPublication
               title="Towards Automated Auditing for Network Configuration Changes"
               authors="Yu-Wei Eric Sung, Sanjay Rao, Subhabrata Sen, and Stephen Leggett"
@@ -719,7 +717,6 @@
               conference="Midwest Security Workshop, Indianapolis, 2008"
             /><PublicationsSeparator />
 
-            <div class="publication-div">
             <PublicationsPublication
               title="Preventing DDoS Attacks with P2P Systems"
               authors="Xin Sun, Ruben Torres and Sanjay Rao"

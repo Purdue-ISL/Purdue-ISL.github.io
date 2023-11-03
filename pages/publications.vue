@@ -190,6 +190,7 @@
               title="Towards Systematic Design of Enterprise Networks"
               authors="Yu-Wei Sung, Xin Sun, Sanjay Rao, Geoffrey Xie and David Maltz"
               conference="IEEE/ACM Transactions on Networking (ToN), 2011"
+              paper="papers/ton11.pdf"
             />
           </div>
         </div>
@@ -203,18 +204,23 @@
               title="Chimera: exploiting UAS flight path information to optimize heterogeneous data transmission"
               authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
               conference="IEEE 29th International Conference on Network Protocols (ICNP), 2021"
+              paper="papers/Chimera_ICNP2021_Final.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Optimizing Quality of Experience for Long-Range UAS Video Streaming"
               authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
               conference="IEEE/ACM 29th International Symposium on Quality of Service (IWQoS), 2021"
+              paper="papers/IWQOS2021_final.pdf"
+              slides="slides/IWQOS_2021presentation.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Measuring Fixed Wing UAS Networks at Long Range"
               authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
               conference="6th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (DroNet), 2020"
+              paper="papers/DroNet2020.pdf"
+              slides="slides/DroNet_2020presentation.pdf"
             />
           </div>
         </div>
@@ -228,27 +234,201 @@
               title="NutShell: Scalable Whittled Proxy Execution for Low-Latency Web over Cellular Networks"
               authors="Ashiwan Sivakumar, Chuan Jiang, Yun Seong Nam, Shankaranarayanan P N, Vijay Gopalakrishnan, Sanjay Rao, Subhabrata Sen, Mithuna Thottethodi, Vijaykumar T.N."
               conference="Proceedings of ACM Annual International Conference On Mobile Computing And Networking (MobiCom) 2017"
+              paper="papers/com110.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Reducing latency through page-aware management of web objects by Content Delivery Networks"
               authors="Shankaranarayanan P N, Yun Seong Nam, Ashiwan Sivakumar, Balakrishnan Chandrasekaran, Bruce Maggs, Sanjay Rao"
               conference="Proceedings of ACM  International Conference on Measurement and Modeling of Computer Science (SIGMETRICS), 2016"
+              paper="papers/sigmetrics16.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="PARCEL: Proxy Assisted bRowsing in Cellular networks for Energy and Latency reduction"
               authors="Ashiwan Sivakumar, Shankaranarayanan P N, Vijay Gopalakrishnan, Seungjoon Lee, Sanjay Rao and Subhabrata Sen"
               conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies (CoNEXT), 2014"
+              paper="papers/paper169_final_CoNEXT14.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Cloud is not a silver bullet: A Case Study of Cloud-based Mobile Browsing"
               authors="Ashiwan Sivakumar, Vijay Gopalakrishnan, Seungjoon Lee, Sanjay Rao, Subhabrata Sen and Oliver Spatscheck"
               conference="Proceedings of the 15th Workshop on Mobile Computing Systems and Applications (HotMobile), 2014"
+              paper="papers/hotmobile14-browsing.pdf"
             />
           </div>
         </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Architecting latency-sensitive applications for the cloud
+          </h1>
+          <div class="publication-div">
+
+            <PublicationsPublication
+              title="Cost-aware Multi Data-Center Bulk Transfers in the Cloud from a Customer-Side Perspective"
+              authors="Jose Luis Garcia-Dorado and Sanjay G. Rao"
+              conference="IEEE Transactions on Cloud Computing, 2019"
+              paper="https://ieeexplore.ieee.org/abstract/document/7208810"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="ACCORD: Automated Change Coordination across Independently Administered Cloud Services"
+              authors="Tariq Mahmood, Bharath Balasubramanian, Mithuna Thottethodi, Sanjay Rao, Kaustubh Joshi"
+              conference="IEEE 11th International Conference on Cloud Computing (CLOUD) Workshop on Cloud Management and Operations, 2018"
+              paper="https://ieeexplore.ieee.org/abstract/document/8457874"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Karma: Cost-effective Geo-replicated Cloud Storage with Dynamic Enforcement of Causal Consistency"
+              authors="Tariq Mahmood, Shankaranarayanan P N, Sanjay Rao, T. N. Vijaykumar, Mithuna Thottethodi"
+              conference="IEEE Transactions on Cloud Computing, 2018"
+              paper="https://ieeexplore.ieee.org/abstract/document/8392792"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Measuring and characterizing the performance of interactive multi-tier cloud applications"
+              authors=" Mohammad Hajjat, Shankaranarayanan P N, Ashiwan Sivakumar, Sanjay Rao"
+              conference="IEEE LANMAN 2015 Workshop (Invited paper)"
+              paper="papers/lanman15_final.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Application-specific configuration selection in the cloud: impact of provider policy and potential of systematic testing"
+              authors="Mohammad Hajjat, Ruiqi Liu, Yiyang Chang, T.S. Eugene Ng, Sanjay Rao"
+              conference="IEEE Infocom 2015"
+              paper="papers/hajjat2015infocomCloudPolicy.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Performance sensitive replication in geo-distributed cloud datastores"
+              authors="Shankaranarayanan P N, Ashiwan Sivakumar, Sanjay Rao, Mohit Tawarmalani, DSN 2014"
+              conference="SIGCOMM 2013"
+              paper="papers/ShankarDSN14.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Dynamic Request Splitting for Interactive Cloud Applications"
+              authors="Mohammad Hajjat, Shankaranarayanan P N, David Maltz, Sanjay Rao, Kunwadee Sripanidkulchai"
+              conference="IEEE Journal on Selected Areas in Communications, Volume 31, Issue 12, Page(s): 2722-2737, Year: 2013"
+              paper="papers/jsac2013.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Dealer: Application-aware Request Splitting for Interactive Cloud Applications"
+              authors="Mohammad Hajjat, Shankaranarayanan P N, David Maltz, Sanjay Rao and Kunwadee Sripanidkulchai"
+              conference="ACM CoNEXT 2012"
+              paper="papers/conext096-hajjat.pdf"
+              slides="papers/conext096-hajjat.pptx"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Closer to the Cloud - A Case for Emulating Cloud Dynamics by Controlling the Environment"
+              authors="Ashiwan Sivakumar, Shankaranarayanan P N, Sanjay Rao"
+              conference="NSF GENI Research and Educational Experiment Workshop 2012"
+              paper="paper/closer_to_the_cloud.pdf"
+              slides="slides/GEC13.pptx"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Cloudward Bound: Planning for Beneficial Migration of Enterprise Applications to the Cloud"
+              authors="Mohammad Hajjat, Xin Sun, Yu-Wei Sung, Dave Maltz, Sanjay Rao, Kunwadee Sripanidkulchai and Mohit Tawarmalani"
+              conference="ACM SIGCOMM 2010"
+              paper="paper/sigcomm10-planning.pdf"
+              slides="slides/sigcomm10-public.pptx"
+            /><PublicationsSeparator />
+          </div>
+        </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Data-driven analysis of Internet content delivery systems
+          </h1>
+          <div class="publication-div">
+
+            <PublicationsPublication
+              title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
+              authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
+              conference="ACM IMC 2011"
+              paper="paper/imc11.pdf"
+              slides="slides/imc11_finamore.pptx"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Dissecting Video Server Selection Strategies in the YouTube CDN"
+              authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
+              conference="IEEE ICDCS 2011"
+              paper="paper/ICDCS11.pdf"
+              slides="slides/icdcs11_final.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="The Internet-wide Impact of P2P Traffic Localization on ISP Profitability"
+              authors="Jeff Seibert, Ruben Torres, Marco Mellia, Maurizio Munafo, Cristina Nita-Rotaru and Sanjay Rao"
+              conference="IEEE/ACM Transactions on Networking, 2012"
+              paper="paper/TON12.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Characterization of community based P2P systems and implications for traffic localization"
+              authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
+              conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
+              paper="paper/p2pjournal12.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="RelSamp: Preserving Application Structure in Sampled Flow Measurements"
+              authors="M. Lee, M. Hajjat, R.Kompella and S.G. Rao"
+              conference="Proceedings of IEEE Infocom, Shanghai, April 2011"
+              paper="paper/relsamp-infocom11.pdf"
+            /><PublicationsSeparator />
+          </div>
+        </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Network configuration verification and enterprise network management
+          </h1>
+          <div class="publication-div">
+
+            <PublicationsPublication
+              title="A Software Toolkit for Visualizing Enterprise Routing Design"
+              authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
+              conference="In proceedings of IEEE Symposium on Configuration Analytics and Automation (SAFECONFIG), Arlington, VA. 2011"
+              paper="paper/safeconfig2011.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="A Survey of Virtual LAN Usage in Campus Networks"
+              authors="Minlan Yu, Xin Sun, Nick Feamster, Sanjay Rao and Jennifer Rexford"
+              conference="In IEEE Communications Magazine"
+              paper="paper/commag11.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="A Cost-Benefit Framework for Judicious Enterprise Network Redesign"
+              authors="Xin Sun and Sanjay Rao"
+              conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
+              paper="paper/infocom11-redesign.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Characterization of community based P2P systems and implications for traffic localization"
+              authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
+              conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
+              paper="paper/p2pjournal12.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="RelSamp: Preserving Application Structure in Sampled Flow Measurements"
+              authors="M. Lee, M. Hajjat, R.Kompella and S.G. Rao"
+              conference="Proceedings of IEEE Infocom, Shanghai, April 2011"
+              paper="paper/relsamp-infocom11.pdf"
+            /><PublicationsSeparator />
+          </div>
+        </div>
+
       </div>
     </div>
     <div class="pb-[150px]"></div>

@@ -233,6 +233,13 @@
             time_interval="2022"
           /><TeamSeparator />
 
+           <TeamAlumni
+            name="Tanner Andrulis"
+            note="Purdue Computer Engineering. Won ECE's Undergrad Excellence Award in 2021 (TA category) for work on 50863."
+            time_interval="2022"
+            position="Ph.D Student, MIT"
+          /><TeamSeparator />
+
           <TeamAlumni
             name="Nathan Cohen"
             time_interval="2020"

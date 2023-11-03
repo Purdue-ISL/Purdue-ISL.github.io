@@ -9,7 +9,7 @@
         <h1
           class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
         >
-        Software Toolkits
+        Software Toolkits and Datasets
         </h1>
 
         <div class="opensource-section-container">
@@ -24,9 +24,24 @@
             to-page="https://github.com/Purdue-ISL/Veritas"
           />
           <OpensourceToolkit
+            title="Xatu Dataset"
+            content="This dataset contains video session data used to evaluate the Xatu system."
+            to-page="https://github.com/Purdue-ISL/XatuDataset/"
+          />
+          <OpensourceToolkit
+            title="Campus Configuration Data"
+            content="A configuration snapshot of a large US campus network, which consists of configuration files of about 1600 switches and routers in total."
+            to-page="https://engineering.purdue.edu/~isl/network-config/"
+          />
+          <OpensourceToolkit
             title="Chimera UAS Throughput Generation Tool"
             content="This repository contains Chimera UAS flight throughput trace generation tool and synthetic traces used in testing Chimera."
             to-page="https://github.com/Purdue-ISL/ChimeraTraceGeneration"
+          />
+          <OpensourceToolkit
+            title="Oboe Dataset"
+            content="This dataset contains bandwidth traces of real video streaming sessions used to evaluate Oboe."
+            to-page="https://github.com/USC-NSL/Oboe/"
           />
           <OpensourceToolkit
             title="D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage"
@@ -42,29 +57,6 @@
             title="Routing Visualization Toolkit"
             content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
             to-page="https://engineering.purdue.edu/~isl/rvtool/"
-          />
-        </div>
-
-        <h1
-          class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
-        >
-        Datasets
-        </h1>
-        <div class="opensource-section-container">
-          <OpensourceToolkit
-            title="Xatu Dataset"
-            content="This dataset contains video session data used to evaluate the Xatu system."
-            to-page="https://github.com/Purdue-ISL/XatuDataset/"
-          />
-          <OpensourceToolkit
-            title="Oboe Dataset"
-            content="This dataset contains bandwidth traces of real video streaming sessions used to evaluate Oboe."
-            to-page="https://github.com/USC-NSL/Oboe/"
-          />
-          <OpensourceToolkit
-            title="Campus Configuration Data"
-            content="A configuration snapshot of a large US campus network, which consists of configuration files of about 1600 switches and routers in total."
-            to-page="https://engineering.purdue.edu/~isl/network-config/"
           />
         </div>
       </div>

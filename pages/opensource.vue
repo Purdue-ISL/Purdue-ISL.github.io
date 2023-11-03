@@ -9,54 +9,62 @@
         <h1
           class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
         >
-          Software Toolkits
+        Software Toolkits
         </h1>
 
         <div class="opensource-section-container">
           <OpensourceToolkit
-            title="D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage"
-            content="D-Tunes is a web tool that helps application developers configure replication strategies for geo-distributed datastores like Cassandra which uses quorum-based protocols."
+            title="Dragonfly"
+            content="This repository contains an implementation of the Dragonfly system, the bandwidth traces used for evaluation and the user study results."
+            to-page="https://github.com/Purdue-ISL/Dragonfly"
           />
           <OpensourceToolkit
-            title="Routing Visualization Toolkit"
-            content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
+            title="Veritas"
+            content="This repository contains an implementation of the Veritas framework for answering causal queries from video streaming traces."
+            to-page="https://github.com/Purdue-ISL/Veritas"
           />
-
-          <OpensourceToolkit
-            title="VLAN Management Toolkit"
-            content="The toolkit automates and visualizing typical VLAN-related management tasks."
-          />
-
           <OpensourceToolkit
             title="Chimera UAS Throughput Generation Tool"
             content="This repository contains Chimera UAS flight throughput trace generation tool and synthetic traces used in testing Chimera."
+            to-page="https://github.com/Purdue-ISL/ChimeraTraceGeneration"
           />
-        </div>
-
-        <h1
-          class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
-        >
-          Datasets
-        </h1>
-        <div class="opensource-section-container">
           <OpensourceToolkit
             title="D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage"
             content="D-Tunes is a web tool that helps application developers configure replication strategies for geo-distributed datastores like Cassandra which uses quorum-based protocols."
             to-page="/opensource_pages/dtunes"
           />
           <OpensourceToolkit
-            title="Routing Visualization Toolkit"
-            content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
-          />
-
-          <OpensourceToolkit
             title="VLAN Management Toolkit"
             content="The toolkit automates and visualizing typical VLAN-related management tasks."
+            to-page="https://engineering.purdue.edu/~isl/vlantool/"
           />
-
           <OpensourceToolkit
-            title="Chimera UAS Throughput Generation Tool"
-            content="This repository contains Chimera UAS flight throughput trace generation tool and synthetic traces used in testing Chimera."
+            title="Routing Visualization Toolkit"
+            content="The toolkit takes raw router configuration files as input, and generates scalable and human-friendly visualization of the network-wide routing design."
+            to-page="https://engineering.purdue.edu/~isl/rvtool/"
+          />
+        </div>
+
+        <h1
+          class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
+        >
+        Datasets
+        </h1>
+        <div class="opensource-section-container">
+          <OpensourceToolkit
+            title="Xatu Dataset"
+            content="This dataset contains video session data used to evaluate the Xatu system."
+            to-page="https://github.com/Purdue-ISL/XatuDataset/"
+          />
+          <OpensourceToolkit
+            title="Oboe Dataset"
+            content="This dataset contains bandwidth traces of real video streaming sessions used to evaluate Oboe."
+            to-page="https://github.com/USC-NSL/Oboe/"
+          />
+          <OpensourceToolkit
+            title="Campus Configuration Data"
+            content="A configuration snapshot of a large US campus network, which consists of configuration files of about 1600 switches and routers in total."
+            to-page="https://engineering.purdue.edu/~isl/network-config/"
           />
         </div>
       </div>

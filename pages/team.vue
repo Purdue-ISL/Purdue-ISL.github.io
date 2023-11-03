@@ -69,6 +69,13 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Zixuan Li"
+            degree="MS"
+            graduation_year="2023"
+           /><TeamSeparator />
+          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."
@@ -93,6 +100,11 @@
             thesis_title="Characterizing and Optimizing Internet Video Streaming"
             position="Google"
           /><TeamSeparator />
+
+          <TeamAlumni
+            name="Sruthi Panchapakesan"
+            graduation_year="2020"
+           /><TeamSeparator />
 
           <TeamAlumni
             name="Yiyang Chang "
@@ -130,7 +142,7 @@
 
           <TeamAlumni
             name="Srivathsava Rangarajan "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2014"
             thesis_title="Paxos based directory updates for geo-replicated cloud storage"
             position="Enova"
@@ -163,33 +175,29 @@
 
           <TeamAlumni
             name="Sunil Krothapalli  "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2009"
-            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Karukurichi Kripashankar "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2009"
-            thesis_title=""
             position="Amazon"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Prashant Garimella "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2008"
-            thesis_title=""
             position="Cisco"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Michael Bishop "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2006"
-            thesis_title=""
             position="Microsoft"
           /><TeamSeparator />
         </div>
@@ -200,14 +208,14 @@
         <div class="alumni-members-container">
           <TeamAlumni
             name="Alessandro Finamore"
-            note="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            note="Visiting Ph.D student, Politecnico Di Torino, Italy"
             time_interval=" Oct 2010 - May 2011"
           /><TeamSeparator />
 
           <TeamAlumni
             name="José Luis García Dorado"
-            note="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
-            time_interval="May 2014 - July 2014"
+            note="Visiting Assistant Professor, Universidad Autónoma de Madrid, Spain"
+            time_interval="Feb 2014 - July 2014"
           /><TeamSeparator />
         </div>
       </div>
@@ -224,9 +232,24 @@
             has helped students take up both industry positions, and get
             admitted to top graduate programs.
           </p>
+
+          <TeamAlumni
+            name="Anjali Vanamala"
+            note="Purdue Computer Engineering. Supported by NSF REU and First Time Researcher Award. Work appeared in Purdue's Spring Undergraduate Research Conference 2023."
+            time_interval="2022-23"
+          /><TeamSeparator />
+          
           <TeamAlumni
             name="Jagan Krishnasamy"
+            note="Purdue Computer Engineering. Won Honorable Mention for Purdue ECE's Undergraduate Research Award (2022)."
             time_interval="2022"
+          /><TeamSeparator />
+
+           <TeamAlumni
+            name="Tanner Andrulis"
+            time_interval="2022"
+            note="Purdue Computer Engineering. Won ECE's Undergrad Excellence Award in 2021 (TA category) for work on 50863."
+            position="Ph.D Student, MIT"
           /><TeamSeparator />
 
           <TeamAlumni
@@ -240,6 +263,93 @@
             time_interval="2018"
             note="IIT, Hyderabad; PURE Program"
           /><TeamSeparator />
+
+
+          <TeamAlumni
+            name="Touheed Anwar Atif"
+            time_interval="2016"
+            note="IIT, Hyderabad; PURE Program"
+            position="Ph.D. Student, University of Michigan, Ann Arbor"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Akash Kumar"
+            time_interval="2015-2016"
+            position="Amazon"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Zaiwei Zhang"
+            time_interval="2014-2015"
+            position="Ph.D. Student, University of Texas, Austin"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Zisheng Liao"
+            time_interval="2014"
+            position="Masters Student, UIUC"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Jiawei Wang"
+            time_interval="2013"
+            position="Masters Student, UPenn"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Jinliang Wei"
+            time_interval="2013"
+            position="Ph.D. Student, Carnegie Mellon University"
+            /><TeamSeparator />  
+
+          <TeamAlumni
+            name="Samuel Oshin"
+            time_interval="2011"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Brian Crone"
+            time_interval="2011"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Andrew Huff"
+            time_interval="2011"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Upsham Dawra"
+            time_interval="2010"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Kee-Shen Quah"
+            time_interval="2010"
+            position="Masters Student, University of Michigan"
+            /><TeamSeparator />  
+
+          <TeamAlumni
+            name="Keywhan Chung"
+            time_interval="2009"
+            position="Ph.D. Student, UIUC"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Suan-Aik Yeo"
+            time_interval="2009"
+            note="Nominated by Purdue ECE in Fall 2009 for the Outstanding Undergraduate Researchers award, given by the Computing Research Association. Won the Best Abstract Award in the category Mathematics and Computational Science in the 2010 Purdue Undergraduate Research Poster Symposium."
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Ankit Kuwadekar"
+            time_interval="2008"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Amey Rane"
+            time_interval="2008"
+            /><TeamSeparator />
+          
         </div>
       </div>
     </div>

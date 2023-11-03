@@ -8,6 +8,7 @@
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
         <!--Project title-->
+        Synthesizing network designs with certifiable performance properties
       </h1>
       <SubPageNav
         v-bind:data="[

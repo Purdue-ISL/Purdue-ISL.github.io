@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex-[1_0_25%]">
     <div class="flex flex-col text-center items-center m-6">
       <img class="team-member-img" ref="imgTag" src="" />
       <p class="team-member-name">

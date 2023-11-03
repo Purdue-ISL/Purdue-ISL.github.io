@@ -22,11 +22,36 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="Internet Video, Mobile Networks" img="1_ehab.jpg"/>
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="Internet video, Data-driven network optimization" img="5_chandan.jpg"/>
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="Synthesizing network designs with verifiable performance properties" img="4_usman.jpg"/>
-          <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
-          <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
+          <TeamMember
+            name="Ehab Ghabashneh"
+            title="Ph.D. Candidate"
+            area="Internet Video, Mobile Networks"
+            img="1_ehab.jpg"
+          />
+          <TeamMember
+            name="Chandan Bothra"
+            title="Ph.D Student"
+            area="Internet video, Data-driven network optimization"
+            img="5_chandan.jpg"
+          />
+          <TeamMember
+            name="Syed Usman Jafri"
+            title="Ph.D. Student"
+            area="Synthesizing network designs with verifiable performance properties"
+            img="4_usman.jpg"
+          />
+          <TeamMember
+            name="Xinji (Jimmy) Jiang"
+            title="Ph.D. Student"
+            area=""
+            img="3_jimmy.jpg"
+          />
+          <TeamMember
+            name="Abd AlRhman AlQiam"
+            title="Ph.D. Student"
+            area=""
+            img="2_abd.jpg"
+          />
         </div>
       </div>
 
@@ -44,7 +69,6 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
-          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."
@@ -176,57 +200,48 @@
         <div class="alumni-members-container">
           <TeamAlumni
             name="Alessandro Finamore"
-            degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
-            graduation_year=" Oct 2010 - May 2011"
-            position=""
-            thesis_title=""
+            note="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            time_interval=" Oct 2010 - May 2011"
           /><TeamSeparator />
 
           <TeamAlumni
             name="José Luis García Dorado"
-            degree="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
-            graduation_year="May 2014 - July 2014"
-            position=""
-            thesis_title=""
+            note="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
+            time_interval="May 2014 - July 2014"
           /><TeamSeparator />
-        
         </div>
       </div>
 
       <div class="team-group-container">
         <h1 class="team-group-header">Undergraduate Students</h1>
-        <p>Several undergraduate students have worked with our laboratory as part of Purdue's PURE and SURF programs, or as undergraduate research assistants, or for undergradate research credits. Some of the work has led to publications and open source software tools, and has helped students take up both industry positions, and get admitted to top graduate programs.</p>
-        <div class="alumni-members-container">
 
+        <div class="alumni-members-container">
+          <p class="px-5 pb-3 text-justify">
+            Several undergraduate students have worked with our laboratory as
+            part of Purdue's PURE and SURF programs, or as undergraduate
+            research assistants, or for undergradate research credits. Some of
+            the work has led to publications and open source software tools, and
+            has helped students take up both industry positions, and get
+            admitted to top graduate programs.
+          </p>
           <TeamAlumni
             name="Jagan Krishnasamy"
-            graduation_year="2022"
-            position=""
-            thesis_title=""
+            time_interval="2022"
           /><TeamSeparator />
-          
+
           <TeamAlumni
             name="Nathan Cohen"
-            graduation_year="2020"
-            degree="Purdue Computer Science"
-            position=""
-            thesis_title=""
+            time_interval="2020"
+            note="Purdue Computer Science"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Harsh Agrawal"
-            graduation_year="2018"
-            degree="IIT, Hyderabad; PURE Program"
-            position=""
-            thesis_title=""
+            time_interval="2018"
+            note="IIT, Hyderabad; PURE Program"
           /><TeamSeparator />
-
-          
-          
         </div>
       </div>
-
-      
     </div>
     <div class="pb-[150px]"></div>
   </div>

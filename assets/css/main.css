@@ -565,7 +565,7 @@
     }
     .team-member-img{
         width: auto;
-        height: 200px;
+        max-height: 200px;
         border-radius: 10%;
       }
 

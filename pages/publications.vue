@@ -95,7 +95,7 @@
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2011"
-              paper="paper/imc11.pdf"
+              paper="papers/imc11.pdf"
               slides="slides/imc11_finamore.pptx"
             /><PublicationsSeparator />
 
@@ -103,7 +103,7 @@
               title="Dissecting Video Server Selection Strategies in the YouTube CDN"
               authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of IEEE  International Conference on Distributed Computing Systems (ICDCS), 2011"
-              paper="paper/ICDCS11.pdf"
+              paper="papers/ICDCS11.pdf"
               slides="slides/icdcs11_final.pdf"
             />
           </div>
@@ -327,7 +327,7 @@
               title="Closer to the Cloud - A Case for Emulating Cloud Dynamics by Controlling the Environment"
               authors="Ashiwan Sivakumar, Shankaranarayanan P N, Sanjay Rao"
               conference="NSF GENI Research and Educational Experiment Workshop 2012"
-              paper="paper/closer_to_the_cloud.pdf"
+              paper="papers/closer_to_the_cloud.pdf"
               slides="slides/GEC13.pptx"
             /><PublicationsSeparator />
 
@@ -335,7 +335,7 @@
               title="Cloudward Bound: Planning for Beneficial Migration of Enterprise Applications to the Cloud"
               authors="Mohammad Hajjat, Xin Sun, Yu-Wei Sung, Dave Maltz, Sanjay Rao, Kunwadee Sripanidkulchai and Mohit Tawarmalani"
               conference="ACM SIGCOMM 2010"
-              paper="paper/sigcomm10-planning.pdf"
+              paper="papers/sigcomm10-planning.pdf"
               slides="slides/sigcomm10-public.pptx"
             /><PublicationsSeparator />
           </div>
@@ -351,7 +351,7 @@
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="ACM IMC 2011"
-              paper="paper/imc11.pdf"
+              paper="papers/imc11.pdf"
               slides="slides/imc11_finamore.pptx"
             /><PublicationsSeparator />
 
@@ -359,7 +359,7 @@
               title="Dissecting Video Server Selection Strategies in the YouTube CDN"
               authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="IEEE ICDCS 2011"
-              paper="paper/ICDCS11.pdf"
+              paper="papers/ICDCS11.pdf"
               slides="slides/icdcs11_final.pdf"
             /><PublicationsSeparator />
 
@@ -367,21 +367,21 @@
               title="The Internet-wide Impact of P2P Traffic Localization on ISP Profitability"
               authors="Jeff Seibert, Ruben Torres, Marco Mellia, Maurizio Munafo, Cristina Nita-Rotaru and Sanjay Rao"
               conference="IEEE/ACM Transactions on Networking, 2012"
-              paper="paper/TON12.pdf"
+              paper="papers/TON12.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Characterization of community based P2P systems and implications for traffic localization"
               authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
               conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
-              paper="paper/p2pjournal12.pdf"
+              paper="papers/p2pjournal12.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="RelSamp: Preserving Application Structure in Sampled Flow Measurements"
               authors="M. Lee, M. Hajjat, R.Kompella and S.G. Rao"
               conference="Proceedings of IEEE Infocom, Shanghai, April 2011"
-              paper="paper/relsamp-infocom11.pdf"
+              paper="papers/relsamp-infocom11.pdf"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -396,63 +396,63 @@
               title="A Software Toolkit for Visualizing Enterprise Routing Design"
               authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
               conference="In proceedings of IEEE Symposium on Configuration Analytics and Automation (SAFECONFIG), Arlington, VA. 2011"
-              paper="paper/safeconfig2011.pdf"
+              paper="papers/safeconfig2011.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Survey of Virtual LAN Usage in Campus Networks"
               authors="Minlan Yu, Xin Sun, Nick Feamster, Sanjay Rao and Jennifer Rexford"
               conference="In IEEE Communications Magazine"
-              paper="paper/commag11.pdf"
+              paper="papers/commag11.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Cost-Benefit Framework for Judicious Enterprise Network Redesign"
               authors="Xin Sun and Sanjay Rao"
               conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
-              paper="paper/infocom11-redesign.pdf"
+              paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Systematic Approach for Evolving VLAN Design"
               authors="Xin Sun, Yu-Wei Sung, Sunil Krothapalli and Sanjay Rao"
               conference="In proceedings of IEEE INFOCOM, San Diego, CA, 2010"
-              paper="paper/infocom10-vlan.pdf"
+              paper="papers/infocom10-vlan.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Toolkit for Automating and Visualizing VLAN Configuration"
               authors="Sunil Krothapalli, Xin Sun, Yu-Wei Sung, Suan Aik Yeo and Sanjay Rao"
               conference="In Proceedings of ACM CCS Workshop on Assurable & Usable Security Configuration (SafeConfig), Chicago, IL, November 2009"
-              paper="paper/safeconfig09-tool.pdf"
+              paper="papers/safeconfig09-tool.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Modeling and Understanding End-to-End Class of Service Policies in Operational Networks"
               authors="Yu-Wei Eric Sung, Carsten Lund, Mark Lyn, Sanjay Rao, and Subhabrata Sen"
               conference="Proceedings of ACM SIGCOMM, Barcelona, Spain, August 2009"
-              paper="paper/sigcomm09_cos.pdf"
+              paper="papers/sigcomm09_cos.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Extracting Network-wide Correlated Changes from Longitudinal Configuration Data"
               authors="Yu-Wei Eric Sung, Sanjay Rao, Subhabrata Sen, and Stephen Leggett"
               conference="Yu-Wei Eric Sung, Sanjay Rao, Subhabrata Sen, and Stephen Leggett"
-              paper="paper/pam09-corrchange.pdf"
+              paper="papers/pam09-corrchange.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Configuration Management at Massive Scale: System Design and Experience"
               authors="William Enck, Thomas Moyer, Patrick McDaniel, Shubho Sen, Panagiotis Sebos, Sylke Spoerel, Albert Greenberg, Yu-Wei Sung, Sanjay Rao, and William Aiello"
               conference="in IEEE Journal on Selected Areas in Communications (JSAC), 2009"
-              paper="paper/jsac_presto.pdf"
+              paper="papers/jsac_presto.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Towards Systematic Design of Enterprise Networks"
               authors="Yu-Wei Eric Sung, Sanjay Rao, Geoffrey Xie, and David Maltz"
               conference="Proceedings of ACM CoNEXT, Madrid, Spain, December, 2008"
-              paper="paper/conext08.pdf"
+              paper="papers/conext08.pdf"
               dataset="https://engineering.purdue.edu/~isl/network-config"
             /><PublicationsSeparator />
 
@@ -467,7 +467,7 @@
               title="haracterizing VLAN usage in an Operational Network"
               authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, Sanjay Rao"
               conference="ACM SIGCOMM workshop on Internet Network Management (INM'07), Kyoto, Japan, August 2007"
-              paper="paper/inm07.pdf"
+              paper="papers/inm07.pdf"
               dataset="https://engineering.purdue.edu/~isl/network-config"
             /><PublicationsSeparator />
 
@@ -489,56 +489,56 @@
               title="A Design for Securing Data Delivery in Peer-to-Peer Streaming"
               authors="Jeff Seibert, Xin Sun, Cristina Nita-Rotaru and Sanjay Rao"
               conference="Elsevier Journal on Computer Networks (COMNET), vol. 55, issue 12, August 2011"
-              paper="paper/comnet2011.pdf"
+              paper="papers/comnet2011.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Preventing DDoS Attacks on Internet Servers Exploiting P2P Systems"
               authors="Xin Sun,Ruben Torres and Sanjay Rao"
               conference="Xin Sun,Ruben Torres and Sanjay Rao"
-              paper="paper/comnet-ddos.pdf"
+              paper="papers/comnet-ddos.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="On the feasibility of exploiting P2P systems to launch DDoS attacks"
               authors="Xin Sun,Ruben Torres and Sanjay Rao"
               conference="Springer Journal of Peer-to-Peer Networking and Applications (PPNA), Volume 3, Number 1, ISSN 1936-6442, March 2010"
-              paper="paper/p2p-ddos.pdf"
+              paper="papers/p2p-ddos.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Towards Securing Data Delivery in Peer-to-Peer Streaming"
               authors="Jeffrey C. Seibert, Xin Sun, Sanjay Rao, and Cristina Nita-Rotaru"
               conference="in Proceedings of International Conference on COMmunication Systems and NETworkS (COMSNETS), Bangalore, India, Jan 2010. (Invited paper)"
-              paper="paper/comsnets2010.pdf"
+              paper="papers/comsnets2010.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Inferring Undesirable Behavior from P2P Traffic Analysis"
               authors="Ruben Torres, Mohammad Hajjat, Sanjay Rao, Maurizio Munafo and Marco Mellia"
               conference="in Proceedings of ACM SIGMETRICS, Seattle, WA, June 2009"
-              paper="paper/Sigmetrics09.pdf"
+              paper="papers/Sigmetrics09.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Enabling Confidentiality of Data Delivery in an Overlay Broadcasting System"
               authors="Ruben Torres, Xin Sun, Aaron Walters, Cristina Nita-Rotaru and Sanjay Rao"
               conference="In special issue of IEEE JSAC on Advances in Peer-to-Peer Streaming Systems, December 2007"
-              paper="paper/jsac07.pdf"
+              paper="papers/jsac07.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="DDoS Attacks by Subverting Membership Management in P2P Systems"
               authors="Xin Sun, Ruben Torres and Sanjay Rao"
               conference="Workshop on Secure Network Protocols (NPSec 2007), Beijing, China, October 2007"
-              paper="paper/NPSec07.pdf"
+              paper="papers/NPSec07.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Enabling Confidentiality of Data Delivery in an Overlay Broadcasting System"
               authors="Ruben Torres, Xin Sun, Aaron Walters, Cristina Nita-Rotaru and Sanjay Rao"
               conference="Proceedings of IEEE Infocom, Anchorage, AK, May 2007"
-              paper="paper/infocom07.pdf"
+              paper="papers/infocom07.pdf"
               slides="slides/Infocom07.OverlayKeyMgmt.ppt"
             /><PublicationsSeparator />
           </div>
@@ -553,21 +553,21 @@
               title="On-demand waypoints for live P2P video broadcasting"
               authors=" A.Ganjam, S.G. Rao, K.Sripanidkulchai, J.Zhan and H. Zhang"
               conference="In Springer Journal of Peer-to-Peer Networking and Applications, Vol. 3, No. 4, December 2010, pp 277-293"
-              paper="paper/waypoint2010.pdf"
+              paper="papers/waypoint2010.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Enabling Contribution Awareness in an Overlay Broadcasting System"
               authors="Yu-Wei Eric Sung, Michael Bishop, and Sanjay Rao"
               conference="In IEEE Transactions on Multimedia, Special Issue on Content Storage and Delivery in Peer-to-Peer Networks , Vol. 9, No. 8, pp. 1605-1620, December 2007"
-              paper="paper/sung_tmm.pdf"
+              paper="papers/sung_tmm.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Opportunities and Challenges of Peer-to-Peer Internet Video Broadcast"
               authors="J. Liu, B. Li, Sanjay Rao and H. Zhang"
               conference="In Proceedings of the IEEE, Special Issue on Recent Advances in Distributed Multimedia Communication, 2007"
-              paper="paper/p2pVideoSurvey.pdf"
+              paper="papers/p2pVideoSurvey.pdf"
             /><PublicationsSeparator />
 
             <div class="publication-div">
@@ -575,7 +575,7 @@
               title="Enabling Contribution Awareness in an Overlay Broadcasting System"
               authors="Yu-Wei Sung, Mike Bishop, Sanjay G. Rao"
               conference="Proceedings of ACM SIGCOMM, Pisa, Italy, September 2006"
-              paper="paper/sigcomm06.pdf"
+              paper="papers/sigcomm06.pdf"
               slides="slides/Sigcomm06.OverlayBroadcast.ppt"
             /><PublicationsSeparator />
 
@@ -583,7 +583,7 @@
               title="Considering Priority in Overlay Multicast Protocols under Heterogeneous Environments"
               authors="Mike Bishop, Sanjay G. Rao and Kunwadee Sripanidkulchai"
               conference="Proceedings of  IEEE Infocom, Barcelona, April 2006"
-              paper="paper/infocomm-2006.pdf"
+              paper="papers/infocomm-2006.pdf"
               slides="slides/Infocom_Presentation.ppt"
             /><PublicationsSeparator />
 
@@ -591,7 +591,7 @@
               title="The Impact of Heterogeneous Bandwidth Constraints on DHT-Based Multicast Protocols"
               authors="Ashwin Bharambe, Sanjay G. Rao, Venkat Padmanabhan, Srinivasan Seshan and Hui Zhang"
               conference="The Fourth International Workshop on P2P Systems (IPTPS) 2005, Ithaca, February 2005"
-              paper="paper/iptps-dht2005.pdf"
+              paper="papers/iptps-dht2005.pdf"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -605,35 +605,35 @@
               title="Early Experience with an Internet Broadcast System Based on Overlay Multicast"
               authors="Yang-hua Chu, Aditya Ganjam, T.S. Eugene Ng, Sanjay G. Rao, Kunwadee Sripanidkulchai, Jibin Zhan and Hui Zhang"
               conference="USENIX Annual Technical Conference, June 2004"
-              paper="paper/Usenix.Experience.2004.pdf"
+              paper="papers/Usenix.Experience.2004.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Measurement-Based Optimization Techniques for Bandwidth-Demanding Peer-to-Peer Systems"
               authors="T. S. Eugene Ng, Yang-hua Chu, Sanjay G. Rao, Kunwadee Sripanidkulchai and Hui Zhang"
               conference="Proceedings of IEEE Infocom, San Francisco, CA, April 2003"
-              paper="paper/infocomm-2002.pdf"
+              paper="papers/infocomm-2002.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Case For End System Multicast"
               authors="Yang-hua Chu, Sanjay G. Rao, Srinivasan Seshan and Hui Zhang"
               conference="IEEE Journal on Selected Areas in Communication (JSAC), Special Issue on Networking Support for Multicast, Vol. 20, No. 8. October 2002"
-              paper="paper/jsac-2001.pdf"
+              paper="papers/jsac-2001.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Enabling Conferencing Applications on the Internet using an Overlay Multicast Architecture"
               authors="Yang-hua Chu, Sanjay G. Rao, Srinivasan Seshan and Hui Zhang"
               conference="Proceedings of ACM Sigcomm, San Diego, CA, August 2001"
-              paper="paper/sigcomm-2001.pdf"
+              paper="papers/sigcomm-2001.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Case For End System Multicast"
               authors="Yang-hua Chu, Sanjay G. Rao, and Hui Zhang"
               conference="Proceedings of ACM Sigmetrics, Santa Clara, CA, June 2000"
-              paper="paper/sigmetrics-2000.pdf"
+              paper="papers/sigmetrics-2000.pdf"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -646,14 +646,14 @@
             <PublicationsPublication
               title="MERCURY: A Scalable Publish-Subscribe System for Internet Games"
               conference="First International Workshop on Network and System Support for Games, Braunschweig, Germany, April 2002"
-              paper="paper/netgames-2002.pdf"
+              paper="papers/netgames-2002.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Fast techniques for the optimal smoothing of stored video"
               authors="Sanjay Rao and S.V. Raghavan"
               conference="ACM/Springer Verlag Multimedia Systems Journal, Volume 7, May 1999, pgs 222-233"
-              paper="paper/mm-99.pdf"
+              paper="papers/mm-99.pdf"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -667,7 +667,7 @@
               title="Laboratory Guides for Computer Security Courses"
               authors="Ruben Torres and Sanjay Rao"
               conference="In Cryptography and Network Security: Principles and Practice, 4th edition: Prentice Hall, 2005"
-              dataset="paper/ece495f-spring2005.zip"
+              dataset="papers/ece495f-spring2005.zip"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -724,14 +724,14 @@
               title="Preventing DDoS Attacks with P2P Systems"
               authors="Xin Sun, Ruben Torres and Sanjay Rao"
               conference="Presented as POSTER in The 8th Annual CERIAS Information Security Symposium. March 20-21, 2007"
-              paper="paper/E08-2E1.pdf"
+              paper="papers/E08-2E1.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Enabling Confidentiality of Data Delivery in an Overlay Broadcasting System"
               authors="Ruben Torres, Xin Sun, Aaron Walters, Cristina Nita-Rotaru, and Sanjay Rao"
               conference="presented as POSTER in The 7th Annual CERIAS Information Security Symposium Purdue University : CERIAS, 2006"
-              paper="paper/DB1-B75.pdf"
+              paper="papers/DB1-B75.pdf"
             /><PublicationsSeparator />
           </div>
         </div>

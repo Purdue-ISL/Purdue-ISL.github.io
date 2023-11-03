@@ -50,12 +50,7 @@
         <div class="subpages-section-content">
           <p>
             <!--Project Team-->
-            Yiyang Chang
-            Ashish Chandra
-            Chuan Jiang
-            Zixuan Li
-            Prof. Sanjay Rao
-            Prof. Mohit Tawarmalani
+            Yiyang Chang, Ashish Chandra, Chuan Jiang, Zixuan Li,  Prof. Sanjay Rao, Prof. Mohit Tawarmalani.
           </p>
         </div>
       </div>

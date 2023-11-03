@@ -114,6 +114,14 @@
             Synthesizing network designs with certifiable properties
           </h1>
           <div class="publication-div">
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
+              authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
+              conference="Proceedings of the ACM on Programming Languages, 2023"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
+            /><PublicationsSeparator />
+            
             <PublicationsPublication
               title="Flexile: Meeting bandwidth objectives almost always"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"

@@ -18,7 +18,7 @@
   </div>
 </template>
     
-<script>
+<script type="module">
 import SmoothScroll from "smooth-scroll/dist/smooth-scroll";
 let sections = [];
 let marginScroll = 80;
@@ -81,6 +81,8 @@ export default {
   },
   mounted() {
     window.scrollTo(0, 0);
+    sections = [];
+
     var scroll = new SmoothScroll('a[href*="#"]', {
       speed: 700,
       offset: marginScroll,
@@ -100,6 +102,10 @@ export default {
     window.addEventListener("resize", this.navScroll);
     // in case height is small.
     this.navScroll();
+  },
+  unmounted() {
+    window.removeEventListener("scroll", this.navScroll);
+    window.removeEventListener("resize", this.navScroll);
   },
 };
 </script>  

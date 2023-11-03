@@ -95,7 +95,7 @@
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2011"
-              paper="paper/imc11.pdf"
+              paper="papers/imc11.pdf"
               slides="slides/imc11_finamore.pptx"
             /><PublicationsSeparator />
 
@@ -103,7 +103,7 @@
               title="Dissecting Video Server Selection Strategies in the YouTube CDN"
               authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="Proceedings of IEEE  International Conference on Distributed Computing Systems (ICDCS), 2011"
-              paper="paper/ICDCS11.pdf"
+              paper="papers/ICDCS11.pdf"
               slides="slides/icdcs11_final.pdf"
             />
           </div>
@@ -333,7 +333,7 @@
               title="Closer to the Cloud - A Case for Emulating Cloud Dynamics by Controlling the Environment"
               authors="Ashiwan Sivakumar, Shankaranarayanan P N, Sanjay Rao"
               conference="NSF GENI Research and Educational Experiment Workshop 2012"
-              paper="paper/closer_to_the_cloud.pdf"
+              paper="papers/closer_to_the_cloud.pdf"
               slides="slides/GEC13.pptx"
             /><PublicationsSeparator />
 
@@ -341,7 +341,7 @@
               title="Cloudward Bound: Planning for Beneficial Migration of Enterprise Applications to the Cloud"
               authors="Mohammad Hajjat, Xin Sun, Yu-Wei Sung, Dave Maltz, Sanjay Rao, Kunwadee Sripanidkulchai and Mohit Tawarmalani"
               conference="ACM SIGCOMM 2010"
-              paper="paper/sigcomm10-planning.pdf"
+              paper="papers/sigcomm10-planning.pdf"
               slides="slides/sigcomm10-public.pptx"
             /><PublicationsSeparator />
           </div>
@@ -356,7 +356,7 @@
               title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
               authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="ACM IMC 2011"
-              paper="paper/imc11.pdf"
+              paper="papers/imc11.pdf"
               slides="slides/imc11_finamore.pptx"
             /><PublicationsSeparator />
 
@@ -364,7 +364,7 @@
               title="Dissecting Video Server Selection Strategies in the YouTube CDN"
               authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
               conference="IEEE ICDCS 2011"
-              paper="paper/ICDCS11.pdf"
+              paper="papers/ICDCS11.pdf"
               slides="slides/icdcs11_final.pdf"
             /><PublicationsSeparator />
 
@@ -372,21 +372,21 @@
               title="The Internet-wide Impact of P2P Traffic Localization on ISP Profitability"
               authors="Jeff Seibert, Ruben Torres, Marco Mellia, Maurizio Munafo, Cristina Nita-Rotaru and Sanjay Rao"
               conference="IEEE/ACM Transactions on Networking, 2012"
-              paper="paper/TON12.pdf"
+              paper="papers/TON12.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Characterization of community based P2P systems and implications for traffic localization"
               authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
               conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
-              paper="paper/p2pjournal12.pdf"
+              paper="papers/p2pjournal12.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="RelSamp: Preserving Application Structure in Sampled Flow Measurements"
               authors="M. Lee, M. Hajjat, R.Kompella and S.G. Rao"
               conference="Proceedings of IEEE Infocom, Shanghai, April 2011"
-              paper="paper/relsamp-infocom11.pdf"
+              paper="papers/relsamp-infocom11.pdf"
             /><PublicationsSeparator />
           </div>
         </div>
@@ -400,28 +400,28 @@
               title="A Software Toolkit for Visualizing Enterprise Routing Design"
               authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
               conference="In proceedings of IEEE Symposium on Configuration Analytics and Automation (SAFECONFIG), Arlington, VA. 2011"
-              paper="paper/safeconfig2011.pdf"
+              paper="papers/safeconfig2011.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Survey of Virtual LAN Usage in Campus Networks"
               authors="Minlan Yu, Xin Sun, Nick Feamster, Sanjay Rao and Jennifer Rexford"
               conference="In IEEE Communications Magazine"
-              paper="paper/commag11.pdf"
+              paper="papers/commag11.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="A Cost-Benefit Framework for Judicious Enterprise Network Redesign"
               authors="Xin Sun and Sanjay Rao"
               conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
-              paper="paper/infocom11-redesign.pdf"
+              paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Characterization of community based P2P systems and implications for traffic localization"
               authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
               conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
-              paper="paper/p2pjournal12.pdf"
+              paper="papers/p2pjournal12.pdf"
             /><PublicationsSeparator />
 
             <PublicationsPublication

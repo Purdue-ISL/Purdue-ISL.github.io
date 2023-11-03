@@ -22,11 +22,11 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="" />
-          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="" />
-          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="" />
-          <TeamMember name="Xinqi (Jimmy) Jiang" title="Ph.D. Student" area="" />
-          <TeamMember name="Abd Al Rhman" title="Ph.D. Student" area="" />
+          <TeamMember name="Ehab Ghabashneh" title="Ph.D. Candidate" area="Internet Video, Mobile Networks" img="1_ehab.jpg"/>
+          <TeamMember name="Chandan Bothra" title="Ph.D Student" area="Internet video, Data-driven network optimization" img="5_chandan.jpg"/>
+          <TeamMember name="Syed Usman Jafri" title="Ph.D. Student" area="Synthesizing network designs with verifiable performance properties" img="4_usman.jpg"/>
+          <TeamMember name="Xinji (Jimmy) Jiang" title="Ph.D. Student" area="" img="3_jimmy.jpg"/>
+          <TeamMember name="Abd AlRhman AlQiam" title="Ph.D. Student" area="" img="2_abd.jpg"/>
         </div>
       </div>
 
@@ -38,17 +38,13 @@
             title="Undergraduate researcher"
             area=""
           />
-          <TeamMember
-            name="Jagan Krishnasamy"
-            title="Undergraduate researcher"
-            area=""
-          />
         </div>
       </div>
 
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+          
           <TeamAlumni
             name="Chuan Jiang"
             degree="Ph.D."
@@ -124,12 +120,120 @@
             position="Assistant Professor @ Florida International University"
             c_position="Assistant Professor @ Ball State (Winner of NSF Career Research Initiation Initiative Award)"
           /><TeamSeparator />
+
+          <TeamAlumni
+            name="Ruben Torres "
+            degree="Ph.D."
+            graduation_year="2011"
+            thesis_title="Measurement-Driven Characterization of Emerging Trends in Internet Content Delivery"
+            position="Narus"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Yu-Wei Eric Sung "
+            degree="Ph.D."
+            graduation_year="2010"
+            thesis_title="An Abstraction-Driven Approach to Systematic Enterprise Network Design, Configuration and Validation"
+            position="Engineering Manager, Facebook; Network Platforms Team"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Sunil Krothapalli  "
+            degree="MSc Thesis"
+            graduation_year="2009"
+            thesis_title=""
+            position="Cisco"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Karukurichi Kripashankar "
+            degree="MSc Thesis"
+            graduation_year="2009"
+            thesis_title=""
+            position="Amazon"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Prashant Garimella "
+            degree="MSc Thesis"
+            graduation_year="2008"
+            thesis_title=""
+            position="Cisco"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Michael Bishop "
+            degree="MSc Thesis"
+            graduation_year="2006"
+            thesis_title=""
+            position="Microsoft"
+          /><TeamSeparator />
         </div>
       </div>
+
+      <div class="team-group-container">
+        <h1 class="team-group-header">Visiting Researchers</h1>
+        <div class="alumni-members-container">
+          <TeamAlumni
+            name="Alessandro Finamore"
+            degree="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            graduation_year=" Oct 2010 - May 2011"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="José Luis García Dorado"
+            degree="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
+            graduation_year="May 2014 - July 2014"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+        
+        </div>
+      </div>
+
+      <div class="team-group-container">
+        <h1 class="team-group-header">Undergraduate Students</h1>
+        <p>Several undergraduate students have worked with our laboratory as part of Purdue's PURE and SURF programs, or as undergraduate research assistants, or for undergradate research credits. Some of the work has led to publications and open source software tools, and has helped students take up both industry positions, and get admitted to top graduate programs.</p>
+        <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Jagan Krishnasamy"
+            graduation_year="2022"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+          
+          <TeamAlumni
+            name="Nathan Cohen"
+            graduation_year="2020"
+            degree="Purdue Computer Science"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Harsh Agrawal"
+            graduation_year="2018"
+            degree="IIT, Hyderabad; PURE Program"
+            position=""
+            thesis_title=""
+          /><TeamSeparator />
+
+          
+          
+        </div>
+      </div>
+
+      
     </div>
     <div class="pb-[150px]"></div>
   </div>
 </template>
+
+
+
 
 <script type="module">
 let teams_divs = [];

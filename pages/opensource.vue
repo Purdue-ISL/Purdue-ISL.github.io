@@ -14,6 +14,16 @@
 
         <div class="opensource-section-container">
           <OpensourceToolkit
+            title="Dragonfly"
+            content="This repository contains an implementation of the Dragonfly system, the bandwidth traces used for evaluation and the user study results."
+            to-page="https://github.com/Purdue-ISL/Dragonfly"
+          />
+          <OpensourceToolkit
+            title="Veritas"
+            content="This repository contains an implementation of the Veritas framework for answering causal queries from video streaming traces."
+            to-page="https://github.com/Purdue-ISL/Veritas"
+          />
+          <OpensourceToolkit
             title="D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage"
             content="D-Tunes is a web tool that helps application developers configure replication strategies for geo-distributed datastores like Cassandra which uses quorum-based protocols."
             to-page="/opensource_pages/dtunes"

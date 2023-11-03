@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="hidden sm:block opensource-pages-section-container-div sticky top-0 z-10"
-  >
+  <div class="hidden sm:block subpages-section-container-div sticky top-0 z-10">
     <div class="flex justify-evenly text-center text-lg px-[30px] lg:px-[80px]">
       <div
         class="flex-grow py-4"
@@ -29,7 +27,7 @@ export default {
     data: Object,
   },
   methods: {
-    navScroll() {
+    navScroll(event) {
       let max_neg = 0;
       let overlappingSectionElement = null;
       for (var idx in sections) {
@@ -53,7 +51,8 @@ export default {
         } else {
           if (
             overlappingSectionElement != null &&
-            !overlappingSectionElement.classList.contains("mark-section")
+            (!overlappingSectionElement.classList.contains("mark-section") ||
+              event.type == "resize")
           ) {
             overlappingSectionElement.classList.add("mark-section");
             marker.style.transition = "all .7s ease-out";
@@ -89,7 +88,7 @@ export default {
       easing: "easeInOutCubic",
     });
     let projects_divs_nodelist = document.querySelectorAll(
-      ".opensource-pages-section-container-div"
+      ".subpages-section-container-div"
     );
     projects_divs_nodelist.forEach((projects_div) => {
       if (projects_div.getAttribute("id") != null) {
@@ -98,6 +97,7 @@ export default {
     });
 
     window.addEventListener("scroll", this.navScroll);
+    window.addEventListener("resize", this.navScroll);
     // in case height is small.
     this.navScroll();
   },

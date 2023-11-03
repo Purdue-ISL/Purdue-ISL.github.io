@@ -68,7 +68,8 @@
           <ProjectsProject
             title="Synthesizing network designs with certifiable performance properties"
             content="Network design is ad-hoc today, and validating the design normally comes as an afterthought. Unlike the chip and software industry, where design and verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are exploring approaches to synthesizing network designs with formally certifiable performance properties under failures. The work may be viewed as an early step towards verifying quanititative network properties."
-          />
+            to-page="/projects_pages/Synthesizing-Network-Designs"
+            />
         </div>
 
         <ProjectsProject

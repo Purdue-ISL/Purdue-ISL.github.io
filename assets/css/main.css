@@ -626,11 +626,11 @@
         transition: all 1.5s ease;
     }
 
-    .opensource-pages-title{
+    .subpages-title{
         @apply md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600;
     }
 
-    .opensource-pages-section-container-div{
+    .subpages-section-container-div{
         @apply bg-slate-100 m-6 rounded-sm;
         box-shadow: 1px 1px 4px gray;
         flex: 1 0 44%;
@@ -640,22 +640,22 @@
         scroll-margin-top: 180px;
     }
 
-    .opensource-pages-section-container-div.show-up{
+    .subpages-section-container-div.show-up{
         scale: 100%;
         opacity: 1;
         transform: translateY(0px);
         transition: all 1.5s ease;
     }
 
-    .opensource-pages-section-title-container-div{
+    .subpages-section-title-container-div{
         @apply pt-8 px-12 text-4xl;
     }
 
-    .opensource-pages-section-title{
+    .subpages-section-title{
         @apply border-b-2 pb-2 text-center md:text-left border-slate-300;
     }
     
-    .opensource-pages-section-content{
+    .subpages-section-content{
         @apply px-12 py-4 pt-8 pb-6 text-justify;
     }
 

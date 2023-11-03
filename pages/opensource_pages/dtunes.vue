@@ -6,10 +6,10 @@
     <PageHeader title="Open Source" />
     <div class="limit-width">
       <div class="w-[96%] mx-auto"></div>
-      <h1 class="opensource-pages-title">
+      <h1 class="subpages-title">
         D-Tunes: Configuration Engine for Geo-Replicated Cloud Storage
       </h1>
-      <OpensourceNavbar
+      <SubPageNav
         v-bind:data="[
           ['Description', 'des'],
           ['Install', 'ins'],
@@ -19,11 +19,11 @@
         ]"
       />
 
-      <div id="des" class="opensource-pages-section-container-div">
-        <div class="opensource-pages-section-title-container-div">
-          <h1 class="opensource-pages-section-title">Description</h1>
+      <div id="des" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Description</h1>
         </div>
-        <div class="opensource-pages-section-content">
+        <div class="subpages-section-content">
           <p>
             Routing design is widely considered as one of the most challenging
             parts of enterprise network design. The challenges come from the
@@ -76,11 +76,11 @@
         </div>
       </div>
 
-      <div id="ins" class="opensource-pages-section-container-div">
-        <div class="opensource-pages-section-title-container-div">
-          <h1 class="opensource-pages-section-title">Install</h1>
+      <div id="ins" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Install</h1>
         </div>
-        <div class="opensource-pages-section-content">
+        <div class="subpages-section-content">
           <p>
             Routing design is widely considered as one of the most challenging
             parts of enterprise network design. The challenges come from the
@@ -133,11 +133,11 @@
         </div>
       </div>
 
-      <div id="eg" class="opensource-pages-section-container-div">
-        <div class="opensource-pages-section-title-container-div">
-          <h1 class="opensource-pages-section-title">Example</h1>
+      <div id="eg" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Example</h1>
         </div>
-        <div class="opensource-pages-section-content">
+        <div class="subpages-section-content">
           <p>
             We also present a case study using the toolkit to analyze the
             routing design of two large campus networks, and report on our
@@ -193,11 +193,11 @@
         </div>
       </div>
 
-      <div id="pub" class="opensource-pages-section-container-div">
-        <div class="opensource-pages-section-title-container-div">
-          <h1 class="opensource-pages-section-title">Publications</h1>
+      <div id="pub" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Publications</h1>
         </div>
-        <div class="opensource-pages-section-content">
+        <div class="subpages-section-content">
           <p>
             Routing design is widely considered as one of the most challenging
             parts of enterprise network design. The challenges come from the
@@ -250,11 +250,11 @@
         </div>
       </div>
 
-      <div id="ppl" class="opensource-pages-section-container-div">
-        <div class="opensource-pages-section-title-container-div">
-          <h1 class="opensource-pages-section-title">People</h1>
+      <div id="ppl" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">People</h1>
         </div>
-        <div class="opensource-pages-section-content">
+        <div class="subpages-section-content">
           <p>
             Routing design is widely considered as one of the most challenging
             parts of enterprise network design. The challenges come from the
@@ -358,7 +358,7 @@ export default {
     window.scrollTo(0, 0);
     projects_divs = [];
     let projects_divs_nodelist = document.querySelectorAll(
-      ".opensource-pages-section-container-div"
+      ".subpages-section-container-div"
     );
     projects_divs_nodelist.forEach((projects_div) => {
       projects_divs.push(projects_div);

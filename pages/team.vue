@@ -222,6 +222,7 @@
           </p>
           <TeamAlumni
             name="Jagan Krishnasamy"
+            note="Purdue Computer Engineering"
             time_interval="2022"
           /><TeamSeparator />
 
@@ -236,6 +237,45 @@
             time_interval="2018"
             note="IIT, Hyderabad; PURE Program"
           /><TeamSeparator />
+
+
+          <TeamAlumni
+            name="Touheed Anwar Atif"
+            time_interval="2016"
+            note="IIT, Hyderabad; PURE Program"
+            position="Ph.D. Student, University of Michigan, Ann Arbor"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Akash Kumar"
+            time_interval="2015-2016"
+            position="Amazon"
+          /><TeamSeparator />
+
+          <TeamAlumni
+            name="Zaiwei Zhang"
+            time_interval="2014-2015"
+            position="Ph.D. Student, University of Texas, Austin"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Zisheng Liao"
+            time_interval="2014"
+            position="Masters Student, UIUC"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Jiawei Wang"
+            time_interval="2013"
+            position="Masters Student, UPenn"
+            /><TeamSeparator />
+
+          
+
+          
+
+          
+          
         </div>
       </div>
     </div>

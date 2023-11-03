@@ -40,6 +40,40 @@
         <div class="subpages-section-content">
           <p>
             <!--Project publications-->
+                        <PublicationsPublication
+              title="Flexile: Meeting bandwidth objectives almost always"
+              authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
+              conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
+              paper="papers/Flexile-ACM-CoNEXT-2022.pdf"
+              github="https://github.com/Purdue-ISL/Flexile"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="PCF: Provably Resilient Flexible Routing"
+              authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2020"
+              paper="papers/SIGCOMM2020_76_final.pdf"
+              slides="slides/PCF_slides.pdf"
+              video="videos/SIGCOMM_76_long.mp4"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Lancet: Better network resilience by designing for pruned failure sets"
+              authors="Yiyang Chang, Chuan Jiang, Ashish Chandra, Sanjay Rao, Mohit Tawarmalani"
+              conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS), 2020"
+              paper="papers/Sigmetrics2020_Lancet.pdf"
+              slides="slides/sigmetrics2020_yiyang_v8.pdf"
+              video="videos/sigmetrics2020.mp4"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Robust validation of network designs under uncertain demands and failures"
+              authors="Yiyang Chang, Sanjay Rao, Mohit Tawarmalani"
+              conference="Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI), 2017"
+              paper="papers/nsdi17-final59.pdf"
+              slides="papers/nsdi2017_validation_slides.pdf"
+            /><PublicationsSeparator />
+
           </p>
         </div>
       </div>

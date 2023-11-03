@@ -220,9 +220,16 @@
             has helped students take up both industry positions, and get
             admitted to top graduate programs.
           </p>
+
+          <TeamAlumni
+            name="Anjali Vanamala"
+            note="Purdue Computer Engineering. Supported by NSF REU and First Time Researcher Award. Work appeared in Purdue's Spring Undergraduate Research Conference 2023."
+            time_interval="2022-23"
+          /><TeamSeparator />
+          
           <TeamAlumni
             name="Jagan Krishnasamy"
-            note="Purdue Computer Engineering"
+            note="Purdue Computer Engineering. Won Honorable Mention for Purdue ECE's Undergraduate Research Award (2022)."
             time_interval="2022"
           /><TeamSeparator />
 

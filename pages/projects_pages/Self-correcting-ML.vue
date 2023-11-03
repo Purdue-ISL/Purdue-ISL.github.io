@@ -24,6 +24,7 @@
         <div class="subpages-section-content">
           <p>
             <!--Project Description-->
+            Despite much progress, the goal of driving network design from higher level intent remains elusive. The challenges stem from the fact that while network architects often do have informal knowledge of conditions under which their network must operate, existing design tools (based on optimization and constraint solvers) need \textbf{precise} characterizations of these conditions. The goal of this project is to automate the process of designing networks from informal operator hints. The proposal will tackle this goal through recent developments in ML, and ML-based techiques for network design.
           </p>
         </div>
       </div>

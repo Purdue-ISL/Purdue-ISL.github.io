@@ -20,6 +20,7 @@
             solvers) need \textbf{precise} characterizations of these conditions. The goal of this project is to automate the 
             process of designing networks from informal operator hints. The proposal will tackle this goal through recent 
             developments in ML, and ML-based techiques for network design."
+            to-page="/projects_pages/Self-correcting-ML"
           />
 
           <ProjectsProject

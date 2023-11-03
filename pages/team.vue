@@ -130,7 +130,7 @@
 
           <TeamAlumni
             name="Srivathsava Rangarajan "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2014"
             thesis_title="Paxos based directory updates for geo-replicated cloud storage"
             position="Enova"
@@ -163,28 +163,28 @@
 
           <TeamAlumni
             name="Sunil Krothapalli  "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2009"
             position="Cisco"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Karukurichi Kripashankar "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2009"
             position="Amazon"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Prashant Garimella "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2008"
             position="Cisco"
           /><TeamSeparator />
 
           <TeamAlumni
             name="Michael Bishop "
-            degree="MSc Thesis"
+            degree="MS (Thesis)"
             graduation_year="2006"
             position="Microsoft"
           /><TeamSeparator />

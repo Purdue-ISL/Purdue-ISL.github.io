@@ -81,7 +81,7 @@
         <ProjectsProject
         title="Adaptive Bit Rate algorithms for Internet Video delivery"
         content="Recent years have seen a tremendous increase in the popularity of Internet video, which forms a major fraction of Internet traffic today, and Cisco technical report says that Internet video traffic expects to be 30 exabyte in 2020. In this trend, delivering high quality of experience (QoE) is critical since it correlates with user engagement and revenue. The project is investigating to deliver high quality video across diverse and variable network conditions. Most Internet video delivery uses adaptive bitrate (ABR) algorithms, combined with HTTP chunk-based streaming protocols, and ABR algorithm is one of the critical part for success of high QoE Internet video delivery. However, these ABR algorithms today have fixed and closed source implementations which results in two problems: 1) content publishers can't customize them according to their preference 2) no single algorithm works well across the diverse range of bandwidth conditions in the wild. In order to solve these problems we propose a novel video delivery pipeline. Our results show that our approach can improve the median QoE by 37% compared to a commercial ABR."
-        to_page="https://engineering.purdue.edu/~isl/video.html"
+        to-page="https://engineering.purdue.edu/~isl/video.html"
         />
 
         <ProjectsProject
@@ -89,13 +89,13 @@
         content="In recent years, owing to the dramatic increase in cellular users, it has become imperative for service providers to provide better quality of experience for their users. Web download is one of the key activities contributing to a significant fraction of the mobile traffic than any other application, excluding video streaming. Mobile Web experience is still not par with desktops, particularly the page load times are in the order of a few seconds. This is because modern Web pages are complex and feature-rich customized for individual user preferences, with lots of objects fetched (as a result of parsing HTML and/or executing Javascripts) from many domains. Consequently, this results in lots of HTTP request-response interactions in the high latency cellular link. Thus, today's web page download process is ill suited to cellular networks resulting in high page load times. To tackle this challenge, we are developing systems and techniques to improve Mobile Web performance by optimizing the last-mile network delays that dominate page load latencies in cellular settings. Specifically, (1) a proxy based system design that judiciously refactors browsing functionality between a proxy (inside the cellular network) and a client based on their respective strengths (figure below) (2) develop techniques to make the proxy design scale to millions of users by reducing its computational overhead.
 
 Today's Web pages consist of hundreds of objects with complex dependencies, with some objects being more critical to page-load latencies than others (e.g., javascripts may determine which objects are needed). Yet, current Content Delivery Networks (CDNs) are agnostic to object criticality, potentially impacting overall page latencies. We seek to achieve low latency for several tens of thousands of the most popular pages by exploring novel criticality-aware algorithms for object placement and caching."
-        to_page="https://engineering.purdue.edu/~isl/MobileWeb.html"
+        to-page="https://engineering.purdue.edu/~isl/MobileWeb.html"
         />
 
         <ProjectsProject
         title="Architecting Latency Sensitive Applications for the Cloud:"
         content="Cloud computing offers IT organizations the ability to create geo-distributed, and highly scalable applications while providing attractive cost-saving advantages. Yet, architecting, configuring, and adapting cloud applications to meet their stringent performance requirements is a challenge given the rich set of configuration options, shared multi-tenant nature of cloud platforms, and dynamics resulting from activities such as planned maintenance. A unique area of focus of our research is interactive multi-tier applications (e.g., enterprise applications, web applications) which have received limited attention from the community. We are developing novel methodologies, and systems that can enable application architects to (1) judiciously architect their applications across multiplecloud data-centers while considering application performance requirements, cost saving objectives, and cloud pricing schemes guided by performance and cost models of cloud components such as key-value datastores; (2) create applications that can adapt to ongoing dynamics in cloud environments through transaction reassignment over shorter time-scales. Our research if successful can enable IT organizations to significantly reduce costs by optimally moving their operations to the cloud. We are also working on creating benchmarks based on operationally deployed applications and collecting workload traces which will be made available to the research community."
-        to_page="https://engineering.purdue.edu/~isl/cloud.html"
+        to-page="https://engineering.purdue.edu/~isl/cloud.html"
         />
 
         <ProjectsProject
@@ -106,13 +106,13 @@ Today's Web pages consist of hundreds of objects with complex dependencies, with
         <ProjectsProject
         title="Dissecting State-of-the-Art Video Distribution Networks"
         content="We are conducting a detailed study of the YouTube CDN with a view to understanding the policies used to determine which data centers users download video from. Our analysis is conducted using unique week-long datasets simultaneously collected from the edge of five networks - two university campuses and three ISP networks - located in three different countries. Our analysis employs state-of-the-art delay-based geolocation techniques to find the geographical location of YouTube servers. Our results indicate that the RTT between users and data centers plays a prominent role in the video server selection process. More interestingly however, our results reveal a variety of factors besides RTT can influence server selection including load-balancing, diurnal effects, DNS misconfiguration, limited availability of rarely accessed video, and the need to alleviate hot-spots that may arise due to popular video content."
-        to_page="https://engineering.purdue.edu/~isl/videocdn.htm"
+        to-page="https://engineering.purdue.edu/~isl/videocdn.htm"
         />
         
         <ProjectsProject
         title="Trustworthy Peer-to-Peer Networks"
         content="Peer-to-peer systems are rapidly maturing from being narrowly associated with copyright violations, to a technology that offers tremendous potential to deploy new services over the Internet. In many ways, peer-to-peer systems are beginning to herald a paradigm shift in this decade, in much the same way as HTTP in the 1990's. In this project, we are studying challenges in designing peer-to-peer systems in a safe, secure and robust manner, and considering new issues to Internet management due to the proliferation of peer-to-peer systems."
-        to_page="https://engineering.purdue.edu/~isl/secp2p.htm"
+        to-page="https://engineering.purdue.edu/~isl/secp2p.htm"
         />
 
 
@@ -127,7 +127,7 @@ Today's Web pages consist of hundreds of objects with complex dependencies, with
         utilization of system resources, performance to hosts commensurate to their contributions, and consistent
         performance. We have implemented the system and conducted an Internet evaluation on PlanetLab using real traces
         from previous operational deployments of an overlay broadcasting system."
-        to_page="https://engineering.purdue.edu/~isl/p2pbcast.htm"
+        to-page="https://engineering.purdue.edu/~isl/p2pbcast.htm"
         />
 
         <ProjectsProject
@@ -137,7 +137,7 @@ Today's Web pages consist of hundreds of objects with complex dependencies, with
           (i) capturing the goals operators have for their networks, through interactions with operators, and bottom-up studies of actual network designs, (ii) elevating the design patterns we observe into abstractions; and (iii) demonstrating that abstractions can simplify both top-down network design, and validation of network properties.
           A distinguishing feature of this research is its white-box methodology to studying network designs. Rather than infer network characteristics with limited support from network operators as is common practice today, we will capitalize on our extensive ties with real network operators, and conduct studies using data such as router configuration files obtained with their support, and iterative interactions with them.
         We are currently designing abstractions in two areas that are critically important, and widely prevalent in enterprises. (i) use of virtualization, in particular VLANs, to simplify management goals; and (ii) network evolution through planned maintenance."
-        to_page="https://engineering.purdue.edu/~isl/netmgmt.htm"
+        to-page="https://engineering.purdue.edu/~isl/netmgmt.htm"
         />
         
           

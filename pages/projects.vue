@@ -48,7 +48,7 @@
                      exploring approaches to synthesizing network designs with formally certifiable properties. A recent development is a novel 
                      framework that we term comparative synthesis (inspired by program synthesis from the Programming Language community), where a user's design objective, 
                      and the synthesis of a network design that optimizes that objective are done in tandem."
-            to_page="/projects_pages/Program-Synthesis-Approach"
+            to-page="/projects_pages/Program-Synthesis-Approach"
           />
 
           <ProjectsProject

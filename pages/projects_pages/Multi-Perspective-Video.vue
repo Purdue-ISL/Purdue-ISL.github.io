@@ -85,7 +85,6 @@
             <div class="text-lg pl-2">
               <ul class="gap-10">
                 <li class="font-mono tracking-tighter">Prof. Sanjay Rao</li>
-                <li class="font-mono tracking-tighter">Prof. Alex Quinn</li>
               </ul>
             </div>
           </div>
@@ -95,8 +94,37 @@
             <span class="font-bold text-xl">Students</span>
             <div class="text-lg pl-2">
               <ul class="gap-10">
-                <li class="font-mono tracking-tighter">Ehab Ghabashneh</li>
-                <li class="font-mono tracking-tighter">Chandan Bothra</li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Ehab Ghabashneh
+                  </span>
+                  <span>— Ph.D. student</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Chandan Bothra </span
+                  ><span> — Ph.D. student</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Xinji (Jimmy) Jiang </span
+                  ><span> — Ph.D. student</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter"> Clayton Walker</span
+                  ><span> — Undergraduate researcher</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Jagan Krishnasamy</span
+                  ><span> — Undergraduate researcher</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Anjali Vanamala</span
+                  ><span> — Undergraduate researcher</span>
+                </li>
               </ul>
             </div>
           </div>
@@ -117,6 +145,11 @@
                     >Prof. Antonio Ortega</span
                   >
                   <span> — University of Southern California</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter"
+                    >Prof. Alex Quinn</span
+                  ><span> — Purdue University</span>
                 </li>
               </ul>
             </div>

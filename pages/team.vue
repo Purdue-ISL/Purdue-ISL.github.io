@@ -196,14 +196,14 @@
         <div class="alumni-members-container">
           <TeamAlumni
             name="Alessandro Finamore"
-            note="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            note="Visiting Ph.D student, Politecnico Di Torino, Italy"
             time_interval=" Oct 2010 - May 2011"
           /><TeamSeparator />
 
           <TeamAlumni
             name="José Luis García Dorado"
-            note="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
-            time_interval="May 2014 - July 2014"
+            note="Visiting Assistant Professor, Universidad Autónoma de Madrid, Spain"
+            time_interval="Feb 2014 - July 2014"
           /><TeamSeparator />
         </div>
       </div>

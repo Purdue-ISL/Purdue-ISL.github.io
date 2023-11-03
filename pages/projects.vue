@@ -118,20 +118,25 @@ Today's Web pages consist of hundreds of objects with complex dependencies, with
 
         <ProjectsProject
         title="Heterogeneity and Incentives for Peer-to-Peer Video Broadcasting"
-        content="We propose the design of bandwidth-demanding broadcasting applications using overlays in environments characterized by hosts with limited and asymmetric bandwidth, and significant heterogeneity in outgoing bandwidth. Such environments are critical to consider to extend the applicability of overlay multicast to mainstream Internet environments where insufficient bandwidth exists to support all hosts, but have not received adequate attention from the research community. We leverage the multi-tree framework and design heuristics to enable it to consider host contribution and operate in bandwidth-scarce environments. Our extensions seek to simultaneously achieve good utilization of system resources, performance to hosts commensurate to their contributions, and consistent performance. We have implemented the system and conducted an Internet evaluation on PlanetLab using real traces from previous operational deployments of an overlay broadcasting system."
+        content="We propose the design of bandwidth-demanding broadcasting applications using overlays in environments
+        characterized by hosts with limited and asymmetric bandwidth, and significant heterogeneity in outgoing bandwidth.
+        Such environments are critical to consider to extend the applicability of overlay multicast to mainstream Internet
+        environments where insufficient bandwidth exists to support all hosts, but have not received adequate attention
+        from the research community. We leverage the multi-tree framework and design heuristics to enable it to consider
+        host contribution and operate in bandwidth-scarce environments. Our extensions seek to simultaneously achieve good
+        utilization of system resources, performance to hosts commensurate to their contributions, and consistent
+        performance. We have implemented the system and conducted an Internet evaluation on PlanetLab using real traces
+        from previous operational deployments of an overlay broadcasting system."
         to_page="https://engineering.purdue.edu/~isl/p2pbcast.htm"
         />
 
         <ProjectsProject
         title="Abstractions for Enterprise Network Management"
         content="The use of abstractions to simplify network design and configuration has been a long cherished vision in the networking community. We posit that achieving more fundamental break-throughs requires abstractions that go beyond merely modeling the underlying protocols and mechanisms. We investigate a new class of abstractions that are: (i) task-driven, i.e., capture the intended performance, security, manageability, or resilience of a network design; and (ii) network-wide, i.e., capture the requirements of the network as a whole rather than of individual devices.
-
-Our focus is on the management of enterprise networks.  Despite their critical importance, and their striking differences and diversity compared to carrier networks, enterprise networks have been largely unexplored by networking researchers. We envision a three-pronged research process that involves:
-(i) capturing the goals operators have for their networks, through interactions with operators, and "bottom-up'' studies of actual network designs, (ii) elevating the design patterns we observe into abstractions; and (iii) demonstrating that abstractions can simplify both top-down network design, and validation of network properties.
-
-A distinguishing feature of this research is its "white-box'' methodology to studying network designs. Rather than infer network characteristics with limited support from network operators as is common practice today, we will capitalize on our extensive ties with real network operators, and conduct studies using data such as router configuration files obtained with their support, and iterative interactions with them.
-
-We are currently designing abstractions in two areas that are critically important, and widely prevalent in enterprises. (i) use of virtualization, in particular VLANs, to simplify management goals; and (ii) network evolution through planned maintenance."
+        Our focus is on the management of enterprise networks.  Despite their critical importance, and their striking differences and diversity compared to carrier networks, enterprise networks have been largely unexplored by networking researchers. We envision a three-pronged research process that involves:
+          (i) capturing the goals operators have for their networks, through interactions with operators, and bottom-up studies of actual network designs, (ii) elevating the design patterns we observe into abstractions; and (iii) demonstrating that abstractions can simplify both top-down network design, and validation of network properties.
+          A distinguishing feature of this research is its white-box methodology to studying network designs. Rather than infer network characteristics with limited support from network operators as is common practice today, we will capitalize on our extensive ties with real network operators, and conduct studies using data such as router configuration files obtained with their support, and iterative interactions with them.
+        We are currently designing abstractions in two areas that are critically important, and widely prevalent in enterprises. (i) use of virtualization, in particular VLANs, to simplify management goals; and (ii) network evolution through planned maintenance."
         to_page="https://engineering.purdue.edu/~isl/netmgmt.htm"
         />
         

@@ -196,14 +196,14 @@
         <div class="alumni-members-container">
           <TeamAlumni
             name="Alessandro Finamore"
-            note="Visiting Ph.D student from Politecnico Di Torino, Italy"
+            note="Visiting Ph.D student, Politecnico Di Torino, Italy"
             time_interval=" Oct 2010 - May 2011"
           /><TeamSeparator />
 
           <TeamAlumni
             name="José Luis García Dorado"
-            note="Visiting Assistant Professor from Universidad Autónoma de Madrid, Spain"
-            time_interval="May 2014 - July 2014"
+            note="Visiting Assistant Professor, Universidad Autónoma de Madrid, Spain"
+            time_interval="Feb 2014 - July 2014"
           /><TeamSeparator />
         </div>
       </div>
@@ -270,11 +270,59 @@
             position="Masters Student, UPenn"
             /><TeamSeparator />
 
-          
+          <TeamAlumni
+            name="Jinliang Wei"
+            time_interval="2013"
+            position="Ph.D. Student, Carnegie Mellon University"
+            /><TeamSeparator />  
 
-          
+          <TeamAlumni
+            name="Samuel Oshin"
+            time_interval="2011"
+            /><TeamSeparator />
 
-          
+          <TeamAlumni
+            name="Brian Crone"
+            time_interval="2011"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Andrew Huff"
+            time_interval="2011"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Upsham Dawra"
+            time_interval="2010"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Kee-Shen Quah"
+            time_interval="2010"
+            position="Masters Student, University of Michigan"
+            /><TeamSeparator />  
+
+          <TeamAlumni
+            name="Keywhan Chung"
+            time_interval="2009"
+            position="Ph.D. Student, UIUC"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Suan-Aik Yeo"
+            time_interval="2009"
+            note="Nominated by Purdue ECE in Fall 2009 for the Outstanding Undergraduate Researchers award, given by the Computing Research Association. Won the Best Abstract Award in the category Mathematics and Computational Science in the 2010 Purdue Undergraduate Research Poster Symposium."
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Ankit Kuwadekar"
+            time_interval="2008"
+            /><TeamSeparator />
+
+          <TeamAlumni
+            name="Amey Rane"
+            time_interval="2008"
+            /><TeamSeparator />
           
         </div>
       </div>

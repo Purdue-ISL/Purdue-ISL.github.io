@@ -7,6 +7,7 @@
     <div class="limit-width">
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
+        <!--Project title-->
         Self-correcting ML-driven Synthesis of Network Designs from Hints
       </h1>
       <SubPageNav

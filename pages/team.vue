@@ -37,7 +37,7 @@
           <TeamMember
             name="Syed Usman Jafri"
             title="Ph.D. Student"
-            area="Synthesizing network designs with verifiable performance properties"
+            area="Synthesizing network designs with verifiable performance properties!"
             img="4_usman.jpg"
           />
           <TeamMember

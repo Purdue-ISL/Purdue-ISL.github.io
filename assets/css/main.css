@@ -571,25 +571,33 @@
 
       .projects-container{        
         display: flex;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
       }
     
       .project-container-div {
-        @apply bg-slate-100 m-6 rounded-sm;
+        @apply bg-slate-100 m-6 pb-8 rounded-sm;
         box-shadow: 1px 1px 4px gray;
         flex: 1 0 45%;
-        height: auto;
         transform: translateY(100px);
         scale: 95%;
         opacity: 0;
     }
+
     .project-container-div.show-up {
         scale: 100%;
         opacity: 1;
         transform: translateY(0px);
         transition: all 1.5s ease;
+    }
+
+    .project-content{
+        @apply md:bg-slate-200 px-6 py-2 text-justify rounded-sm md:max-h-[13.5em];
+        /* max-height: 20em; */
+        line-height: 1.5em;
+        overflow: scroll;
     }
 
     .more{
@@ -611,9 +619,9 @@
     }
     
     .opensource-section-container-div {
-        @apply bg-slate-100 m-6 rounded-sm;
+        @apply bg-slate-100 m-6 rounded-sm lg:flex-[1_0_26%] sm:flex-[1_0_40%] flex-[0_1_90%];
         box-shadow: 1px 1px 4px gray;
-        flex: 1 0 44%;
+        
         transform: translateY(100px);
         scale: 95%;
         opacity: 0;

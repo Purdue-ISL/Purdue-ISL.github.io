@@ -1,12 +1,12 @@
 <template>
   <div class="project-container-div">
     <h1 class="font-bold px-6 py-4 text-center">{{ title }}</h1>
-    <p class="px-6 pb-6 text-justify">
+    <p class="project-content">
       {{ content }}
     </p>
-    <span ref="linkTag" class="more hidden"
-      ><NuxtLink :to="toPage"> ... more </NuxtLink></span
-    >
+    <div ref="linkTag" class="more hidden">
+      <NuxtLink :to="toPage"> ... more </NuxtLink>
+    </div>
   </div>
 </template>
 

@@ -9,7 +9,7 @@
         <h1
           class="md:pt-20 pt-10 pb-6 text-center font-semibold text-3xl text-slate-600"
         >
-        Software Toolkits and Datasets
+          Software Toolkits and Datasets
         </h1>
 
         <div class="opensource-section-container">
@@ -109,8 +109,13 @@ export default {
     });
 
     window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("resize", this.handleScroll);
     // in case height is small.
     this.handleScroll();
+  },
+  unmounted() {
+    window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("resize", this.handleScroll);
   },
 };
 </script>

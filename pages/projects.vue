@@ -59,6 +59,7 @@
                      A particular area of focus is Internet video, given video accounts for over 80% of Internet traffic today, and it is critical
                      to deliver high quality Internet video over variable Internet environments. Our work extensively uses insights from real-world data sets of 
                      Internet video sessions."
+            to-page="/projects_pages/causal_ml"
           />
         </div>
         <h1

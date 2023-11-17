@@ -40,7 +40,7 @@
             methods for network architects to express their intent at higher
             levels of abstraction, and techniques to automatically synthesize
             network designs that realize this intent correctly and efficiently.
-            <br></br>
+            <br>
             
             As a concrete example, we have tackled a key challenge network
             architects encounter: how to balance multiple conflicting metrics,

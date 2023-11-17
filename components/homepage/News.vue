@@ -3,150 +3,158 @@
     <h1 class="main-page-main-headers">What's new?</h1>
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6">
+        <HomepageNew
+          date="November 2023"
+          content="Ehab Ghabashneh defends his Ph.D thesis."
+          congrats="Dr.Ghabashneh"
+        />
 
-        
-       
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">December 2022</span>
-            <span class="paper-title"
-              >Flexile: Meeting bandwidth objectives almost always
-            </span>
-            <span class="paper-conference">ACM CoNEXT 2022</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="September 2023"
+          paper="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
+          venue="ACM SIGCOMM 2023"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">October 2022</span>
-            <span class="paper-title"
-              >A Microscopic View of Bursts, Buffer Contention, and Loss in Data
-              Centers
-            </span>
-            <span class="paper-conference">ACM IMC 2022</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="September 2023"
+          paper="Veritas: Answering Causal Queries from Video Streaming Traces"
+          venue="ACM SIGCOMM 2023"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">December 2021</span>
-            <span> Professor Rao elevated to ACM Distinguished Member.</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="December 2022"
+          paper="Flexile: Meeting bandwidth objectives almost always"
+          venue="ACM CoNEXT 2022"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">November 2021</span>
-            <span class="paper-title"
-              >Xatu: Richer Neural Network Based Prediction for Video Streaming
-            </span>
-            <span class="paper-conference">ACM SIGMETRICS 2022</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="October 2022"
+          paper="A Microscopic View of Bursts, Buffer Contention, and Loss in Data
+              Centers"
+          venue="ACM IMC 2022"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">August 2021</span>
-            <span class="paper-title"
-              >Chimera: exploiting UAS flight path information to optimize
-              heterogeneous data transmission
-            </span>
-            <span class="paper-conference">IEEE ICNP 2021</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="December 2021"
+          content="Professor Rao elevated to ACM Distinguished Member."
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">July 2021</span>
-            <span
-              >Russ Shirey defends his Ph.D thesis, and will be joining a US
-              Government Agency.</span
-            >
-            <span class="congrat-name" @click="celebrate"> Dr. Shirey </span>
-            <span class="congrat-icon" @click="celebrate"></span>
-          </p>
-        </div>
+        <HomepageNew
+          date="November 2021"
+          paper="Xatu: Richer Neural Network Based Prediction for Video Streaming"
+          venue="ACM SIGMETRICS 2022"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">April 2021</span>
-            <span class="paper-title"
-              >Hey Lumi! Using Natural Language for Intent-Based Network
-              Management
-            </span>
-            <span class="paper-conference">Usenix ATC 2021</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="August 2021"
+          paper="Chimera: exploiting UAS flight path information to optimize
+              heterogeneous data transmission"
+          venue="IEEE ICNP 2021"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">August 2020</span>
-            <span class="paper-title"
-              >Pitfalls of data-driven networking: A case study of latent causal
-              confounders in video streaming
-            </span>
-            <span class="paper-conference"
-              >ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI
-              2020)</span
-            >
-          </p>
-        </div>
+        <HomepageNew
+          date="July 2021"
+          content="Russ Shirey defends his Ph.D thesis, and will be joining a US
+              Government Agency."
+          congrats="Dr.Shirey"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">August 2020</span>
-            <span class="paper-title"
-              >PCF: Provably Resilient Flexible Routing
-            </span>
-            <span class="paper-conference">ACM SIGCOMM 2020</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="April 2021"
+          paper="Hey Lumi! Using Natural Language for Intent-Based Network
+              Management"
+          venue="Usenix ATC 2021"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">August 2020</span>
-            <span>
-              NSF grant awarded on Next Generation Multi-Perspective Video
-              Delivery at Internet Scale.</span
-            >
-          </p>
-        </div>
+        <HomepageNew
+          date="August 2020"
+          paper="Pitfalls of data-driven networking: A case study of latent causal
+              confounders in video streaming"
+          venue="ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI
+              2020)"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">May 2020</span>
-            <span
-              >Yun deposits his Ph.D thesis on Characterizing and Optimizing
+        <HomepageNew
+          date="August 2020"
+          paper="PCF: Provably Resilient Flexible Routing"
+          venue="ACM SIGCOMM 2020"
+        />
+
+        <HomepageNew
+          date="August 2020"
+          content="NSF grant awarded on Next Generation Multi-Perspective Video
+              Delivery at Internet Scale."
+        />
+
+        <HomepageNew
+          date="May 2020"
+          content="Yun deposits his Ph.D thesis on Characterizing and Optimizing
               Internet Video Streaming, and will be taking up a position at
-              Google, Mountain View.</span
-            >
-            <span class="congrat-name" @click="celebrate"> Dr. Nam </span>
-            <span class="congrat-icon" @click="celebrate"></span>
-          </p>
-        </div>
+              Google, Mountain View."
+          congrats="Dr.Nam"
+        />
 
-        <div class="entry-container">
-          <div class="square"></div>
-          <p class="entry">
-            <span class="date">February 2020</span>
-            <span class="paper-title"
-              >Exploring the interplay between CDN caching and video streaming
-              performance
-            </span>
-            <span class="paper-conference">IEEE INFOCOM 2020</span>
-          </p>
-        </div>
+        <HomepageNew
+          date="February 2020"
+          paper="Exploring the interplay between CDN caching and video streaming
+              performance."
+          venue="IEEE INFOCOM 2020"
+        />
+
+        <HomepageNew
+          date="August 2019"
+          content="NSF grant awarded on Designing Networks for Stringent Performance Requirements."
+        />
+
+        <HomepageNew
+          date="July 2019"
+          content="Yiyang deposits his Ph.D thesis on Ensuring Network Designs meet Performance Requirements under Failures, and will be taking up a position at ByteDance, Seattle."
+          congrats="Dr.Chang"
+        />
+
+        <HomepageNew
+          date="May 2019"
+          content="Sanjay gives a research seminar at RISELab, Berkeley, on work done by Purdue ISL."
+        />
+
+        <HomepageNew
+          date="October 2018"
+          paper="Understanding Video Management Planes."
+          venue="ACM IMC 2018"
+        />
+
+        <HomepageNew
+          date="August 2018"
+          content="NSF grant awarded on Optimizing Internet video through support from the network edge."
+        />
+
+        <HomepageNew
+          date="August 2018"
+          content="NSF Formal Methods in the Field grant awarded on Transplanting Syntax-Guided Synthesis to Computer Networks."
+        />
+
+        <HomepageNew
+          date="August 2018"
+          paper="Oboe: Auto-tuning video ABR algorithms to network conditions."
+          venue=" ACM SIGCOMM, 2018"
+        />
+
+        <HomepageNew
+          date="July 2018"
+          content="Sanjay gives an invited talk on work done by ISL on mobile web latency at the Microsoft Research workshop At the bleeding edge of Intelligent Edges"
+        />
+
+        <HomepageNew
+          date="October 2017"
+          paper="NutShell: Scalable Whittled Proxy Execution for Low-Latency Web over Cellular Networks"
+          venue="ACM MOBICOM 2017"
+        />
+
+        <HomepageNew
+          date="March 2017"
+          paper="Robust validation of network designs under uncertain demands and failures"
+          venue="USENIX NSDI 2017"
+        />
       </div>
     </div>
   </div>
@@ -154,18 +162,3 @@
 
 
 
-<script type="module">
-import confetti from "canvas-confetti";
-export default {
-  methods: {
-    celebrate() {
-      confetti({
-        particleCount: 450,
-        spread: 100,
-        shapes: ["square", "circle"],
-        gravity: 1.4,
-      });
-    },
-  },
-};
-</script>

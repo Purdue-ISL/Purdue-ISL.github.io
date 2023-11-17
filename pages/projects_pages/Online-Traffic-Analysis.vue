@@ -12,7 +12,6 @@
       <SubPageNav
         v-bind:data="[
           ['Description', 'des'],
-          ['Publications', 'pub'],
           ['People', 'ppl'],
         ]"
       />
@@ -25,20 +24,6 @@
           <p>
             Self-driving networks, i.e., networks driven by real-time analytics performed on data at line-rate guided by programmatic control, can help to ensure better network security and aid with performance diagnosis and repair. Realizing such a network often require machine learning (ML) inferencing algorithms (e.g., to detect anomalous traffic). Unfortunately, as network bandwidth grows to hundreds of gigabits to even terabits per second, it is challenging to analyze network traffic at line rates today. Many production intrusion detection systems rely on out-of-band analysis resulting in slow reaction times that may take the order of minutes to resolve security issues besides requiring significant bandwidth to export data from routers. This project is tackling the challenge of inline traffic analysis using programmable switches and programmable hardware.
           </p>
-        </div>
-      </div>
-
-      <div id="pub" class="subpages-section-container-div">
-        <div class="subpages-section-title-container-div">
-          <h1 class="subpages-section-title">Publications</h1>
-        </div>
-        <div class="subpages-section-content">
-          <PublicationsPublication
-            title="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
-            authors="Syed Usman Jafri, Sanjay Rao, Vishal Shrivastav and Mohit Tawarmalani"
-            conference="CRISP Grand Challenges in Resilience workshop, 2023"
-          />
-          <PublicationsSeparator />
         </div>
       </div>
 

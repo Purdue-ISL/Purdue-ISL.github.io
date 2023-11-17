@@ -86,7 +86,7 @@
               title="Learning Network Design Objectives Using A Program Synthesis Approach"
               authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
               conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
-              paper="papers/HotNets_2019_Paper.pdf"
+              paper="https://dl.acm.org/doi/10.1145/3365609.3365861"
             /><PublicationsSeparator />
           </p>
         </div>

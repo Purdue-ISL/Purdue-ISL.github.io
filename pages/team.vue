@@ -25,13 +25,13 @@
           <TeamMember
             name="Ehab Ghabashneh"
             title="Ph.D. Candidate"
-            area="Internet Video, Mobile Networks"
+            area="Internet Video, 360 degree Video"
             img="1_ehab.jpg"
           />
           <TeamMember
             name="Chandan Bothra"
             title="Ph.D Student"
-            area="Internet video, Data-driven network optimization"
+            area="Causal ML models, Data-driven networking, Internet Video"
             img="5_chandan.jpg"
           />
           <TeamMember
@@ -43,13 +43,13 @@
           <TeamMember
             name="Xinji (Jimmy) Jiang"
             title="Ph.D. Student"
-            area=""
+            area="360 degree video"
             img="3_jimmy.jpg"
           />
           <TeamMember
             name="Abd AlRhman AlQiam"
             title="Ph.D. Student"
-            area=""
+            area="ML-Driven Network Synthesis"
             img="2_abd.jpg"
           />
         </div>
@@ -61,7 +61,7 @@
           <TeamMember
             name="Clayton Walker"
             title="Undergraduate researcher"
-            area=""
+            area="360 degree video"
           />
         </div>
       </div>

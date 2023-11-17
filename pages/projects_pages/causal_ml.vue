@@ -13,6 +13,7 @@
         v-bind:data="[
           ['Description', 'des'],
           ['Publications', 'pub'],
+          ['Dataset', 'ds'],
           ['People', 'ppl'],
         ]"
       />
@@ -53,6 +54,19 @@
             explorations on video streaming, given the importance of the domain, although we believe 
             the issues are more general across networking.
             <br /><br />
+
+            Some example contributions from the project include (i) Xatu, a system that uses LSTMs 
+            to achieve high prediction accuracies for throughput in video streaming systems 
+            (a pre-requisite for the design of video streaming algorithms). Xatu achieves prediction 
+            accuracies of over 24% relative to state-of-the-art; and (ii) Oboe, a system for auto-tuning 
+            a wide range of Adaptive Bit Rate algorithms (a key building block for Internet video) to 
+            network conditions. Oboe significantly outperforms state-of-the-art approaches including 
+            a reinforcement learning method; and (iii) exploring the benefits of deploying servers at 
+            the edge to optimize Internet video, and designing video streaming algorithms that can 
+            exploit the same. We have released two large-scale datasets of real video sessions to the 
+            research community as part of the project.
+            <br /><br />
+
           </p>
         </div>
       </div>
@@ -63,12 +77,52 @@
         </div>
         <div class="subpages-section-content">
           <PublicationsPublication
+            title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
+            authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
+            conference="ACM Sigmetrics 2022"
+            paper="https://dl.acm.org/doi/pdf/10.1145/3491056"
+            slides="slides/Xatu-Sigmetrics-2022.pdf"
+            video="videos/Xatu-Sigmetrics-2022.mp4"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
             title="Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming"
             authors="P. C. Sruthi, Sanjay Rao, Bruno Ribeiro"
             conference="ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI 2020)"
             paper="papers/sigcomm-netai2020.pdf"
             slides="slides/sigcomm-netai2020-slides.pdf"
             video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Oboe: Auto-tuning Video ABR Algorithms to Network Conditions"
+            authors="Zahaib Akhtar, Yun Seong Nam, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz Bassett, Bruno Martins Ribeiro, Jibin Zhan, Hui Zhang"
+            conference="ACM SIGCOMM 2018"
+            paper="papers/sigcomm18-final128.pdf"
+            video="https://www.youtube.com/watch?v=4ehZhvvAA-I&t=16514s"
+          />
+          <PublicationsSeparator />
+        </div>
+      </div>
+
+      <div id="ds" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Datasets</h1>
+        </div>
+        <div class="subpages-section-content">
+          <PublicationsPublication
+            title="Xatu"
+            authors="This dataset contains video session data used to evaluate the Xatu system."
+            dataset="https://github.com/Purdue-ISL/XatuDataset/"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Oboe"
+            authors="This dataset contains bandwidth traces of real video streaming sessions used to evaluate Oboe."
+            dataset="https://github.com/USC-NSL/Oboe"
           />
           <PublicationsSeparator />
         </div>
@@ -97,6 +151,13 @@
                 <li>
                   <span class="font-mono tracking-tighter">
                     Chandan Bothra
+                  </span>
+                  <span>— Ph.D. student</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Ehab Ghabashneh
                   </span>
                   <span>— Ph.D. student</span>
                 </li>

@@ -40,7 +40,7 @@
             methods for network architects to express their intent at higher
             levels of abstraction, and techniques to automatically synthesize
             network designs that realize this intent correctly and efficiently.
-            <br>
+            <br> <br>
             
             As a concrete example, we have tackled a key challenge network
             architects encounter: how to balance multiple conflicting metrics,
@@ -64,6 +64,12 @@
             developed Net10Q, a system based on our approach, and evaluated
             its effectiveness on real-world network case studies, and through
             pilot user studies comprising network researchers and practitioners.
+
+            <br> <br>
+            More recently, we have started exploring program synthesis approaches for 
+            data plane forwarding in the context of the P4 programming language
+      
+          
           </p>
         </div>
       </div>

@@ -93,8 +93,8 @@
             authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
             conference="ACM Sigmetrics 2022"
             paper="https://dl.acm.org/doi/pdf/10.1145/3491056"
-            slides="slides/Xatu-Sigmetrics-2022.pdf"
-            video="videos/Xatu-Sigmetrics-2022.mp4"
+            slides="../slides/Xatu-Sigmetrics-2022.pdf"
+            video="../videos/Xatu-Sigmetrics-2022.mp4"
           />
           <PublicationsSeparator />
 
@@ -102,8 +102,8 @@
             title="Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming"
             authors="P. C. Sruthi, Sanjay Rao, Bruno Ribeiro"
             conference="ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI 2020)"
-            paper="papers/sigcomm-netai2020.pdf"
-            slides="slides/sigcomm-netai2020-slides.pdf"
+            paper="../papers/sigcomm-netai2020.pdf"
+            slides="../slides/sigcomm-netai2020-slides.pdf"
             video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
           />
           <PublicationsSeparator />
@@ -112,7 +112,7 @@
             title="Oboe: Auto-tuning Video ABR Algorithms to Network Conditions"
             authors="Zahaib Akhtar, Yun Seong Nam, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz Bassett, Bruno Martins Ribeiro, Jibin Zhan, Hui Zhang"
             conference="ACM SIGCOMM 2018"
-            paper="papers/sigcomm18-final128.pdf"
+            paper="../papers/sigcomm18-final128.pdf"
             video="https://www.youtube.com/watch?v=4ehZhvvAA-I&t=16514s"
           />
           <PublicationsSeparator />

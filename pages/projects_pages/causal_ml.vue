@@ -55,16 +55,16 @@
             the issues are more general across networking.
             <br /><br />
 
-            Some example contributions from the project include (i) Xatu, a system that uses LSTMs 
-            to achieve high prediction accuracies for throughput in video streaming systems 
-            (a pre-requisite for the design of video streaming algorithms). Xatu achieves prediction 
+            Some example contributions from the project include (i) Veritas, a system for answering
+            what-if questions related to video streaming without requiring Randomized Control Trial
+            Data; (i) Xatu, a system that uses LSTMs to achieve high prediction accuracies for throughput 
+            in video streaming systems (a pre-requisite for the design of video streaming algorithms). 
+            Xatu achieves prediction 
             accuracies of over 24% relative to state-of-the-art; and (ii) Oboe, a system for auto-tuning 
             a wide range of Adaptive Bit Rate algorithms (a key building block for Internet video) to 
             network conditions. Oboe significantly outperforms state-of-the-art approaches including 
-            a reinforcement learning method; and (iii) exploring the benefits of deploying servers at 
-            the edge to optimize Internet video, and designing video streaming algorithms that can 
-            exploit the same. We have released two large-scale datasets of real video sessions to the 
-            research community as part of the project.
+            a reinforcement learning method. We have released two large-scale datasets of real video sessions 
+            to the research community as part of the project.
             <br /><br />
 
           </p>
@@ -76,6 +76,18 @@
           <h1 class="subpages-section-title">Publications</h1>
         </div>
         <div class="subpages-section-content">
+
+          <PublicationsPublication
+            title="Veritas: Answering Causal Queries from Video Streaming Traces"
+            authors="Chandan Bothra, Jianfei Gao, Sanjay Rao, and Bruno Ribeiro"
+            conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
+            paper="https://dl.acm.org/doi/pdf/10.1145/3603269.3604828"
+            slides="https://purdue-isl.github.io/papers-pdf/veritas_slides.pptx"
+            video="https://www.youtube.com/watch?v=ZqIKtuQ1gtY"
+            github="https://github.com/Purdue-ISL/Veritas"
+          />
+          <PublicationsSeparator />
+          
           <PublicationsPublication
             title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
             authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
@@ -105,16 +117,7 @@
           />
           <PublicationsSeparator />
 
-          <PublicationsPublication
-            title="Veritas: Answering Causal Queries from Video Streaming Traces"
-            authors="Chandan Bothra, Jianfei Gao, Sanjay Rao, and Bruno Ribeiro"
-            conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
-            paper="https://dl.acm.org/doi/pdf/10.1145/3603269.3604828"
-            slides="https://purdue-isl.github.io/papers-pdf/veritas_slides.pptx"
-            video="https://www.youtube.com/watch?v=ZqIKtuQ1gtY"
-            github="https://github.com/Purdue-ISL/Veritas"
-          />
-          <PublicationsSeparator />
+          
         </div>
       </div>
 

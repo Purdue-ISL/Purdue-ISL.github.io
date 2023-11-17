@@ -80,10 +80,6 @@
             />
 
             <ProjectsProject
-              title="ML and Data-Driven Optimization of Internet Video Delivery from the Network Edge"
-              content="Video dominates the Internet today, accounting for over 80% of Internet traffic by some estimates. A key challenge is delivering high quality Internet video over variable Internet environments. In this project, we are investigating whether high Quality of Experience can be enabled for Internet video by leveraging ML-frameworks at the network edge. Our work extensively uses insights from real-world data sets of Internet video sessions."
-            />
-            <ProjectsProject
               title="Adaptive Bit Rate algorithms for Internet Video delivery"
               content="Recent years have seen a tremendous increase in the popularity of Internet video, which forms a major fraction of Internet traffic today, and Cisco technical report says that Internet video traffic expects to be 30 exabyte in 2020. In this trend, delivering high quality of experience (QoE) is critical since it correlates with user engagement and revenue. The project is investigating to deliver high quality video across diverse and variable network conditions. Most Internet video delivery uses adaptive bitrate (ABR) algorithms, combined with HTTP chunk-based streaming protocols, and ABR algorithm is one of the critical part for success of high QoE Internet video delivery. However, these ABR algorithms today have fixed and closed source implementations which results in two problems: 1) content publishers can't customize them according to their preference 2) no single algorithm works well across the diverse range of bandwidth conditions in the wild. In order to solve these problems we propose a novel video delivery pipeline. Our results show that our approach can improve the median QoE by 37% compared to a commercial ABR."
               to-page="https://engineering.purdue.edu/~isl/video.html"

@@ -97,11 +97,83 @@
           <h1 class="subpages-section-title">Team</h1>
         </div>
         <div class="subpages-section-content">
-          <p>
-            <!--Project Team-->
-            Yanjun Wang, Zixuan Li, Xiaokang Wang, Chuan Jiang, Prof. Sanjay
-            Rao, Prof. Xiaokang Qiu
-          </p>
+          <div>
+            <span class="font-bold text-xl">Faculty</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li class="font-mono tracking-tighter">Prof. Sanjay Rao</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Students</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Chenan Wen
+                  </span>
+                  <span>— Ph.D. student</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Syed Usman Jafri </span
+                  ><span> — Ph.D. student</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Zhuocong Li </span
+                  ><span> — Undergraduate student</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Graduated Students</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Chuan Jiang
+                  </span>
+                  <span>— Ph.D.</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Yanjun Wang </span
+                  ><span> — Ph.D.</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Zixuan Li </span
+                  ><span> — MS</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Collaborators</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter"
+                    >Prof. Xiaokang Qiu</span
+                  >
+                  <span> — Purdue University</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
         </div>
       </div>
     </div>

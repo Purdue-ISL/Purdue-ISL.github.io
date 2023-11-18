@@ -100,16 +100,16 @@
               conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2020"
               paper="../papers/SIGCOMM2020_76_final.pdf"
               slides="../slides/PCF_slides.pdf"
-              video="videos/SIGCOMM_76_long.mp4"
+              video="../videos/SIGCOMM_76_long.mp4"
             /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Lancet: Better network resilience by designing for pruned failure sets"
               authors="Yiyang Chang, Chuan Jiang, Ashish Chandra, Sanjay Rao, Mohit Tawarmalani"
-              conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (SIGMETRICS), 2020"
+              conference="Proceedings of the ACM on Measurement and Analysis of Computing Systems (ICS), 2020"
               paper="../papers/Sigmetrics2020_Lancet.pdf"
               slides="../slides/sigmetrics2020_yiyang_v8.pdf"
-              video="videos/sigmetrics2020.mp4"
+              video="../videos/sigmetrics2020.mp4"
             /><PublicationsSeparator />
 
             <PublicationsPublication

@@ -10,7 +10,7 @@
 
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">Multi-Perspective Video Deliver at Internet Scale</h1>
+          <h1 class="publication-main-headers">Multi-Perspective Video Delivery at Internet Scale</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
@@ -24,24 +24,11 @@
           </div>
         </div>
 
-        <div class="publication-project-container">
-          <h1 class="publication-main-headers">Datacenter Networks</h1>
-          <div class="publication-div">
-            <PublicationsPublication
-              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
-              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
-              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
-              slides="slides/imc2022.pptx"
-              video="videos/imc2022.m4v"
-              dataset="https://github.com/facebookresearch/Millisampler-data"
-            />
-          </div>
-        </div>
+       
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            ML and Data-Driven Optimization of Internet Video
+            Causal ML Models and Data-Driven Optimization of Internet Video
           </h1>
           <div class="publication-div">
         
@@ -74,6 +61,15 @@
               video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
             /><PublicationsSeparator />
 
+            </div>
+          </div>
+        
+          <div class="publication-project-container">
+            <h1 class="publication-main-headers">
+            Delivering Internet Video with high Quality of Experience
+            </h1>
+          <div class="publication-div">
+        
             <PublicationsPublication
               title="Exploring the interplay between CDN caching and video streaming performance"
               authors="Ehab Ghabashneh, Sanjay Rao"
@@ -117,6 +113,21 @@
           </div>
         </div>
 
+         <div class="publication-project-container">
+          <h1 class="publication-main-headers">Datacenter Networks</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
+              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
+              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
+              slides="slides/imc2022.pptx"
+              video="videos/imc2022.m4v"
+              dataset="https://github.com/facebookresearch/Millisampler-data"
+            />
+          </div>
+        </div>
+        
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
             Synthesizing network designs with certifiable properties

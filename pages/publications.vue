@@ -27,7 +27,7 @@
       
       <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Causal ML Models and Data-Driven Optimization of Internet Video
+            Causal Models and ML-Driven Optimization of Internet Video
           </h1>
           <div class="publication-div">
         
@@ -126,6 +126,24 @@
           </div>
         </div>
 
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Datacenter Networks</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
+              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
+              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
+              slides="slides/imc2022.pptx"
+              video="videos/imc2022.m4v"
+              dataset="https://github.com/facebookresearch/Millisampler-data"
+            />
+          </div>
+        </div>
+        
+        
+
+
          <div class="publication-project-container">
           <h1 class="publication-main-headers">
             Video streaming in Unmanned Aerial Systems (UAS) settings
@@ -185,45 +203,13 @@
               conference="Proceedings of ACM Internet Measurement Conference (IMC), 2018"
               paper="papers/imc2018.pdf"
               note="(* : Both authors contributed equally)"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
-              authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2011"
-              paper="papers/imc11.pdf"
-              slides="slides/imc11_finamore.pptx"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Dissecting Video Server Selection Strategies in the YouTube CDN"
-              authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
-              conference="Proceedings of IEEE  International Conference on Distributed Computing Systems (ICDCS), 2011"
-              paper="papers/ICDCS11.pdf"
-              slides="slides/icdcs11_final.pdf"
             />
           </div>
         </div>
 
         
         
-         <div class="publication-project-container">
-          <h1 class="publication-main-headers">Datacenter Networks</h1>
-          <div class="publication-div">
-            <PublicationsPublication
-              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
-              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
-              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
-              slides="slides/imc2022.pptx"
-              video="videos/imc2022.m4v"
-              dataset="https://github.com/facebookresearch/Millisampler-data"
-            />
-          </div>
-        </div>
-        
-        
-
+         
        
 
         <div class="publication-project-container">

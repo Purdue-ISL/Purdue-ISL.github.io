@@ -113,6 +113,27 @@
           </div>
         </div>
 
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            A Program Synthesis Approach to Network Design
+          </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
+              authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
+              conference="Proceedings of the ACM on Programming Languages, 2023"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Learning Network Design Objectives Using A Program Synthesis Approach"
+              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
+              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
+              paper="papers/HotNets_2019_Paper.pdf"
+            /><PublicationsSeparator />
+           </div>
+          </div>
+        
          <div class="publication-project-container">
           <h1 class="publication-main-headers">Datacenter Networks</h1>
           <div class="publication-div">
@@ -133,12 +154,7 @@
             Synthesizing network designs with certifiable properties
           </h1>
           <div class="publication-div">
-            <PublicationsPublication
-              title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
-              authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
-              conference="Proceedings of the ACM on Programming Languages, 2023"
-              paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
-            /><PublicationsSeparator />
+            
 
             <PublicationsPublication
               title="Flexile: Meeting bandwidth objectives almost always"
@@ -166,13 +182,7 @@
               video="videos/sigmetrics2020.mp4"
             /><PublicationsSeparator />
 
-            <PublicationsPublication
-              title="Learning Network Design Objectives Using A Program Synthesis Approach"
-              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
-              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
-              paper="papers/HotNets_2019_Paper.pdf"
-            /><PublicationsSeparator />
-
+            
             <PublicationsPublication
               title="Robust validation of network designs under uncertain demands and failures"
               authors="Yiyang Chang, Sanjay Rao, Mohit Tawarmalani"

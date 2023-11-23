@@ -24,9 +24,8 @@
           </div>
         </div>
 
-       
-
-        <div class="publication-project-container">
+      
+      <div class="publication-project-container">
           <h1 class="publication-main-headers">
             Causal ML Models and Data-Driven Optimization of Internet Video
           </h1>
@@ -62,6 +61,27 @@
             /><PublicationsSeparator />
 
             </div>
+          </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            A Program Synthesis Approach to Network Design
+          </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
+              authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
+              conference="Proceedings of the ACM on Programming Languages, 2023"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Learning Network Design Objectives Using A Program Synthesis Approach"
+              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
+              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
+              paper="papers/HotNets_2019_Paper.pdf"
+            /><PublicationsSeparator />
+           </div>
           </div>
         
           <div class="publication-project-container">
@@ -113,26 +133,7 @@
           </div>
         </div>
 
-        <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            A Program Synthesis Approach to Network Design
-          </h1>
-          <div class="publication-div">
-            <PublicationsPublication
-              title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
-              authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"
-              conference="Proceedings of the ACM on Programming Languages, 2023"
-              paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Learning Network Design Objectives Using A Program Synthesis Approach"
-              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
-              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
-              paper="papers/HotNets_2019_Paper.pdf"
-            /><PublicationsSeparator />
-           </div>
-          </div>
+        
         
          <div class="publication-project-container">
           <h1 class="publication-main-headers">Datacenter Networks</h1>
@@ -155,7 +156,6 @@
           </h1>
           <div class="publication-div">
             
-
             <PublicationsPublication
               title="Flexile: Meeting bandwidth objectives almost always"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
@@ -198,6 +198,7 @@
               note=" An earlier version of this paper appeared in ACM CoNext 2015"
               paper="https://ieeexplore.ieee.org/abstract/document/7855776"
             /><PublicationsSeparator />
+            
 
             <PublicationsPublication
               title="Hydra: Leveraging Functional Slicing for Efficient Distributed SDN Controllers"

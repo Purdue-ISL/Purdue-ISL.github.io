@@ -413,11 +413,26 @@
           </div>
         </div>
 
-        <div class="publication-project-container">
+          <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Network configuration verification and enterprise network management
+            Designing Enterprise Networks from Higher-Level Abstractions
           </h1>
-          <div class="publication-div">
+            <div class="publication-div">
+              <PublicationsPublication
+              title="Modeling Complexity of Enterprise Routing Design"
+              authors="Xin Sun, Sanjay G. Rao and Geoffrey G. Xie"
+              conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
+              paper="papers/conext172-sun.pdf"
+              note="See Purdue Technical Report version TR-ECE-12-10"
+            /><PublicationsSeparator />
+
+              <PublicationsPublication
+              title="Towards Systematic Design of Enterprise Networks"
+              authors="Yu-Wei Sung, Xin Sun, Sanjay Rao, Geoffrey Xie and David Maltz"
+              conference="IEEE/ACM Transactions on Networking (ToN), 2011"
+              paper="papers/ton11.pdf"
+            />
+
             <PublicationsPublication
               title="A Software Toolkit for Visualizing Enterprise Routing Design"
               authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
@@ -431,21 +446,47 @@
               conference="In IEEE Communications Magazine"
               paper="papers/commag11.pdf"
             /><PublicationsSeparator />
-
-            <PublicationsPublication
+              
+              <PublicationsPublication
               title="A Cost-Benefit Framework for Judicious Enterprise Network Redesign"
               authors="Xin Sun and Sanjay Rao"
               conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
               paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
 
-            <PublicationsPublication
-              title="Characterization of community based P2P systems and implications for traffic localization"
-              authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
-              conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
-              paper="papers/p2pjournal12.pdf"
+              <PublicationsPublication
+              title="Towards Systematic Design of Enterprise Networks"
+              authors="Yu-Wei Eric Sung, Sanjay Rao, Geoffrey Xie, and David Maltz"
+              conference="Proceedings of ACM CoNEXT, Madrid, Spain, December, 2008"
+              paper="papers/conext08.pdf"
+              dataset="https://engineering.purdue.edu/~isl/network-config"
             /><PublicationsSeparator />
 
+              <PublicationsPublication
+              title="Characterizing VLAN usage in an Operational Network"
+              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, and Sanjay Rao"
+              conference="Technical Report TR-ECE-07-20, Purdue University, August 2007"
+              paper="http://docs.lib.purdue.edu/ecetr/362/"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Characterizing VLAN usage in an Operational Network"
+              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, Sanjay Rao"
+              conference="ACM SIGCOMM workshop on Internet Network Management (INM'07), Kyoto, Japan, August 2007"
+              paper="papers/inm07.pdf"
+              dataset="https://engineering.purdue.edu/~isl/network-config"
+            /><PublicationsSeparator />
+
+            </div>
+        </div>
+        
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Network configuration verification and synthesis
+          </h1>
+          <div class="publication-div">
+          
+            
             <PublicationsPublication
               title="A Toolkit for Automating and Visualizing VLAN Configuration"
               authors="Sunil Krothapalli, Xin Sun, Yu-Wei Sung, Suan Aik Yeo and Sanjay Rao"
@@ -473,30 +514,7 @@
               conference="in IEEE Journal on Selected Areas in Communications (JSAC), 2009"
               paper="papers/jsac_presto.pdf"
             /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Towards Systematic Design of Enterprise Networks"
-              authors="Yu-Wei Eric Sung, Sanjay Rao, Geoffrey Xie, and David Maltz"
-              conference="Proceedings of ACM CoNEXT, Madrid, Spain, December, 2008"
-              paper="papers/conext08.pdf"
-              dataset="https://engineering.purdue.edu/~isl/network-config"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Characterizing VLAN usage in an Operational Network"
-              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, and Sanjay Rao"
-              conference="Technical Report TR-ECE-07-20, Purdue University, August 2007"
-              paper="http://docs.lib.purdue.edu/ecetr/362/"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="haracterizing VLAN usage in an Operational Network"
-              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, Sanjay Rao"
-              conference="ACM SIGCOMM workshop on Internet Network Management (INM'07), Kyoto, Japan, August 2007"
-              paper="papers/inm07.pdf"
-              dataset="https://engineering.purdue.edu/~isl/network-config"
-            /><PublicationsSeparator />
-
+          
             <PublicationsPublication
               title="Configuration Management at Massive Scale: System Design and Experience"
               authors="William Enck, Patrick McDaniel, Shubho Sen, Panagiotis Sebos, Sylke Spoerel, Albert Greenberg, Sanjay Rao, and William Aiello"

@@ -8,6 +8,22 @@
       <div class="w-[96%] mx-auto">
         <p class="ml-2 pt-8 font-extralight italic">**grouped by project</p>
 
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Multi-Perspective Video Deliver at Internet Scale</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
+              authors="Ehab Ghabashneh, Chandan Bothra, Ramesh Govindan, Antonio Ortega, and Sanjay Rao"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
+              paper="papers-pdf/dfly.pdf"
+              slides="papers-pdf/Dragonfly-Sigcomm23_final.pptx"
+              video="https://www.youtube.com/watch?v=FHyaGPMBV6c"
+              github="https://github.com/Purdue-ISL/Dragonfly"
+            />
+          </div>
+        </div>
+
         <div class="publication-project-container">
           <h1 class="publication-main-headers">Datacenter Networks</h1>
           <div class="publication-div">
@@ -28,15 +44,7 @@
             ML and Data-Driven Optimization of Internet Video
           </h1>
           <div class="publication-div">
-            <PublicationsPublication
-              title="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
-              authors="Ehab Ghabashneh, Chandan Bothra, Ramesh Govindan, Antonio Ortega, and Sanjay Rao"
-              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
-              paper="papers-pdf/dfly.pdf"
-              slides="papers-pdf/Dragonfly-Sigcomm23_final.pptx"
-              video="https://www.youtube.com/watch?v=FHyaGPMBV6c"
-              github="https://github.com/Purdue-ISL/Dragonfly"
-            /><PublicationsSeparator />
+        
 
             <PublicationsPublication
               title="Veritas: Answering Causal Queries from Video Streaming Traces"

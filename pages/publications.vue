@@ -225,7 +225,7 @@
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Achieving low mobile web latency
+            SmartEdge for low latency mobile Web 
           </h1>
           <div class="publication-div">
             <PublicationsPublication
@@ -301,7 +301,7 @@
             <PublicationsPublication
               title="Performance sensitive replication in geo-distributed cloud datastores"
               authors="Shankaranarayanan P N, Ashiwan Sivakumar, Sanjay Rao, Mohit Tawarmalani, DSN 2014"
-              conference="SIGCOMM 2013"
+              conference="DSN 2014"
               paper="papers/ShankarDSN14.pdf"
             /><PublicationsSeparator />
 

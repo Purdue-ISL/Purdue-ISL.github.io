@@ -86,7 +86,7 @@
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Synthesizing network designs with certifiable properties
+            Synthesizing network designs with formal SLO Guarantees
           </h1>
           <div class="publication-div">
             

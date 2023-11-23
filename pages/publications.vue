@@ -260,6 +260,37 @@
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
+            Managing policy in SDN Networks
+          </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Hydra: Leveraging Functional Slicing for Efficient Distributed SDN Controllers"
+              authors="Yiyang Chang, Ashkan Rezaei, Balajee Vamanan, Jahangir Hasan, Sanjay Rao, and T. N. Vijaykumar"
+              conference="proceedings of the 9th IEEE International Conference on COMmunication Systems and NETworkS (IEEE COMSNETS), 2017"
+              paper="papers/comsnets17_hydra.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Composing middlebox and traffic engineering policies in SDNs"
+              authors="Yiyang Chang, Gustavo Petri, Sanjay Rao, Tiark Rompf"
+              conference="Proceedings of the 2nd International INFOCOM Workshop on Software-Driven Flexible and Agile Networking (IEEE INFOCOM Workshop SWFAN), 2017"
+              paper="papers/paper_swfan2017_yiyang.pdf"
+              slides="papers/slides_swfan2017_yiyang.pdf"
+            /><PublicationsSeparator />
+            
+            <PublicationsPublication
+              title="Alpaca: Compact Network Policies With Attribute-Encoded Addresses"
+              authors="Nanxi Kang, Ori Rottenstreich, Sanjay Rao and Jennifer Rexford"
+              conference="IEEE/ACM Transactions on Networking, 2017."
+              note=" An earlier version of this paper appeared in ACM CoNext 2015"
+              paper="https://ieeexplore.ieee.org/abstract/document/7855776"
+            />
+            </div>
+          </div>
+
+        
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
             Architecting latency-sensitive applications for the cloud
           </h1>
           <div class="publication-div">

@@ -140,7 +140,18 @@
             />
           </div>
         </div>
-        
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Intent-Driven Network Management </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Hey, Lumi! Using Natural Language for Intent-Based Network Management"
+              authors="Arthur S Jacobs, Ricardo J. Pfitscher, Rafael H. Ribeiro, Ronaldo A. Ferreira, Lissandro Granville, Walter Willinger and Sanjay Rao"
+              conference="Proceedings of Usenix ATC, 2021"
+              paper="https://www.usenix.org/conference/atc21/presentation/jacobs"
+            />
+          </div>
+        </div>
         
 
 

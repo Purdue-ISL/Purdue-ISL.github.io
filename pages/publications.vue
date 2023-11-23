@@ -453,6 +453,13 @@
               conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
               paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
+              
+              <PublicationsPublication
+              title="A Systematic Approach for Evolving VLAN Design"
+              authors="Xin Sun and Yu-Wei Eric Sung and Sunil Krothapalli and Sanjay Rao"
+              conference="In proceedings of IEEE INFOCOM, San Diego, 2010"
+              paper="papers/infocom11-redesign.pdf"
+            /><PublicationsSeparator />
 
               <PublicationsPublication
               title="Towards Systematic Design of Enterprise Networks"
@@ -539,7 +546,7 @@
             <PublicationsPublication
               title="Preventing DDoS Attacks on Internet Servers Exploiting P2P Systems"
               authors="Xin Sun,Ruben Torres and Sanjay Rao"
-              conference="Xin Sun,Ruben Torres and Sanjay Rao"
+              conference="Elsevier Computer Networks Journal"
               paper="papers/comnet-ddos.pdf"
             /><PublicationsSeparator />
 

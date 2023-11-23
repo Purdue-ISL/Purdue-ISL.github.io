@@ -125,6 +125,36 @@
             />
           </div>
         </div>
+
+         <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Video streaming in Unmanned Aerial Systems (UAS) settings
+          </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Chimera: exploiting UAS flight path information to optimize heterogeneous data transmission"
+              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
+              conference="IEEE 29th International Conference on Network Protocols (ICNP), 2021"
+              paper="papers/Chimera_ICNP2021_Final.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Optimizing Quality of Experience for Long-Range UAS Video Streaming"
+              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
+              conference="IEEE/ACM 29th International Symposium on Quality of Service (IWQoS), 2021"
+              paper="papers/IWQOS2021_final.pdf"
+              slides="slides/IWQOS_2021presentation.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Measuring Fixed Wing UAS Networks at Long Range"
+              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
+              conference="6th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (DroNet), 2020"
+              paper="papers/DroNet2020.pdf"
+              slides="slides/DroNet_2020presentation.pdf"
+            />
+          </div>
+        </div>
         
           <div class="publication-project-container">
             <h1 class="publication-main-headers">
@@ -194,35 +224,7 @@
         
         
 
-        <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            Video streaming in Unmanned Aerial Systems (UAS) settings
-          </h1>
-          <div class="publication-div">
-            <PublicationsPublication
-              title="Chimera: exploiting UAS flight path information to optimize heterogeneous data transmission"
-              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
-              conference="IEEE 29th International Conference on Network Protocols (ICNP), 2021"
-              paper="papers/Chimera_ICNP2021_Final.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Optimizing Quality of Experience for Long-Range UAS Video Streaming"
-              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
-              conference="IEEE/ACM 29th International Symposium on Quality of Service (IWQoS), 2021"
-              paper="papers/IWQOS2021_final.pdf"
-              slides="slides/IWQOS_2021presentation.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Measuring Fixed Wing UAS Networks at Long Range"
-              authors="Russell Shirey, Sanjay Rao, Shreyas Sundaram"
-              conference="6th ACM Workshop on Micro Aerial Vehicle Networks, Systems, and Applications (DroNet), 2020"
-              paper="papers/DroNet2020.pdf"
-              slides="slides/DroNet_2020presentation.pdf"
-            />
-          </div>
-        </div>
+       
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">

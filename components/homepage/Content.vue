@@ -25,7 +25,7 @@
           </div>
           <div class="main-page-project-div">
             <h2 class="main-page-project-header">
-              ML-driven optimization of Internet video, and network support for 360 video
+              ML-driven and next generation multi-perspective Internet video delivery
             </h2>
             <p class="main-page-project-content">
               We are optimizing Internet video delivery using ML techniques (such as causal 

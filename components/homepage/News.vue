@@ -23,12 +23,12 @@
 
         <HomepageNew
           date="August 2022"
-          content="NSF grant (Formal Methods in the Field) awarded on "Flexible Data Plane Programming" 
+          content="NSF grant (Formal Methods in the Field) awarded on Flexible Data Plane Programming" 
         />
 
         <HomepageNew
           date="August 2022"
-          content="NSF grant awarded on "ML-Driven Online Traffic Analysis at Multi-Terabit Line Rates"
+          content="NSF grant awarded on ML-Driven Online Traffic Analysis at Multi-Terabit Line Rates"
         />
 
         <HomepageNew
@@ -52,17 +52,17 @@
           
         <HomepageNew
           date="October 2022"
-          content="Received Amazon Sponsored Project support on "Anonaly detection in live video"
+          content="Received Amazon Sponsored Project support on Anomaly detection in live video"
         />
 
         <HomepageNew
           date="August 2022"
-          content="NSF grant awarded on "Causal Reasoning for Data-Driven Networking"
+          content="NSF grant awarded on Causal Reasoning for Data-Driven Networking"
         />
           
          <HomepageNew
           date="April 2022"
-          content="Received Amazon Research Award on "Answering counterfactuals from offline data for video streaming"
+          content="Received Amazon Research Award on Answering counterfactuals from offline data for video streaming"
         />
           
         <HomepageNew

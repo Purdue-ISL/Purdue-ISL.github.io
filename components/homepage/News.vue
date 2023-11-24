@@ -133,6 +133,18 @@
         />
 
         <HomepageNew
+          date="December 2019"
+          paper="Lancet: Better network resilience by designing for pruned failure sets."
+          venue="ACM Sigmetrics 2020"
+        />
+        
+         <HomepageNew
+          date="November 2019"
+          paper="Learning Network Design Objectives Using A Program Synthesis Approach."
+          venue="ACM HotNets 2019"
+        />
+        
+        <HomepageNew
           date="August 2019"
           content="NSF grant awarded on Designing Networks for Stringent Performance Requirements."
         />

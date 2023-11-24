@@ -177,7 +177,7 @@
             degree="Ph.D."
             graduation_year="2010"
             thesis_title="An Abstraction-Driven Approach to Systematic Enterprise Network Design, Configuration and Validation"
-            position="Engineering Manager, Facebook; Network Platforms Team"
+            position="Engineering Manager, Meta; Network Platforms Team"
           /><TeamSeparator />
 
           <TeamAlumni

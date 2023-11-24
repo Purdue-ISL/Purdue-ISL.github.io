@@ -29,9 +29,9 @@
             </h2>
             <p class="main-page-project-content">
               We are optimizing Internet video delivery using ML techniques (such as causal 
-              reasoning), and tackling challenges in delivering next generation video (such as 
-              360 degree and volumetric video) which are both bandwidth intensive, and can only tolerate 
-              tens of milliseconds of latency with high perceptual quality. Our past research 
+              reasoning), and are tackling challenges in delivering next generation video (such as 
+              360 degree and volumetric video), which are not only bandwidth intensive but also 
+              latency sensitive, with high perceptual quality. Our past research 
               has made important advances to the design of Adaptive Bit Rate (ABR) algorithms 
               for Internet video streaming over variable Internet environments, developed systems
               that significantly reduce mobile Web latency, developed novel approaches to 

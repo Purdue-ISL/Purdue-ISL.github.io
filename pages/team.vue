@@ -169,6 +169,7 @@
             graduation_year="2011"
             thesis_title="Measurement-Driven Characterization of Emerging Trends in Internet Content Delivery"
             position="Narus"
+            c_position="Palo Alto Networks"
           /><TeamSeparator />
 
           <TeamAlumni

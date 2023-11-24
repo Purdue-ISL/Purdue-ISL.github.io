@@ -9,31 +9,31 @@
         <div class="main-page-projects-container">
           <div class="main-page-project-div">
             <h2 class="main-page-project-header">
-              Network verification and synthesis
+              Intent-based and self-driving networks
             </h2>
             <p class="main-page-project-content">
-              Managing large networks often involves complex policies (e.g.,
-              security, QoS, fault tolerance). On the one hand networks must
-              perform acceptably 99.99% of the time or more, yet studies from
-              Google and others show failures are the norm, and traffic patterns
-              change constantly. Design today is largely ad-hoc. By many
-              estimates a large portion of the IT budget of organizations is
-              driven by the need to manage networks, with configuration errors
-              and design faults often accounting for a large fraction of
-              cyber-attacks. We are designing networks that are formally
-              verifiable and which provide provable performance guarantees
-              despite uncertainty. Our research draws on optimization-theoretic
-              techniques and formal methods. We validate our research on real
-              Internet topologies, traffic data and network configurations, and
-              through large-scale emulation testbeds
+              We are designing computer networks of the future that are intent-based (i.e., network
+              designs and configurations are automatically synthesized to provably meet higher level 
+              goals with respect to security, resilience and performance) and self-driving (i.e., networks 
+              driven by real-time analytics performed at line-rate leveraging programmable hardware for 
+              security and performance). Our past work has made influential contributions in network 
+              verification (formally verifying network configurations), synthesizing network configurations 
+              (which has been deployed in production at AT&T), and new approaches to synthesizing enterprise 
+              networks from higher-level network-wide abstractions. Our research has involved collaborations
+              with Meta, Microsoft and AT&T, and is of significant interest to industry.
             </p>
           </div>
           <div class="main-page-project-div">
             <h2 class="main-page-project-header">
-              ML-driven optimizations of Internet video, and network support for
-              360 video/AR/VR
+              ML-driven optimization of Internet video, and network support for 360 video
             </h2>
             <p class="main-page-project-content">
+
+              We are developing (i) causal models and ML-driven optimization of Internet video delivery; and 
+              (ii) tacklingchallenges in delivering next generation video (such as 360 degree video) with high perceptual quality. My past research 
+              has made important advances to the design of Adaptive Bit Rate (ABR) algorithms for Internet video streaming, developed novel 
+              approaches for low-latency mobile Web, made novel advances towards architecting low-latency cloud applications, and has pioneered 
+              a peer-to-peer approach for live video broadcasting.               
               Many exciting new applications are emerging on the Internet such
               as 4K video, 360 video, and AR/VR which are both bandwidth
               intensive, and can only tolerate tens of milliseconds of latency

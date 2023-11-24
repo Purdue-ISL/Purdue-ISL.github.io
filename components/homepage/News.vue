@@ -22,6 +22,22 @@
         />
 
         <HomepageNew
+          date="August 2022"
+          content="NSF grant (Formal Methods in the Field) awarded on "Flexible Data Plane Programming" 
+        />
+
+        <HomepageNew
+          date="August 2022"
+          content="NSF grant awarded on "ML-Driven Online Traffic Analysis at Multi-Terabit Line Rates"
+        />
+
+        <HomepageNew
+          date="January 2023"
+          paper="Learning near-optimal network designs by query"
+          venue="ACM POPL 2023"
+        />
+        
+        <HomepageNew
           date="December 2022"
           paper="Flexile: Meeting bandwidth objectives almost always"
           venue="ACM CoNEXT 2022"
@@ -33,7 +49,22 @@
               Centers"
           venue="ACM IMC 2022"
         />
+          
+        <HomepageNew
+          date="October 2022"
+          content="Received Amazon Sponsored Project support on "Anonaly detection in live video"
+        />
 
+        <HomepageNew
+          date="August 2022"
+          content="NSF grant awarded on "Causal Reasoning for Data-Driven Networking"
+        />
+          
+         <HomepageNew
+          date="April 2022"
+          content="Received Amazon Research Award on "Answering counterfactuals from offline data for video streaming"
+        />
+          
         <HomepageNew
           date="December 2021"
           content="Professor Rao elevated to ACM Distinguished Member."

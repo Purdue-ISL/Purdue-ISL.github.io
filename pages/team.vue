@@ -63,6 +63,12 @@
             title="Undergraduate researcher"
             area="360 degree video"
           />
+          
+          <TeamMember
+            name="Zhuocong Li"
+            title="Undergraduate researcher"
+            area="P4 and Data plane programming"
+          />
         </div>
       </div>
 
@@ -89,7 +95,7 @@
             degree="Ph.D."
             graduation_year="2021"
             thesis_title="Data-Driven and Control Theoretic Approaches for Real-Time Sensor Data Transmission Over Unmanned Aerial Systems Networks"
-            position="US Air Force"
+            position="US Government Agency"
             co_advisor="Shreyas Sundaram"
           /><TeamSeparator />
 

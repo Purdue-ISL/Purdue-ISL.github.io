@@ -63,6 +63,12 @@
             title="Undergraduate researcher"
             area="360 degree video"
           />
+          
+          <TeamMember
+            name="Zhuocong Li"
+            title="Undergraduate researcher"
+            area="P4 and Data plane programming"
+          />
         </div>
       </div>
 
@@ -89,7 +95,7 @@
             degree="Ph.D."
             graduation_year="2021"
             thesis_title="Data-Driven and Control Theoretic Approaches for Real-Time Sensor Data Transmission Over Unmanned Aerial Systems Networks"
-            position="US Air Force"
+            position="US Government Agency"
             co_advisor="Shreyas Sundaram"
           /><TeamSeparator />
 
@@ -163,6 +169,7 @@
             graduation_year="2011"
             thesis_title="Measurement-Driven Characterization of Emerging Trends in Internet Content Delivery"
             position="Narus"
+            c_position="Palo Alto Networks"
           /><TeamSeparator />
 
           <TeamAlumni
@@ -170,7 +177,7 @@
             degree="Ph.D."
             graduation_year="2010"
             thesis_title="An Abstraction-Driven Approach to Systematic Enterprise Network Design, Configuration and Validation"
-            position="Engineering Manager, Facebook; Network Platforms Team"
+            position="Engineering Manager, Meta; Network Platforms Team"
           /><TeamSeparator />
 
           <TeamAlumni

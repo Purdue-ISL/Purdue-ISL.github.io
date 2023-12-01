@@ -9,40 +9,35 @@
         <div class="main-page-projects-container">
           <div class="main-page-project-div">
             <h2 class="main-page-project-header">
-              Network verification and synthesis
+              Intent-based and self-driving networks
             </h2>
             <p class="main-page-project-content">
-              Managing large networks often involves complex policies (e.g.,
-              security, QoS, fault tolerance). On the one hand networks must
-              perform acceptably 99.99% of the time or more, yet studies from
-              Google and others show failures are the norm, and traffic patterns
-              change constantly. Design today is largely ad-hoc. By many
-              estimates a large portion of the IT budget of organizations is
-              driven by the need to manage networks, with configuration errors
-              and design faults often accounting for a large fraction of
-              cyber-attacks. We are designing networks that are formally
-              verifiable and which provide provable performance guarantees
-              despite uncertainty. Our research draws on optimization-theoretic
-              techniques and formal methods. We validate our research on real
-              Internet topologies, traffic data and network configurations, and
-              through large-scale emulation testbeds
+              We are designing computer networks of the future that are intent-based (i.e., network
+              designs and configurations are automatically synthesized to provably meet higher level 
+              goals with respect to security, resilience and performance) and self-driving (i.e., networks 
+              driven by real-time analytics performed at line-rate leveraging programmable network hardware for 
+              security and performance). Our past work has made influential contributions in network 
+              verification (formally verifying network configurations), synthesizing network configurations 
+              (which has been deployed in production at AT&T), and new approaches to synthesizing enterprise 
+              networks from higher-level network-wide abstractions. Our research has involved collaborations
+              with Meta, Microsoft and AT&T, and is of significant interest to industry.
             </p>
           </div>
           <div class="main-page-project-div">
             <h2 class="main-page-project-header">
-              ML-driven optimizations of Internet video, and network support for
-              360 video/AR/VR
+              ML-driven and multi-perspective Internet video delivery
             </h2>
             <p class="main-page-project-content">
-              Many exciting new applications are emerging on the Internet such
-              as 4K video, 360 video, and AR/VR which are both bandwidth
-              intensive, and can only tolerate tens of milliseconds of latency
-              for good user experience. We are developing novel algorithms and
-              building prototye systems for ensuring a high quality of
-              experience for these applications despite variable Internet
-              environments (e.g., cellular settings). Our algorithms are often
-              informed by large-scale real-world data sets (e.g, of video
-              streaming sessions) and cutting edge ML techniques
+              We are optimizing Internet video delivery using ML techniques (such as causal 
+              reasoning), and are tackling challenges in delivering next generation video (such as 
+              360 degree and volumetric video), which are not only bandwidth intensive but also 
+              latency sensitive, with high perceptual quality. Our past research 
+              has made important advances to the design of Adaptive Bit Rate (ABR) algorithms 
+              for Internet video streaming over variable Internet environments, developed systems
+              that significantly reduce mobile Web latency, developed novel approaches to 
+              architect low-latency cloud applications, and has pioneered a peer-to-peer approach for 
+              live video broadcasting. We have extensively collaborated extensively with industry, including
+              an active on going collaboration with Amazon Prime Video. 
             </p>
           </div>
         </div>
@@ -91,13 +86,13 @@
           <div class="main-page-project-div">
             <p class="main-page-project-content pt-6">
               Our research has benefited by support from NSF, Cisco, Google,
-              Facebook, NetApp, AT&T, and Microsoft , and many of our projects
+              Meta, NetApp, AT&T, and Microsoft, and many of our projects
               have involved collaboration with these organizations. Many of the
               challenges we address are motivated by real-world experience,
-              require insights into operations of networks at scale, are great
-              fun, and can change theworld! After completing a Ph.D, alumni of
+              require insights into operations of networks at scale, and can
+              have significant real-world impact. After completing a Ph.D, alumni of
               Purdue ISL are now working on cutting edge network infrastructure
-              at places such as Facebook, Google, AT&T,Bytedance, as well as in
+              at places such as Meta, Google, AT&T, Bytedance, as well as in
               universities and Government Agencies. Purdue ISL has often
               involved undergraduate students, who have continued to pursue
               graduate studies in top universities, or gone on to good industry

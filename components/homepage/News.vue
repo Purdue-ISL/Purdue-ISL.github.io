@@ -24,6 +24,22 @@
         />
 
         <HomepageNew
+          date="August 2022"
+          content="NSF grant (Formal Methods in the Field) awarded on Flexible Data Plane Programming" 
+        />
+
+        <HomepageNew
+          date="August 2022"
+          content="NSF grant awarded on ML-Driven Online Traffic Analysis at Multi-Terabit Line Rates"
+        />
+
+        <HomepageNew
+          date="January 2023"
+          paper="Learning near-optimal network designs by query"
+          venue="ACM POPL 2023"
+        />
+        
+        <HomepageNew
           date="December 2022"
           paper="Flexile: Meeting bandwidth objectives almost always"
           venue="ACM CoNEXT 2022"
@@ -37,7 +53,22 @@
           venue="ACM IMC 2022"
           status="present"
         />
+          
+        <HomepageNew
+          date="October 2022"
+          content="Received Amazon Sponsored Project support on Anomaly detection in live video"
+        />
 
+        <HomepageNew
+          date="August 2022"
+          content="NSF grant awarded on Causal Reasoning for Data-Driven Networking"
+        />
+          
+         <HomepageNew
+          date="April 2022"
+          content="Received Amazon Research Award on Answering counterfactuals from offline data for video streaming"
+        />
+          
         <HomepageNew
           date="December 2021"
           content="Professor Rao elevated to ACM Distinguished Member."
@@ -110,6 +141,18 @@
           venue="IEEE INFOCOM 2020"
         />
 
+        <HomepageNew
+          date="December 2019"
+          paper="Lancet: Better network resilience by designing for pruned failure sets."
+          venue="ACM Sigmetrics 2020"
+        />
+        
+         <HomepageNew
+          date="November 2019"
+          paper="Learning Network Design Objectives Using A Program Synthesis Approach."
+          venue="ACM HotNets 2019"
+        />
+        
         <HomepageNew
           date="August 2019"
           content="NSF grant awarded on Designing Networks for Stringent Performance Requirements."

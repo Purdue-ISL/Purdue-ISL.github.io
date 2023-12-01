@@ -40,7 +40,7 @@
             methods for network architects to express their intent at higher
             levels of abstraction, and techniques to automatically synthesize
             network designs that realize this intent correctly and efficiently.
-            <br>
+            <br> <br>
             
             As a concrete example, we have tackled a key challenge network
             architects encounter: how to balance multiple conflicting metrics,
@@ -64,6 +64,12 @@
             developed Net10Q, a system based on our approach, and evaluated
             its effectiveness on real-world network case studies, and through
             pilot user studies comprising network researchers and practitioners.
+
+            <br> <br>
+            More recently, we have started exploring program synthesis approaches for 
+            data plane forwarding in the context of the P4 programming language
+      
+          
           </p>
         </div>
       </div>
@@ -86,7 +92,7 @@
               title="Learning Network Design Objectives Using A Program Synthesis Approach"
               authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
               conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
-              paper="papers/HotNets_2019_Paper.pdf"
+              paper="../papers/HotNets_2019_Paper.pdf"
             /><PublicationsSeparator />
           </p>
         </div>
@@ -97,11 +103,83 @@
           <h1 class="subpages-section-title">Team</h1>
         </div>
         <div class="subpages-section-content">
-          <p>
-            <!--Project Team-->
-            Yanjun Wang, Zixuan Li, Xiaokang Wang, Chuan Jiang, Prof. Sanjay
-            Rao, Prof. Xiaokang Qiu
-          </p>
+          <div>
+            <span class="font-bold text-xl">Faculty</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li class="font-mono tracking-tighter">Prof. Sanjay Rao</li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Students</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Chenan Wen
+                  </span>
+                  <span>— Ph.D. student</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Syed Usman Jafri </span
+                  ><span> — Ph.D. student</span>
+                </li>
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Zhuocong Li </span
+                  ><span> — Undergraduate student</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Graduated Students</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Chuan Jiang
+                  </span>
+                  <span>— Ph.D.</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Yanjun Wang </span
+                  ><span> — Ph.D.</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Zixuan Li </span
+                  ><span> — MS</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
+
+          <div>
+            <span class="font-bold text-xl">Collaborators</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter"
+                    >Prof. Xiaokang Qiu</span
+                  >
+                  <span> — Purdue University</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br />
         </div>
       </div>
     </div>

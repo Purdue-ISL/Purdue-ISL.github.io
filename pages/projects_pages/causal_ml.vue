@@ -55,16 +55,16 @@
             the issues are more general across networking.
             <br /><br />
 
-            Some example contributions from the project include (i) Xatu, a system that uses LSTMs 
-            to achieve high prediction accuracies for throughput in video streaming systems 
-            (a pre-requisite for the design of video streaming algorithms). Xatu achieves prediction 
+            Some example contributions from the project include (i) Veritas, a system for answering
+            what-if questions related to video streaming without requiring Randomized Control Trial
+            Data; (i) Xatu, a system that uses LSTMs to achieve high prediction accuracies for throughput 
+            in video streaming systems (a pre-requisite for the design of video streaming algorithms). 
+            Xatu achieves prediction 
             accuracies of over 24% relative to state-of-the-art; and (ii) Oboe, a system for auto-tuning 
             a wide range of Adaptive Bit Rate algorithms (a key building block for Internet video) to 
             network conditions. Oboe significantly outperforms state-of-the-art approaches including 
-            a reinforcement learning method; and (iii) exploring the benefits of deploying servers at 
-            the edge to optimize Internet video, and designing video streaming algorithms that can 
-            exploit the same. We have released two large-scale datasets of real video sessions to the 
-            research community as part of the project.
+            a reinforcement learning method. We have released two large-scale datasets of real video sessions 
+            to the research community as part of the project.
             <br /><br />
 
           </p>
@@ -76,13 +76,25 @@
           <h1 class="subpages-section-title">Publications</h1>
         </div>
         <div class="subpages-section-content">
+
+          <PublicationsPublication
+            title="Veritas: Answering Causal Queries from Video Streaming Traces"
+            authors="Chandan Bothra, Jianfei Gao, Sanjay Rao, and Bruno Ribeiro"
+            conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2023"
+            paper="https://dl.acm.org/doi/pdf/10.1145/3603269.3604828"
+            slides="https://purdue-isl.github.io/papers-pdf/veritas_slides.pptx"
+            video="https://www.youtube.com/watch?v=ZqIKtuQ1gtY"
+            github="https://github.com/Purdue-ISL/Veritas"
+          />
+          <PublicationsSeparator />
+          
           <PublicationsPublication
             title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
             authors="Yun Seong Nam, Jianfei Gao, Chandan Bothra, Ehab Ghabashneh, Sanjay Rao, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
             conference="ACM Sigmetrics 2022"
             paper="https://dl.acm.org/doi/pdf/10.1145/3491056"
-            slides="slides/Xatu-Sigmetrics-2022.pdf"
-            video="videos/Xatu-Sigmetrics-2022.mp4"
+            slides="../slides/Xatu-Sigmetrics-2022.pdf"
+            video="../videos/Xatu-Sigmetrics-2022.mp4"
           />
           <PublicationsSeparator />
 
@@ -90,8 +102,8 @@
             title="Pitfalls of data-driven networking: A case study of latent causal confounders in video streaming"
             authors="P. C. Sruthi, Sanjay Rao, Bruno Ribeiro"
             conference="ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI 2020)"
-            paper="papers/sigcomm-netai2020.pdf"
-            slides="slides/sigcomm-netai2020-slides.pdf"
+            paper="../papers/sigcomm-netai2020.pdf"
+            slides="../slides/sigcomm-netai2020-slides.pdf"
             video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
           />
           <PublicationsSeparator />
@@ -100,10 +112,12 @@
             title="Oboe: Auto-tuning Video ABR Algorithms to Network Conditions"
             authors="Zahaib Akhtar, Yun Seong Nam, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz Bassett, Bruno Martins Ribeiro, Jibin Zhan, Hui Zhang"
             conference="ACM SIGCOMM 2018"
-            paper="papers/sigcomm18-final128.pdf"
+            paper="../papers/sigcomm18-final128.pdf"
             video="https://www.youtube.com/watch?v=4ehZhvvAA-I&t=16514s"
           />
           <PublicationsSeparator />
+
+          
         </div>
       </div>
 

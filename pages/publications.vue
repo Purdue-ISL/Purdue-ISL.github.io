@@ -8,25 +8,9 @@
       <div class="w-[96%] mx-auto">
         <p class="ml-2 pt-8 font-extralight italic">**grouped by project</p>
 
-        <div class="publication-project-container">
-          <h1 class="publication-main-headers">Datacenter Networks</h1>
-          <div class="publication-div">
-            <PublicationsPublication
-              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
-              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
-              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
-              slides="slides/imc2022.pptx"
-              video="videos/imc2022.m4v"
-              dataset="https://github.com/facebookresearch/Millisampler-data"
-            />
-          </div>
-        </div>
 
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">
-            ML and Data-Driven Optimization of Internet Video
-          </h1>
+          <h1 class="publication-main-headers">Multi-Perspective Video Delivery at Internet Scale</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
@@ -36,7 +20,17 @@
               slides="papers-pdf/Dragonfly-Sigcomm23_final.pptx"
               video="https://www.youtube.com/watch?v=FHyaGPMBV6c"
               github="https://github.com/Purdue-ISL/Dragonfly"
-            /><PublicationsSeparator />
+            />
+          </div>
+        </div>
+
+      
+      <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Causal Models and ML-Driven Optimization of Internet Video
+          </h1>
+          <div class="publication-div">
+        
 
             <PublicationsPublication
               title="Veritas: Answering Causal Queries from Video Streaming Traces"
@@ -66,52 +60,12 @@
               video="https://www.youtube.com/watch?v=jYYmXLEXTjM"
             /><PublicationsSeparator />
 
-            <PublicationsPublication
-              title="Exploring the interplay between CDN caching and video streaming performance"
-              authors="Ehab Ghabashneh, Sanjay Rao"
-              conference="Proceedings of IEEE International Conference on Computer Communications (INFOCOM), 2020"
-              paper="papers/infocom2020.pdf"
-              slides="slides/infocom2020.pptx"
-              video="videos/infocom2020.mp4"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Oboe: Auto-tuning video ABR algorithms to network conditions"
-              authors="Zahaib Akhtar*, Yun Seong Nam*, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz-Bassett, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
-              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2018"
-              paper="papers/sigcomm18-final128.pdf"
-              note="(* : Both authors contributed equally)"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Understanding Video Management Planes"
-              authors="Zahaib Akhtar*, Yun Seong Nam*, Jessica Chen, Ramesh Govindan, Ethan Katz-Bassett, Sanjay Rao, Jibin Zhan, Hui Zhang"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2018"
-              paper="papers/imc2018.pdf"
-              note="(* : Both authors contributed equally)"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="YouTube Everywhere: Impact of Device and Infrastructure Synergies on User Experience"
-              authors="Alessandro Finamore, Ruben Torres, Marco Mellia, Maurizio Munafo and Sanjay Rao"
-              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2011"
-              paper="papers/imc11.pdf"
-              slides="slides/imc11_finamore.pptx"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Dissecting Video Server Selection Strategies in the YouTube CDN"
-              authors="Ruben Torres, Alessandro Finamore, Jesse Kim, Marco Mellia, Maurizio Munafo and Sanjay Rao"
-              conference="Proceedings of IEEE  International Conference on Distributed Computing Systems (ICDCS), 2011"
-              paper="papers/ICDCS11.pdf"
-              slides="slides/icdcs11_final.pdf"
-            />
+            </div>
           </div>
-        </div>
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Synthesizing network designs with certifiable properties
+            A Program Synthesis Approach to Network Design
           </h1>
           <div class="publication-div">
             <PublicationsPublication
@@ -121,6 +75,21 @@
               paper="https://dl.acm.org/doi/pdf/10.1145/3571197"
             /><PublicationsSeparator />
 
+            <PublicationsPublication
+              title="Learning Network Design Objectives Using A Program Synthesis Approach"
+              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
+              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
+              paper="papers/HotNets_2019_Paper.pdf"
+            /><PublicationsSeparator />
+           </div>
+          </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Synthesizing network designs with formal SLO Guarantees
+          </h1>
+          <div class="publication-div">
+            
             <PublicationsPublication
               title="Flexile: Meeting bandwidth objectives almost always"
               authors="Chuan Jiang, Zixuan Li, Sanjay Rao, Mohit Tawarmalani"
@@ -148,61 +117,45 @@
             /><PublicationsSeparator />
 
             <PublicationsPublication
-              title="Learning Network Design Objectives Using A Program Synthesis Approach"
-              authors="Yanjun Wang, Chuan Jiang, Xiaokang Qiu, Sanjay G. Rao"
-              conference="Proceedings of the 18th ACM Workshop on Hot Topics in Networks (HotNets), 2019"
-              paper="papers/HotNets_2019_Paper.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
               title="Robust validation of network designs under uncertain demands and failures"
               authors="Yiyang Chang, Sanjay Rao, Mohit Tawarmalani"
               conference="Proceedings of the 14th USENIX Symposium on Networked Systems Design and Implementation (NSDI), 2017"
               paper="papers/nsdi17-final59.pdf"
               slides="papers/nsdi2017_validation_slides.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Alpaca: Compact Network Policies With Attribute-Encoded Addresses"
-              authors="Nanxi Kang, Ori Rottenstreich, Sanjay Rao and Jennifer Rexford"
-              conference="IEEE/ACM Transactions on Networking, 2017."
-              note=" An earlier version of this paper appeared in ACM CoNext 2015"
-              paper="https://ieeexplore.ieee.org/abstract/document/7855776"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Hydra: Leveraging Functional Slicing for Efficient Distributed SDN Controllers"
-              authors="Yiyang Chang, Ashkan Rezaei, Balajee Vamanan, Jahangir Hasan, Sanjay Rao, and T. N. Vijaykumar"
-              conference="proceedings of the 9th IEEE International Conference on COMmunication Systems and NETworkS (IEEE COMSNETS), 2017"
-              paper="papers/comsnets17_hydra.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Composing middlebox and traffic engineering policies in SDNs"
-              authors="Yiyang Chang, Gustavo Petri, Sanjay Rao, Tiark Rompf"
-              conference="Proceedings of the 2nd International INFOCOM Workshop on Software-Driven Flexible and Agile Networking (IEEE INFOCOM Workshop SWFAN), 2017"
-              paper="papers/paper_swfan2017_yiyang.pdf"
-              slides="papers/slides_swfan2017_yiyang.pdf"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Modeling Complexity of Enterprise Routing Design"
-              authors="Xin Sun, Sanjay G. Rao and Geoffrey G. Xie"
-              conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
-              paper="papers/conext172-sun.pdf"
-              note="See Purdue Technical Report version TR-ECE-12-10"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Towards Systematic Design of Enterprise Networks"
-              authors="Yu-Wei Sung, Xin Sun, Sanjay Rao, Geoffrey Xie and David Maltz"
-              conference="IEEE/ACM Transactions on Networking (ToN), 2011"
-              paper="papers/ton11.pdf"
             />
           </div>
         </div>
 
         <div class="publication-project-container">
+          <h1 class="publication-main-headers">Datacenter Networks</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="A Microscopic View of Bursts, Buffer Contention, and Loss in Data Centers"
+              authors="Ehab Ghabashneh , Yimeng Zhao , Cristian Lumezanu , Neil Spring , Srikanth Sundaresan, Sanjay Rao"
+              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2022"
+              paper="https://dl.acm.org/doi/pdf/10.1145/3517745.3561430"
+              slides="slides/imc2022.pptx"
+              video="videos/imc2022.m4v"
+              dataset="https://github.com/facebookresearch/Millisampler-data"
+            />
+          </div>
+        </div>
+
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Intent-Driven Network Management </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Hey, Lumi! Using Natural Language for Intent-Based Network Management"
+              authors="Arthur S Jacobs, Ricardo J. Pfitscher, Rafael H. Ribeiro, Ronaldo A. Ferreira, Lissandro Granville, Walter Willinger and Sanjay Rao"
+              conference="Proceedings of Usenix ATC, 2021"
+              paper="https://www.usenix.org/conference/atc21/presentation/jacobs"
+            />
+          </div>
+        </div>
+        
+
+
+         <div class="publication-project-container">
           <h1 class="publication-main-headers">
             Video streaming in Unmanned Aerial Systems (UAS) settings
           </h1>
@@ -231,10 +184,48 @@
             />
           </div>
         </div>
+        
+          <div class="publication-project-container">
+            <h1 class="publication-main-headers">
+            Delivering Internet Video with high Quality of Experience
+            </h1>
+          <div class="publication-div">
+        
+            <PublicationsPublication
+              title="Exploring the interplay between CDN caching and video streaming performance"
+              authors="Ehab Ghabashneh, Sanjay Rao"
+              conference="Proceedings of IEEE International Conference on Computer Communications (INFOCOM), 2020"
+              paper="papers/infocom2020.pdf"
+              slides="slides/infocom2020.pptx"
+              video="videos/infocom2020.mp4"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Oboe: Auto-tuning video ABR algorithms to network conditions"
+              authors="Zahaib Akhtar*, Yun Seong Nam*, Ramesh Govindan, Sanjay Rao, Jessica Chen, Ethan Katz-Bassett, Bruno Ribeiro, Jibin Zhan, Hui Zhang"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2018"
+              paper="papers/sigcomm18-final128.pdf"
+              note="(* : Both authors contributed equally)"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Understanding Video Management Planes"
+              authors="Zahaib Akhtar*, Yun Seong Nam*, Jessica Chen, Ramesh Govindan, Ethan Katz-Bassett, Sanjay Rao, Jibin Zhan, Hui Zhang"
+              conference="Proceedings of ACM Internet Measurement Conference (IMC), 2018"
+              paper="papers/imc2018.pdf"
+              note="(* : Both authors contributed equally)"
+            />
+          </div>
+        </div>
+
+        
+        
+         
+       
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Achieving low mobile web latency
+            SmartEdge for low latency mobile Web 
           </h1>
           <div class="publication-div">
             <PublicationsPublication
@@ -267,6 +258,37 @@
           </div>
         </div>
 
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Managing policy in SDN Networks
+          </h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Hydra: Leveraging Functional Slicing for Efficient Distributed SDN Controllers"
+              authors="Yiyang Chang, Ashkan Rezaei, Balajee Vamanan, Jahangir Hasan, Sanjay Rao, and T. N. Vijaykumar"
+              conference="proceedings of the 9th IEEE International Conference on COMmunication Systems and NETworkS (IEEE COMSNETS), 2017"
+              paper="papers/comsnets17_hydra.pdf"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Composing middlebox and traffic engineering policies in SDNs"
+              authors="Yiyang Chang, Gustavo Petri, Sanjay Rao, Tiark Rompf"
+              conference="Proceedings of the 2nd International INFOCOM Workshop on Software-Driven Flexible and Agile Networking (IEEE INFOCOM Workshop SWFAN), 2017"
+              paper="papers/paper_swfan2017_yiyang.pdf"
+              slides="papers/slides_swfan2017_yiyang.pdf"
+            /><PublicationsSeparator />
+            
+            <PublicationsPublication
+              title="Alpaca: Compact Network Policies With Attribute-Encoded Addresses"
+              authors="Nanxi Kang, Ori Rottenstreich, Sanjay Rao and Jennifer Rexford"
+              conference="IEEE/ACM Transactions on Networking, 2017."
+              note=" An earlier version of this paper appeared in ACM CoNext 2015"
+              paper="https://ieeexplore.ieee.org/abstract/document/7855776"
+            />
+            </div>
+          </div>
+
+        
         <div class="publication-project-container">
           <h1 class="publication-main-headers">
             Architecting latency-sensitive applications for the cloud
@@ -310,7 +332,7 @@
             <PublicationsPublication
               title="Performance sensitive replication in geo-distributed cloud datastores"
               authors="Shankaranarayanan P N, Ashiwan Sivakumar, Sanjay Rao, Mohit Tawarmalani, DSN 2014"
-              conference="SIGCOMM 2013"
+              conference="DSN 2014"
               paper="papers/ShankarDSN14.pdf"
             /><PublicationsSeparator />
 
@@ -391,11 +413,26 @@
           </div>
         </div>
 
-        <div class="publication-project-container">
+          <div class="publication-project-container">
           <h1 class="publication-main-headers">
-            Network configuration verification and enterprise network management
+            Designing Enterprise Networks from Higher-Level Abstractions
           </h1>
-          <div class="publication-div">
+            <div class="publication-div">
+              <PublicationsPublication
+              title="Modeling Complexity of Enterprise Routing Design"
+              authors="Xin Sun, Sanjay G. Rao and Geoffrey G. Xie"
+              conference="Proceedings of ACM Conference on emerging Networking EXperiments and Technologies  (CoNEXT), 2022"
+              paper="papers/conext172-sun.pdf"
+              note="See Purdue Technical Report version TR-ECE-12-10"
+            /><PublicationsSeparator />
+
+              <PublicationsPublication
+              title="Towards Systematic Design of Enterprise Networks"
+              authors="Yu-Wei Sung, Xin Sun, Sanjay Rao, Geoffrey Xie and David Maltz"
+              conference="IEEE/ACM Transactions on Networking (ToN), 2011"
+              paper="papers/ton11.pdf"
+            />
+
             <PublicationsPublication
               title="A Software Toolkit for Visualizing Enterprise Routing Design"
               authors="Xin Sun, Jinliang Wei, Sanjay Rao and Geoffrey Xie"
@@ -409,21 +446,54 @@
               conference="In IEEE Communications Magazine"
               paper="papers/commag11.pdf"
             /><PublicationsSeparator />
-
-            <PublicationsPublication
+              
+              <PublicationsPublication
               title="A Cost-Benefit Framework for Judicious Enterprise Network Redesign"
               authors="Xin Sun and Sanjay Rao"
               conference="In proceedings of IEEE INFOCOM (Mini-Conference), Shanghai, China, 2011"
               paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Characterization of community based P2P systems and implications for traffic localization"
-              authors="R. Torres, M. Mellia, M. Munafo and S.G. Rao"
-              conference="Springer Journal on Peer-to-Peer Networking and Applications, 2012"
-              paper="papers/p2pjournal12.pdf"
+              
+              <PublicationsPublication
+              title="A Systematic Approach for Evolving VLAN Design"
+              authors="Xin Sun and Yu-Wei Eric Sung and Sunil Krothapalli and Sanjay Rao"
+              conference="In proceedings of IEEE INFOCOM, San Diego, 2010"
+              paper="papers/infocom11-redesign.pdf"
             /><PublicationsSeparator />
 
+              <PublicationsPublication
+              title="Towards Systematic Design of Enterprise Networks"
+              authors="Yu-Wei Eric Sung, Sanjay Rao, Geoffrey Xie, and David Maltz"
+              conference="Proceedings of ACM CoNEXT, Madrid, Spain, December, 2008"
+              paper="papers/conext08.pdf"
+              dataset="https://engineering.purdue.edu/~isl/network-config"
+            /><PublicationsSeparator />
+
+              <PublicationsPublication
+              title="Characterizing VLAN usage in an Operational Network"
+              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, and Sanjay Rao"
+              conference="Technical Report TR-ECE-07-20, Purdue University, August 2007"
+              paper="http://docs.lib.purdue.edu/ecetr/362/"
+            /><PublicationsSeparator />
+
+            <PublicationsPublication
+              title="Characterizing VLAN usage in an Operational Network"
+              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, Sanjay Rao"
+              conference="ACM SIGCOMM workshop on Internet Network Management (INM'07), Kyoto, Japan, August 2007"
+              paper="papers/inm07.pdf"
+              dataset="https://engineering.purdue.edu/~isl/network-config"
+            /><PublicationsSeparator />
+
+            </div>
+        </div>
+        
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">
+            Network configuration verification and synthesis
+          </h1>
+          <div class="publication-div">
+          
+            
             <PublicationsPublication
               title="A Toolkit for Automating and Visualizing VLAN Configuration"
               authors="Sunil Krothapalli, Xin Sun, Yu-Wei Sung, Suan Aik Yeo and Sanjay Rao"
@@ -451,30 +521,7 @@
               conference="in IEEE Journal on Selected Areas in Communications (JSAC), 2009"
               paper="papers/jsac_presto.pdf"
             /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Towards Systematic Design of Enterprise Networks"
-              authors="Yu-Wei Eric Sung, Sanjay Rao, Geoffrey Xie, and David Maltz"
-              conference="Proceedings of ACM CoNEXT, Madrid, Spain, December, 2008"
-              paper="papers/conext08.pdf"
-              dataset="https://engineering.purdue.edu/~isl/network-config"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="Characterizing VLAN usage in an Operational Network"
-              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, and Sanjay Rao"
-              conference="Technical Report TR-ECE-07-20, Purdue University, August 2007"
-              paper="http://docs.lib.purdue.edu/ecetr/362/"
-            /><PublicationsSeparator />
-
-            <PublicationsPublication
-              title="haracterizing VLAN usage in an Operational Network"
-              authors="Prashant Garimella, Yu-Wei Eric Sung, Nan Zhang, Sanjay Rao"
-              conference="ACM SIGCOMM workshop on Internet Network Management (INM'07), Kyoto, Japan, August 2007"
-              paper="papers/inm07.pdf"
-              dataset="https://engineering.purdue.edu/~isl/network-config"
-            /><PublicationsSeparator />
-
+          
             <PublicationsPublication
               title="Configuration Management at Massive Scale: System Design and Experience"
               authors="William Enck, Patrick McDaniel, Shubho Sen, Panagiotis Sebos, Sylke Spoerel, Albert Greenberg, Sanjay Rao, and William Aiello"
@@ -499,7 +546,7 @@
             <PublicationsPublication
               title="Preventing DDoS Attacks on Internet Servers Exploiting P2P Systems"
               authors="Xin Sun,Ruben Torres and Sanjay Rao"
-              conference="Xin Sun,Ruben Torres and Sanjay Rao"
+              conference="Elsevier Computer Networks Journal"
               paper="papers/comnet-ddos.pdf"
             /><PublicationsSeparator />
 

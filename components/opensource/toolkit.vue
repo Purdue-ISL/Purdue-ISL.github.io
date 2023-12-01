@@ -7,7 +7,7 @@
       {{ content }}
     </p>
     <span ref="linkTag" class="more hidden"
-      ><NuxtLink :to="toPage"> ... more </NuxtLink></span
+      ><NuxtLink :to="toPage" target="_blank"> ... more </NuxtLink></span
     >
   </div>
 </template>

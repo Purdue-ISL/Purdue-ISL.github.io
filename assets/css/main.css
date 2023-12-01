@@ -466,21 +466,7 @@
     .date::after{
         content: " — ";
     }
-    .paper-title{
-        @apply font-bold;
 
-    }
-    .paper-title::before{
-        @apply font-normal;
-        content: "Our paper, ";
-    }
-    .paper-title::after{
-        @apply font-normal;
-        content: " was accepted ";
-    }
-    .paper-conference::after{
-        content:"."
-    }
 
     .paper-entry::before{
         content:attr(paper-date)+" x ";
@@ -610,6 +596,20 @@
         
     }
 
+    .loadMore{
+        @apply text-center font-light italic cursor-pointer;
+        transition: all .5s ease-in-out;
+      }
+    .loadMore:hover{
+        @apply text-indigo-800 font-extrabold;
+        
+    }
+
+    .bounce{
+        animation: bounceAnime 1s linear infinite;
+    }
+
+    
     .opensource-section-container{   
         @apply px-[4%] ;
         display: flex;
@@ -695,6 +695,17 @@
 }
 
 
+@keyframes bounceAnime {
+    25%{
+        transform: translateY(2px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-2px);
+    }
+}
 
 @keyframes typing {
     from {

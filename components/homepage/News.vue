@@ -2,7 +2,7 @@
   <div class="main-container">
     <h1 class="main-page-main-headers">What's new?</h1>
     <div id="box3" class="news">
-      <div class="timeline pl-6 pt-6">
+      <div class="timeline pl-6 pt-6 pb-6">
         <HomepageNew
           date="November 2023"
           content="Ehab Ghabashneh defends his Ph.D thesis."
@@ -13,18 +13,21 @@
           date="September 2023"
           paper="Dragonfly: Higher Perceptual Quality For Continuous 360° Video Playback"
           venue="ACM SIGCOMM 2023"
+          status="present"
         />
 
         <HomepageNew
           date="September 2023"
           paper="Veritas: Answering Causal Queries from Video Streaming Traces"
           venue="ACM SIGCOMM 2023"
+          status="present"
         />
 
         <HomepageNew
           date="December 2022"
           paper="Flexile: Meeting bandwidth objectives almost always"
           venue="ACM CoNEXT 2022"
+          status="present"
         />
 
         <HomepageNew
@@ -32,6 +35,7 @@
           paper="A Microscopic View of Bursts, Buffer Contention, and Loss in Data
               Centers"
           venue="ACM IMC 2022"
+          status="present"
         />
 
         <HomepageNew
@@ -43,6 +47,7 @@
           date="November 2021"
           paper="Xatu: Richer Neural Network Based Prediction for Video Streaming"
           venue="ACM SIGMETRICS 2022"
+          status="present"
         />
 
         <HomepageNew
@@ -50,6 +55,7 @@
           paper="Chimera: exploiting UAS flight path information to optimize
               heterogeneous data transmission"
           venue="IEEE ICNP 2021"
+          status="present"
         />
 
         <HomepageNew
@@ -64,6 +70,7 @@
           paper="Hey Lumi! Using Natural Language for Intent-Based Network
               Management"
           venue="Usenix ATC 2021"
+          status="present"
         />
 
         <HomepageNew
@@ -72,12 +79,14 @@
               confounders in video streaming"
           venue="ACM SIGCOMM 2020 Workshop on Network Meets AI & ML (NetAI
               2020)"
+          status="present"
         />
 
         <HomepageNew
           date="August 2020"
           paper="PCF: Provably Resilient Flexible Routing"
           venue="ACM SIGCOMM 2020"
+          status="present"
         />
 
         <HomepageNew
@@ -156,9 +165,61 @@
           venue="USENIX NSDI 2017"
         />
       </div>
+      <div id="news-load" class="text-center pb-2 flex justify-center">
+        <p @click="expandNews" class="loadMore">Load more</p>
+        <p class="pt-1 bounce">
+          <svg width="20px" viewBox="0 0 24 24">
+            <path
+              d=" M7 13L12 18L17 13M7 6L12 11L17 6"
+              stroke="#FFF"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            ></path>
+          </svg>
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 
+<script type="module">
+let allNewsComponents = [];
+let numNewsToShow = 10;
+export default {
+  methods: {
+    showNews() {
+      for (var idx = 0; idx < allNewsComponents.length; idx++) {
+        if (idx < numNewsToShow) {
+          console.log(allNewsComponents[idx]);
+          allNewsComponents[idx].classList.remove("hidden");
+        }
+      }
+      if (numNewsToShow >= allNewsComponents.length) {
+        document.getElementById("news-load").classList.add("hidden");
+      }
+    },
+    expandNews() {
+      numNewsToShow = numNewsToShow * 2;
+      this.showNews();
+    },
+    showNewsInit() {
+      numNewsToShow = 10;
+      for (var idx = 0; idx < allNewsComponents.length; idx++) {
+        allNewsComponents[idx].classList.add("hidden");
+      }
 
+      document.getElementById("news-load").classList.remove("hidden");
+    },
+  },
+  mounted() {
+    allNewsComponents = document.querySelectorAll(".entry-container");
+    this.showNewsInit();
+    this.showNews();
+  },
+  unmounted() {},
+};
+</script>
+  
+  

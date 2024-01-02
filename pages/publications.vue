@@ -8,6 +8,16 @@
       <div class="w-[96%] mx-auto">
         <p class="ml-2 pt-8 font-extralight italic">**grouped by project</p>
 
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Online Traffic Analysis at Multi-Terabit Line Rates</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
+              authors="Syed Usman Jafri, Sanjay Rao, Vishal Shrivastav and Mohit Tawarmalani"
+              conference="(To appear) Proceedings of USENIX Symposium on Networked Systems Design and Implementation (NSDI), April 2024"
+            />
+          </div>
+        </div>
 
         <div class="publication-project-container">
           <h1 class="publication-main-headers">Multi-Perspective Video Delivery at Internet Scale</h1>

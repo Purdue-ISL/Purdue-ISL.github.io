@@ -4,6 +4,13 @@
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6 pb-6">
         <HomepageNew
+          date="December 2023"
+          paper="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
+          venue="USENIX NSDI 2024"
+          status="accept"
+        />
+
+        <HomepageNew
           date="November 2023"
           content="Ehab Ghabashneh defends his Ph.D thesis."
           congrats="Dr.Ghabashneh"

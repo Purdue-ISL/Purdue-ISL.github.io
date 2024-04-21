@@ -4,10 +4,10 @@
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6 pb-6">
         <HomepageNew
-          date="December 2023"
+          date="April 2024"
           paper="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
           venue="USENIX NSDI 2024"
-          status="accept"
+          status="present"
         />
 
         <HomepageNew

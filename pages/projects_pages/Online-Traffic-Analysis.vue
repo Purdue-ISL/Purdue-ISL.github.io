@@ -36,8 +36,9 @@
           <PublicationsPublication
             title="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
             authors="Syed Usman Jafri, Sanjay Rao, Vishal Shrivastav and Mohit Tawarmalani"
-            conference="(To appear) Proceedings of USENIX Symposium on Networked Systems Design and Implementation (NSDI), April 2024"
+            conference="Proceedings of USENIX Symposium on Networked Systems Design and Implementation (NSDI), April 2024"
             paper="../papers/Leo-NSDI-2024.pdf"
+            slides="../slides/Leo-NSDI-2024-slides.pdf"
             github="https://github.com/Purdue-ISL/Leo"
           />
           <PublicationsSeparator />

@@ -4,6 +4,14 @@
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6 pb-6">
         <HomepageNew
+          date="June 2024"
+          paper="Transferable Neural WAN TE for Changing Topologies"
+          venue="ACM SIGCOMM 2024"
+          status="accept"
+        />
+
+        
+        <HomepageNew
           date="April 2024"
           paper="Leo: Online Traffic Classification at Multi-Terabit Line Rates"
           venue="USENIX NSDI 2024"

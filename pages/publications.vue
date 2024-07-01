@@ -17,6 +17,7 @@
               conference="Proceedings of USENIX Symposium on Networked Systems Design and Implementation (NSDI), April 2024"
               paper="papers/Leo-NSDI-2024.pdf"
               slides="slides/Leo-NSDI-2024-slides.pdf"
+              video="https://www.youtube.com/watch?v=VH-hNyACW7g"
               github="https://github.com/Purdue-ISL/Leo"
             />
           </div>

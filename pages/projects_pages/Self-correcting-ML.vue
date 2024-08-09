@@ -44,9 +44,16 @@
           <h1 class="subpages-section-title">Publications</h1>
         </div>
         <div class="subpages-section-content">
-          <p>
-            Project publications
-          </p>
+          <PublicationsPublication
+            title="HARP: Transferable Neural WAN TE for Changing Topologies"
+            authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro and Mohit Tawarmalani"
+            conference="Proceedings of the ACM SIGCOMM 2024 Conference, August 2024"
+            paper="../papers/HARP_SIGCOMM_Paper.pdf"
+            slides="../slides/HARP-SIGCOMM-2024-Slides.pptx"
+            video="https://www.youtube.com/watch?v=7E6mj40poMs"
+            github="https://github.com/Purdue-ISL/HARP"
+          />
+          <PublicationsSeparator />
         </div>
       </div> -->
 

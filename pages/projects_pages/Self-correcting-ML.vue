@@ -45,7 +45,7 @@
         </div>
         <div class="subpages-section-content">
           <PublicationsPublication
-            title="HARP: Transferable Neural WAN TE for Changing Topologies"
+            title="Transferable Neural WAN TE for Changing Topologies"
             authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro and Mohit Tawarmalani"
             conference="Proceedings of the ACM SIGCOMM 2024 Conference, August 2024"
             paper="../papers/HARP_SIGCOMM_Paper.pdf"

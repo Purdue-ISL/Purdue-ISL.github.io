@@ -8,6 +8,24 @@
       <div class="w-[96%] mx-auto">
         <p class="ml-2 pt-8 font-extralight italic">**grouped by project</p>
 
+
+        
+        <div class="publication-project-container">
+          <h1 class="publication-main-headers">Online Traffic Analysis at Multi-Terabit Line Rates</h1>
+          <div class="publication-div">
+            <PublicationsPublication
+              title="Transferable Neural WAN TE for Changing Topologies"
+              authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro and Mohit Tawarmalani"
+              conference="Proceedings of the ACM SIGCOMM 2024 Conference, August 2024"
+              paper="../papers/HARP_SIGCOMM_Paper.pdf"
+              slides="../slides/HARP-SIGCOMM-2024-Slides.pptx"
+              video="https://www.youtube.com/watch?v=7E6mj40poMs"
+              github="https://github.com/Purdue-ISL/HARP"
+            />
+          </div>
+        </div>
+
+        
         <div class="publication-project-container">
           <h1 class="publication-main-headers">Online Traffic Analysis at Multi-Terabit Line Rates</h1>
           <div class="publication-div">

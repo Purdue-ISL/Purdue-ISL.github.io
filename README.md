@@ -7,6 +7,10 @@ This repo contains the Purdue ISL webpage content which is build using nodejs, V
 - Images and videos data are place under the `public` directory
 
 ## Public website deployment
+
+***Note:* Changes via GitHub's web editor should automatically trigger a recompilation and deploy (takes about 4 to 5 minutes).
+In case you do not see your updates, use the following instructions to trigger a manual update:**
+
 - Install nodeJS and npm (assuming Ubuntu 22.04):
     - `sudo apt update`
     - `sudo apt install nodejs npm`

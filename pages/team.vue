@@ -22,11 +22,17 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
+            <TeamMember
+            name="Zhuocong Li"
+            title="Ph.D. student"
+            area="P4 and Data plane programming"
+            img=""
+          />
           <TeamMember
-            name="Ehab Ghabashneh"
-            title="Ph.D. Candidate"
-            area="Internet Video, 360 degree Video"
-            img="1_ehab.jpg"
+            name="Yizhan Qing"
+            title="Ph.D. student"
+            area=""
+            img=""
           />
           <TeamMember
             name="Chandan Bothra"
@@ -63,19 +69,21 @@
             title="Undergraduate researcher"
             area="360 degree video"
           />
-          
-          <TeamMember
-            name="Zhuocong Li"
-            title="Undergraduate researcher"
-            area="P4 and Data plane programming"
-          />
+
         </div>
       </div>
 
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
-
+          <TeamAlumni
+            name="Ehab Ghabashneh"
+            title="Ph.D."
+            thesis_title="Supporting data center and internet video applications with stringent performance needs: measurements and design"
+            graduation_year="2024"
+            position="Google"
+          /><TeamSeparator />
+          
           <TeamAlumni
             name="Zixuan Li"
             degree="MS"

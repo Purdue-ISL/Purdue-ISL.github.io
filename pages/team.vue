@@ -22,18 +22,6 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
-            <TeamMember
-            name="Zhuocong Li"
-            title="Ph.D. student"
-            area="P4 and Data plane programming"
-            img=""
-          />
-          <TeamMember
-            name="Yizhan Qing"
-            title="Ph.D. student"
-            area=""
-            img=""
-          />
           <TeamMember
             name="Chandan Bothra"
             title="Ph.D Student"
@@ -57,6 +45,24 @@
             title="Ph.D. Student"
             area="ML-Driven Network Synthesis"
             img="2_abd.jpg"
+          />
+          <TeamMember
+            name="Zhuocong Li"
+            title="Ph.D. student"
+            area="P4 and Data plane programming"
+            img=""
+          />
+          <TeamMember
+            name="Yizhan Qing"
+            title="Ph.D. student"
+            area=""
+            img=""
+          />
+          <TeamMember
+            name="Jack Tyler Gardel"
+            title="MS student"
+            area=""
+            img=""
           />
         </div>
       </div>

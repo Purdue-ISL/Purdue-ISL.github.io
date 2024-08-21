@@ -10,6 +10,14 @@
           status="accept"
         />
 
+
+        <HomepageNew
+          date="August 2024"
+          paper="P4CGO: Control Plane Guided P4 Program Optimization"
+          venue="FMANO '24: SIGCOMM Workshop on Formal Methods Aided Network Operation"
+          status="present"
+        />
+
         
         <HomepageNew
           date="April 2024"

@@ -81,7 +81,13 @@
         <div class="subpages-section-content">
           <p>
             <!--Project publications-->
-
+            
+            <PublicationsPublication
+              title="P4CGO: Control Plane Guided P4 Program Optimization"
+              authors="Chenan Wen, Zhuocong Li, Syed Usman Jafri, Xiaokang Qiu and Sanjay Rao"
+              conference="FMANO '24: Proceedings of the 2024 SIGCOMM Workshop on Formal Methods Aided Network Operation, August 2024"
+              paper="papers/P4CGO_FMANO_2O24.pdf"
+            /><PublicationsSeparator />
             <PublicationsPublication
               title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
               authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"

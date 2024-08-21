@@ -24,7 +24,6 @@
             />
           </div>
         </div>
-
         
         <div class="publication-project-container">
           <h1 class="publication-main-headers">Online Traffic Analysis at Multi-Terabit Line Rates</h1>
@@ -100,6 +99,13 @@
             A Program Synthesis Approach to Network Design
           </h1>
           <div class="publication-div">
+            <PublicationsPublication
+              title="P4CGO: Control Plane Guided P4 Program Optimization"
+              authors="Chenan Wen, Zhuocong Li, Syed Usman Jafri, Xiaokang Qiu and Sanjay Rao "
+              conference="FMANO '24: Proceedings of the 2024 SIGCOMM Workshop on Formal Methods Aided Network Operation, August 2024"
+              paper="papers/P4CGO_FMANO_2O24.pdf"
+            /><PublicationsSeparator />
+            
             <PublicationsPublication
               title="Comparative Synthesis: Learning Near-Optimal Network Designs by Query"
               authors="Yanjun Wang, Chuan Jiang, Zixuan Li, Xiaokang Qiu, Sanjay Rao"

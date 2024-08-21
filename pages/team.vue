@@ -50,19 +50,19 @@
             name="Zhuocong Li"
             title="Ph.D. student"
             area="P4 and Data plane programming"
-            img=""
+            img="placeholder-image.png"
           />
           <TeamMember
             name="Yizhan Qing"
             title="Ph.D. student"
             area=""
-            img=""
+            img="placeholder-image.png"
           />
           <TeamMember
             name="Jack Tyler Gardel"
             title="MS student"
             area=""
-            img=""
+            img="placeholder-image.png"
           />
         </div>
       </div>

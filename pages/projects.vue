@@ -34,13 +34,14 @@
             to-page="/projects_pages/causal_ml"
           />
           <ProjectsProject
-            title="A Program Synthesis Approach to Designing Networks with Provable Properties"
-            content="Computer networks are difficult to manage since there exists a wide gulf between the high-level goals that operators have for 
-                     their networks and the low-level decisions that operators should make. Unlike the chip and software industry, where design and 
-                     verification tools form a multi-billion dollar industry, network design and verification is still at an early stage. We are 
-                     exploring approaches to synthesizing network designs with formally certifiable properties. A recent development is a novel 
-                     framework that we term comparative synthesis (inspired by program synthesis from the Programming Language community), where a user's design objective, 
-                     and the synthesis of a network design that optimizes that objective are done in tandem."
+            title="Flexible Data Plane Programming"
+            content="Data plane programming has been widely adopted by both academia and industry. As a prominent instance, the P4 programming language has been a 
+                     key language enabling flexible data plane programming with the support of compilers, formal semantics, verification frameworks, testing systems
+                     , as well as commodity hardware such as Intel Tofino and Cisco Silicon One. Despite these promising development, there is still a long way to 
+                     go to let average network architects program data planes in a natural and efficient way. One unique challenge for data plane programming stems 
+                     from the inherent tension between abstraction and customized optimization. The goal of this project is to reconcile the two research directions 
+                     by developing a radically new programming system for data plane programming, with which a user can naturally and flexibly describe her network 
+                     design and optimization goals and the corresponding optimal data plane can be automaticall generated."
             to-page="/projects_pages/Program-Synthesis-Approach"
           />
 

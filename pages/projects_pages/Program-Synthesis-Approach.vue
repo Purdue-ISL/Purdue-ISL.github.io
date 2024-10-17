@@ -8,8 +8,7 @@
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
         <!--Project title-->
-        A Program Synthesis Approach to Designing Networks with Provable
-        Properties
+        Flexible Data Plane Programming
       </h1>
       <SubPageNav
         v-bind:data="[
@@ -26,48 +25,43 @@
         <div class="subpages-section-content">
           <p>
             <!--Project Description-->
-            Computer networks are difficult to manage since there exists a wide
-            gulf between the high-level goals that operators have for their
-            networks (e.g., Quality of Service etc.), and the low-level
-            decisions that operators should make (e.g., how to route traffic,
-            allocate bandwidth, configure devices etc.). While the advent of
-            Software-Defined Networking helps, the process of designing networks
-            is still ad-hoc, leading to high operational costs, design faults
-            that account for a large fraction of network downtime, and costly
-            security breaches. This project is motivated by the vision of design
-            automation for networking, inspired by the success of the approach
-            in other domains such as chip design. The project is developing
-            methods for network architects to express their intent at higher
-            levels of abstraction, and techniques to automatically synthesize
-            network designs that realize this intent correctly and efficiently.
+            Data plane programming has been widely adopted by both academia and industry. 
+            As a prominent instance, the P4 programming language has been a key language 
+            enabling flexible data plane programming with the support of compilers, 
+            formal semantics, verification frameworks, testing systems, as well as 
+            commodity hardware such as Intel Tofino and Cisco Silicon One. Despite these 
+            promising development, there is still a long way to go to let average network 
+            architects program data planes in a natural and efficient way. One unique 
+            challenge for data plane programming stems from the inherent tension between 
+            abstraction and customized optimization.
             <br> <br>
-            
-            As a concrete example, we have tackled a key challenge network
-            architects encounter: how to balance multiple conflicting metrics,
-            and ensure fair allocations to competing traffic while prioritizing
-            critical traffic. The state of practice poses challenges since
-            architects must precisely encode their (somewhat fuzzy) intent into
-            formal optimization models using abstract notions such as utility
-            functions, and ad-hoc manually tuned knobs. We have developed one of
-            the first efforts to synthesize network designs with indeterminate
-            objectives using an interactive program-synthesis-based approach.
-            Specifically, we have developed a novel framework that we term
-            comparative synthesis, where a user's design objective, and the
-            synthesis of a network design that optimizes that objective are done
-            in tandem. Our work is based on the key insight that when a user has
-            difficulty in providing a concrete objective function, it is
-            relatively easy and natural to give preferences between pairs of
-            concrete candidates. The approach may be viewed as a new variant of
-            programming-by-example (PBE) widely studied in the Programming
-            Languages community, where preference pairs are used as "examples"
-            instead of input-output pairs in traditional PBE systems. We have
-            developed Net10Q, a system based on our approach, and evaluated
-            its effectiveness on real-world network case studies, and through
-            pilot user studies comprising network researchers and practitioners.
-
+            On one hand, today’s data plane programming is too low level — P4 and other 
+            languages used by practitioners are hardware-specific and lack many common 
+            features most other programmers enjoy everyday (e.g., encapsulation, modularity, 
+            libraries); network programmers have to be aware of hardware resources and 
+            limitations, tune a lot of details (e.g., determining states, table sizes or 
+            memory configurations) of the code to satisfy different hardware constraints, 
+            update the code frequently when the network changes, and receive little help for 
+            debugging.
             <br> <br>
-            More recently, we have started exploring program synthesis approaches for 
-            data plane forwarding in the context of the P4 programming language
+            On the other hand, today’s data plane programming is also too high level — it 
+            relies on compilers to perform standard, per-switch optimizations, and it is hardly 
+            possible for a programmer to make any networkwide optimizations (e.g., distributing 
+            workload to multiple switches) or customize the optimization target for a special 
+            scenario or application.
+            <br> <br>
+            Matching the two conflicting problems, we have seen two disconnected directions of 
+            research in recent years. One emerging direction is to introduce higher-level, more 
+            abstract languages with more convenient programming tools; but programmers usually have 
+            to give up their flexible, fine-granulated optimization goals. Oppositely, another 
+            direction is to develop advanced optimization techniques that expect 
+            user-provided-guidance (e.g., program segmentations, application-specific labels and 
+            policies), making them not accessible to simple network programmers.
+            <br> <br>
+            The goal of this project is to reconcile the two research directions by developing a 
+            radically new programming system for data plane programming, with which a user can 
+            naturally and flexibly describe her network design and optimization goals and the 
+            corresponding optimal data plane can be automatically generated.
       
           
           </p>

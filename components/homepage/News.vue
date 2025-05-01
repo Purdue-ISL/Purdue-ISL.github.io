@@ -3,21 +3,20 @@
     <h1 class="main-page-main-headers">What's new?</h1>
     <div id="box3" class="news">
       <div class="timeline pl-6 pt-6 pb-6">
+
         <HomepageNew
           date="June 2024"
           paper="Transferable Neural WAN TE for Changing Topologies"
           venue="ACM SIGCOMM 2024"
-          status="accept"
+          status="present"
         />
-
-
+        
         <HomepageNew
           date="August 2024"
           paper="P4CGO: Control Plane Guided P4 Program Optimization"
           venue="FMANO '24: SIGCOMM Workshop on Formal Methods Aided Network Operation"
           status="present"
         />
-
         
         <HomepageNew
           date="April 2024"
@@ -60,6 +59,7 @@
           date="January 2023"
           paper="Learning near-optimal network designs by query"
           venue="ACM POPL 2023"
+          status="present"
         />
         
         <HomepageNew

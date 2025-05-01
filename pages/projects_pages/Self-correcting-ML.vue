@@ -8,7 +8,7 @@
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
         <!--Project title-->
-        Self-correcting ML-driven Synthesis of Network Designs from Hints
+        Self-correcting ML-driven Resource Allocation in Networked Systems
       </h1>
       <SubPageNav
         v-bind:data="[

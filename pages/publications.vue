@@ -11,7 +11,7 @@
 
         
         <div class="publication-project-container">
-          <h1 class="publication-main-headers">Self-correcting ML-driven Synthesis of Network Designs from Hints</h1>
+          <h1 class="publication-main-headers">Self-correcting ML-driven Resource Allocation in Networked Systems</h1>
           <div class="publication-div">
             <PublicationsPublication
               title="Transferable Neural WAN TE for Changing Topologies"

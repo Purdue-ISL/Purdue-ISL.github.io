@@ -5,7 +5,14 @@
       <div class="timeline pl-6 pt-6 pb-6">
 
         <HomepageNew
-          date="June 2024"
+          date="May 2025"
+          paper="Hattrick: Solving Multi-class TE using Neural Models"
+          venue="ACM SIGCOMM 2025"
+          status="accept"
+        />
+        
+        <HomepageNew
+          date="August 2024"
           paper="Transferable Neural WAN TE for Changing Topologies"
           venue="ACM SIGCOMM 2024"
           status="present"

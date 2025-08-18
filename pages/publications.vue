@@ -13,10 +13,19 @@
         <div class="publication-project-container">
           <h1 class="publication-main-headers">Self-correcting ML-driven Resource Allocation in Networked Systems</h1>
           <div class="publication-div">
+
+            <PublicationsPublication
+              title="Hattrick: Solving Multiclass TE using Neural Models"
+              authors="Abd AlRhman AlQiam, Zhuocong Li, Satyajeet Singh Ahuja, Zhaodong Wang, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2025"
+              paper="papers-pdf/hattrick_sigcomm.pdf"
+              github="https://github.com/Purdue-ISL/Hattrick"
+            /><PublicationsSeparator />
+            
             <PublicationsPublication
               title="Transferable Neural WAN TE for Changing Topologies"
-              authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro and Mohit Tawarmalani"
-              conference="Proceedings of the ACM SIGCOMM 2024 Conference, August 2024"
+              authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2024"
               paper="../papers-pdf/HARP_SIGCOMM_Paper.pdf"
               slides="../slides/HARP-SIGCOMM-2024-Slides.pptx"
               video="https://www.youtube.com/watch?v=7E6mj40poMs"

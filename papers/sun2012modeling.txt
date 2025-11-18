@@ -1,0 +1,5 @@
+@inproceedings{sun2012modeling,
+  title={{Modeling Complexity of Enterprise Routing Design}},
+  author={Xin Sun and Sanjay G. Rao and Geoffrey G. Xie},
+  booktitle={ACM CoNEXT 2012}
+}

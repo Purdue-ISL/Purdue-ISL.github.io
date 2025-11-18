@@ -1,0 +1,5 @@
+@inproceedings{hajjat2010cloudward,
+  title={{Cloudward Bound: Planning for Beneficial Migration of Enterprise Applications to the Cloud}},
+  author={Mohammad Hajjat and Xin Sun and Yu-Wei Eric Sung and David Maltz and Sanjay Rao and Kunwadee Sripanidkulchai and Mohit Tawarmalani},
+  booktitle={ACM SIGCOMM 2010}
+}

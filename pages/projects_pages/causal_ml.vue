@@ -7,7 +7,7 @@
     <div class="limit-width">
       <div class="w-[96%] mx-auto"></div>
       <h1 class="subpages-title">
-        Causal ML models for Data-Driven Networking
+        Causal Reasoning for Data-Driven Networking
       </h1>
       <SubPageNav
         v-bind:data="[
@@ -24,47 +24,16 @@
         </div>
         <div class="subpages-section-content">
           <p>
-            A central theme of data-driven networking is answering what-if 
-            questions -- what would be the impact of changing the design of 
-            a networked system, given data obtained from a real-world deployment 
-            of an existing system. For instance, trace data from past video 
-            streaming sessions may be used to analyze the impact on performance 
-            if a new bit rate choice were added (e.g., introducing a 8K resolution), 
-            an existing bit rate choice were removed (e.g., during the COVID crisis, 
-            many video publishers restricted the maximum bitrate), or a new Adaptive 
-            Bitrate (ABR) algorithm were used. With the growing interest in Edge 
-            Computing, a network designer may seek to understand the benefits of 
-            reducing round-trip time by moving servers closer to the end users given 
-            \performance traces collected from video servers in existing locations. 
-            Answering what-if questions of this nature is also known as causal reasoning. 
-            Causal reasoning considers the effect of events that did not occur while the data 
-            was being recorded, and is often used in fields such as epidemiology.
+            A central theme of networking is answering what-if questions -- i.e., given recorded data of an existing deployed system, what would be the performance impact if we changed the design of the system (e.g., deployed a new video streaming algorithm), or if the environment changed relative to how data was collected (i.e., a shift in distribution). Answering what-if questions of this nature is also known as causal reasoning, which considers the effect of events that did not occur while the data was being recorded.
            <br /><br />
 
-            Several widely used ML tools are inadequate for causal reasoning. 
-            Many approaches (e.g., neural networks) merely capture correlations in 
-            collected data. While they work well about answering questions about existing 
-            systems, they suffer from biases when answering causal questions which pertain 
-            to changes in the system design. Other approaches such as Reinforcement Learning and 
-            Randomized Control Trials allow reasoning about a redesigned system but require active 
-            interventions that involve changing a system, and observing its performance among real 
-            users, which could be disruptive to the performance of real users. In this project, we 
-            are investigating the use of causal reasoning approaches to answer “what-if questions” 
-            using data collected from prior deployments of these systems. We are initially focusing our 
-            explorations on video streaming, given the importance of the domain, although we believe 
-            the issues are more general across networking.
+            Several widely used machine learning (ML) tools (e.g., off-the-shelf neural networks) are inadequate for causal reasoning since they merely capture correlations in collected data. This limits them to predictions that pertain to how a deployed system with an existing design and in an existing environment performs in the future. They incur biases when faced with "what-if" questions, or when aspects of the environment change. Other approaches such as Reinforcement Learning and Randomized Control Trials could be disruptive to the performance of real users, and are not designed to answer ``what-if'' questions about past sessions.
             <br /><br />
 
-            Some example contributions from the project include (i) Veritas, a system for answering
-            what-if questions related to video streaming without requiring Randomized Control Trial
-            Data; (i) Xatu, a system that uses LSTMs to achieve high prediction accuracies for throughput 
-            in video streaming systems (a pre-requisite for the design of video streaming algorithms). 
-            Xatu achieves prediction 
-            accuracies of over 24% relative to state-of-the-art; and (ii) Oboe, a system for auto-tuning 
-            a wide range of Adaptive Bit Rate algorithms (a key building block for Internet video) to 
-            network conditions. Oboe significantly outperforms state-of-the-art approaches including 
-            a reinforcement learning method. We have released two large-scale datasets of real video sessions 
-            to the research community as part of the project.
+            Causal reasoning is uniquely challenging in networking since many algorithms (e.g., adaptive bit rate algorithms, traffic engineering) are adaptive and make their decisions based on network state. Network state variables often act as confounding variables resulting in spurious correlations. Unfortunately, on the networking side, researchers are generally ill-equipped to deal with the hidden complexity that arises from performing ML over causal questions. On the ML side, researchers do not yet have effective tools to answer the types of complex real-world causal questions that the scale and adaptive nature of networking applications require.
+            <br /><br />
+
+            In this project, we are exploring causal reasoning on passively collected networked data, which is not disruptive to the performance of live users. Our project supports causal reasoning not only about how the proposed change would affect sessions in the future, but also how it would have affected a given session in the past (also referred to as counterfactual reasoning).
             <br /><br />
 
           </p>
@@ -77,6 +46,26 @@
         </div>
         <div class="subpages-section-content">
 
+            <PublicationsPublication
+              title="Hattrick: Solving Multiclass TE using Neural Models"
+              authors="Abd AlRhman AlQiam, Zhuocong Li, Satyajeet Singh Ahuja, Zhaodong Wang, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2025"
+              paper="papers-pdf/hattrick_sigcomm.pdf"
+              github="https://github.com/Purdue-ISL/Hattrick"
+            />
+            <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Transferable Neural WAN TE for Changing Topologies"
+            authors="Abd AlRhman AlQiam, Yuanjun Yao, Zhaodong Wang, Satyajeet Ahuja Singh, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro and Mohit Tawarmalani"
+            conference="Proceedings of the ACM SIGCOMM 2024 Conference, August 2024"
+            paper="../papers/HARP_SIGCOMM_Paper.pdf"
+            slides="../slides/HARP-SIGCOMM-2024-Slides.pptx"
+            video="https://www.youtube.com/watch?v=7E6mj40poMs"
+            github="https://github.com/Purdue-ISL/HARP"
+          />
+          <PublicationsSeparator />
+
           <PublicationsPublication
             title="Veritas: Answering Causal Queries from Video Streaming Traces"
             authors="Chandan Bothra, Jianfei Gao, Sanjay Rao, and Bruno Ribeiro"
@@ -85,6 +74,22 @@
             slides="https://purdue-isl.github.io/papers-pdf/veritas_slides.pptx"
             video="https://www.youtube.com/watch?v=ZqIKtuQ1gtY"
             github="https://github.com/Purdue-ISL/Veritas"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Causal lifting and link prediction"
+            authors="Cotta, Leonardo and Bevilacqua, Beatrice and Ahmed, Nesreen and Ribeiro, Bruno"
+            conference="Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences , v.479 , 2023"
+            paper="https://doi.org/10.1098/rspa.2023.0121"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Constraint-based Causal Discovery from a Collection of Conditioning Sets"
+            authors="Lee, Kenneth and Ribeiro, Bruno and Kocaoglu, Murat"
+            conference="Proceedings of the Forty-First Conference on Uncertainty in Artificial Intelligence, 2025"
+            paper="https://dl.acm.org/doi/10.5555/3762387.3762495"
           />
           <PublicationsSeparator />
           
@@ -164,14 +169,14 @@
               <ul class="gap-10">
                 <li>
                   <span class="font-mono tracking-tighter">
-                    Chandan Bothra
+                    Abd-Al Rhman Al Qiam
                   </span>
                   <span>— Ph.D. student</span>
                 </li>
 
                 <li>
                   <span class="font-mono tracking-tighter">
-                    Ehab Ghabashneh
+                    Chandan Bothra
                   </span>
                   <span>— Ph.D. student</span>
                 </li>
@@ -182,6 +187,27 @@
                   ><span> — Ph.D. student</span>
                 </li>
                 
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <span class="font-bold text-xl">Collaborators</span>
+            <div class="text-lg pl-2">
+              <ul class="gap-10">
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Amazon Prime
+                  </span>
+                  <span> (lead contact Dr. Zahaib Akhtar)</span>
+                </li>
+
+                <li>
+                  <span class="font-mono tracking-tighter">
+                    Meta
+                  </span>
+                  <span> (lead contact: Dr. Ying Zhang)</span>
+                </li>
               </ul>
             </div>
           </div>

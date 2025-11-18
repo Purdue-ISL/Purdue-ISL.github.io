@@ -12,11 +12,12 @@
           Ongoing Projects
         </h1>
         <div class="projects-container">
+        
           <ProjectsProject
             title="Self-correcting ML-driven Resource Allocation in Networked Systems"
             content="Despite much progress, the goal of driving network design from higher level intent remains elusive. 
             The challenges stem from the fact that while network architects often do have informal knowledge of 
-             conditions under which their network must operate, existing design tools (based on optimization and constraint 
+            conditions under which their network must operate, existing design tools (based on optimization and constraint 
             solvers) need \textbf{precise} characterizations of these conditions. The goal of this project is to automate the 
             process of designing networks from informal operator hints. The proposal will tackle this goal through recent 
             developments in ML, and ML-based techiques for network design."
@@ -24,13 +25,8 @@
           />
 
           <ProjectsProject
-            title="Causal ML models for Data-Driven Optimization of Internet video"
-            content="A central theme of data-driven networking is answering what-if questions -- what would be the impact of changing the design of a 
-                     networked system, given data obtained from a real-world deployment of an existing system. In this project, we are investigating the 
-                     use of causal reasoning approaches to answer “what-if questions” using data collected from prior deployments of systems. 
-                     A particular area of focus is Internet video, given video accounts for over 80% of Internet traffic today, and it is critical
-                     to deliver high quality Internet video over variable Internet environments. Our work extensively uses insights from real-world data sets of 
-                     Internet video sessions."
+            title="Causal Reasoning for Data-Driven Networking"
+            content="A central theme of networking is answering what-if questions -- i.e., given recorded data of an existing deployed system, what would be the performance impact if we changed the design of the system (e.g., deployed a new video streaming algorithm), or if the environment changed relative to how data was collected (i.e., a shift in distribution). Answering what-if questions of this nature is also known as causal reasoning, which considers the effect of events that did not occur while the data was being recorded."
             to-page="/projects_pages/causal_ml"
           />
           <ProjectsProject

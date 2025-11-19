@@ -9,11 +9,15 @@
       <h1 class="subpages-title">
         Causal Reasoning for Data-Driven Networking
       </h1>
+      <h1 class="text-center text-xl">
+        Supported by NSF Award Number: 2212160
+      </h1>
       <SubPageNav
         v-bind:data="[
           ['Description', 'des'],
           ['Publications', 'pub'],
-          ['Dataset', 'ds'],
+          ['Outreach', 'out'],
+          ['Other Relavent Publications', 'otherpub'],
           ['People', 'ppl'],
         ]"
       />
@@ -92,6 +96,38 @@
             paper="https://dl.acm.org/doi/10.5555/3762387.3762495"
           />
           <PublicationsSeparator />
+        
+        </div>
+      </div>
+
+      <div id="out" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Outreach</h1>
+        </div>
+        <div class="subpages-section-content">
+          
+          <PublicationsPublication
+            title="Crafting Principled Machine Learning Architectures for Networked Systems"
+            authors="Sanjay Rao and Bruno Ribeiro"
+            conference="The Networking Channel, March 2025"
+          />
+          <PublicationsSeparator />
+
+          <PublicationsPublication
+            title="Can ML models replace network algorithms? Feasibility, challenges, and how to get there"
+            authors="Panel organized and moderated by Sanjay Rao at ACM Sigcomm 2024 with panelists including Mohammad Alizadeh (MIT), Behnaz Arzani (Microsoft), Bruno Ribeiro (Purdue), and Keith Winstein (Stanford)"
+            conference="ACM SIGCOMM 2024"
+          />
+          <PublicationsSeparator />
+
+        </div>
+      </div>
+
+      <div id="otherpub" class="subpages-section-container-div">
+        <div class="subpages-section-title-container-div">
+          <h1 class="subpages-section-title">Other Relavent Publications</h1>
+        </div>
+        <div class="subpages-section-content">
           
           <PublicationsPublication
             title="Xatu: Richer Neural Network Based Prediction for Video Streaming"
@@ -100,6 +136,7 @@
             paper="https://dl.acm.org/doi/pdf/10.1145/3491056"
             slides="../slides/Xatu-Sigmetrics-2022.pdf"
             video="../videos/Xatu-Sigmetrics-2022.mp4"
+            dataset="https://github.com/Purdue-ISL/XatuDataset/"
           />
           <PublicationsSeparator />
 
@@ -119,31 +156,10 @@
             conference="ACM SIGCOMM 2018"
             paper="../papers/sigcomm18-final128.pdf"
             video="https://www.youtube.com/watch?v=4ehZhvvAA-I&t=16514s"
-          />
-          <PublicationsSeparator />
-
-          
-        </div>
-      </div>
-
-      <div id="ds" class="subpages-section-container-div">
-        <div class="subpages-section-title-container-div">
-          <h1 class="subpages-section-title">Datasets</h1>
-        </div>
-        <div class="subpages-section-content">
-          <PublicationsPublication
-            title="Xatu"
-            authors="This dataset contains video session data used to evaluate the Xatu system."
-            dataset="https://github.com/Purdue-ISL/XatuDataset/"
-          />
-          <PublicationsSeparator />
-
-          <PublicationsPublication
-            title="Oboe"
-            authors="This dataset contains bandwidth traces of real video streaming sessions used to evaluate Oboe."
             dataset="https://github.com/USC-NSL/Oboe"
           />
           <PublicationsSeparator />
+
         </div>
       </div>
 
@@ -190,6 +206,7 @@
               </ul>
             </div>
           </div>
+          <br />
 
           <div>
             <span class="font-bold text-xl">Collaborators</span>

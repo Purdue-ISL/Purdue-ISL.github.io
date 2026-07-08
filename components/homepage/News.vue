@@ -5,6 +5,13 @@
       <div class="timeline pl-6 pt-6 pb-6">
 
         <HomepageNew
+          date="May 2026"
+          paper="Elastispec: Formalizing Enterprise Firewall Management with Informal and Elastic Specifications"
+          venue="ACM SIGCOMM 2026"
+          status="accept"
+        />
+        
+        <HomepageNew
           date="May 2025"
           paper="Hattrick: Solving Multi-class TE using Neural Models"
           venue="ACM SIGCOMM 2025"

@@ -109,6 +109,14 @@
           </h1>
           <div class="publication-div">
             <PublicationsPublication
+              title="Elastispec: Formalizing Enterprise Firewall Management with Informal and Elastic Specifications"
+              authors="Chenan Wen, Yizhan Qing, Curt P Jansen, Xiaokang Qiu, and Sanjay Rao"
+              conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2026"
+              paper="papers-pdf/Sigcomm26_ElastiSpec.pdf"
+              github="https://github.com/Purdue-ISL/Elastispec"
+            /><PublicationsSeparator />
+            
+            <PublicationsPublication
               title="P4CGO: Control Plane Guided P4 Program Optimization"
               authors="Chenan Wen, Zhuocong Li, Syed Usman Jafri, Xiaokang Qiu and Sanjay Rao "
               conference="FMANO '24: Proceedings of the 2024 SIGCOMM Workshop on Formal Methods Aided Network Operation, August 2024"

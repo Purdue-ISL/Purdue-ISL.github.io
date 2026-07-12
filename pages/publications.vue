@@ -70,7 +70,14 @@
             Causal Models and ML-Driven Optimization of Internet Video
           </h1>
           <div class="publication-div">
-        
+
+            <PublicationsPublication
+              title="Beagle: Auto-tuning Performance Diagnosis for Live Video Streaming"
+              authors="Chandan Bothra, Leonardo Teixeira, Zahaib Akhtar, Sanjay G. Rao, and Bruno Ribeiro"
+              conference="Proceedings of the International Symposium on Quality of Service (IWQoS), 2026"
+              paper="papers-pdf/beagle_paper.pdf"
+              slides="papers-pdf/beagle_slides.pptx"
+            /><PublicationsSeparator />
 
             <PublicationsPublication
               title="Veritas: Answering Causal Queries from Video Streaming Traces"

@@ -5,6 +5,13 @@
       <div class="timeline pl-6 pt-6 pb-6">
 
         <HomepageNew
+          date="July 2026"
+          paper="Beagle: Auto-tuning Performance Diagnosis for Live Video Streaming"
+          venue="IEEE IWQoS 2026"
+          status="accept"
+        />
+        
+        <HomepageNew
           date="May 2026"
           paper="Elastispec: Formalizing Enterprise Firewall Management with Informal and Elastic Specifications"
           venue="ACM SIGCOMM 2026"

@@ -19,6 +19,7 @@
               authors="Abd AlRhman AlQiam, Zhuocong Li, Satyajeet Singh Ahuja, Zhaodong Wang, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
               conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2025"
               paper="papers-pdf/hattrick_sigcomm.pdf"
+              slides="../slides/Hattrick_Final_Slides.pptx"
               github="https://github.com/Purdue-ISL/Hattrick"
             /><PublicationsSeparator />
             

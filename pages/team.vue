@@ -59,6 +59,12 @@
             img="placeholder-image.png"
           />
           <TeamMember
+            name="Danish Athar"
+            title="Ph.D. student"
+            area=""
+            img="placeholder-image.png"
+          />
+          <TeamMember
             name="Jack Tyler Gardel"
             title="MS student"
             area=""

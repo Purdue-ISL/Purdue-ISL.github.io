@@ -49,7 +49,7 @@
           <TeamMember
             name="Zhuocong Li"
             title="Ph.D. student"
-            area="P4 and Data plane programming"
+            area="Distributed ML Training System and Planning"
             img="placeholder-image.png"
           />
           <TeamMember

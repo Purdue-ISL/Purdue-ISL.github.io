@@ -6,6 +6,14 @@
 
         <HomepageNew
           date="July 2026"
+          paper="Colt: Handling Traffic Bursts using Piecewise Linear Adaptive Traffic Engineering"
+          venue="USENIX NSDI 2027"
+          status="accept"
+        />
+
+        
+        <HomepageNew
+          date="July 2026"
           paper="Beagle: Auto-tuning Performance Diagnosis for Live Video Streaming"
           venue="IEEE IWQoS 2026"
           status="accept"

@@ -79,7 +79,7 @@
 
           <TeamAlumni
             name="Jack Gardel Tyler"
-            title="MS (Thesis)"
+            degree="MS (Thesis)"
             thesis_title="Network Intrusion Detection Leveraging Targeted Regular Expressions On FPGAs"
             graduation_year="2025"
             position="Mercury Systems"
@@ -88,7 +88,7 @@
           
           <TeamAlumni
             name="Chandan Bothra"
-            title="Ph.D."
+            degree="Ph.D."
             thesis_title="Video streaming performance: Diagnosis and reasoning about what-ifs"
             graduation_year="2025"
             position="Amazon Prime Video"
@@ -96,7 +96,7 @@
           
           <TeamAlumni
             name="Ehab Ghabashneh"
-            title="Ph.D."
+            degree="Ph.D."
             thesis_title="Supporting data center and internet video applications with stringent performance needs: measurements and design"
             graduation_year="2024"
             position="Google"

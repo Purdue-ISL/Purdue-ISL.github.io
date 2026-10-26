@@ -37,7 +37,7 @@
           <TeamMember
             name="Abd AlRhman AlQiam"
             title="Ph.D. Student"
-            area="AI for Network Resource Allocation"
+            area="AI for Networks"
             img="2_abd.jpg"
           />
           <TeamMember

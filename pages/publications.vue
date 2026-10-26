@@ -15,6 +15,15 @@
           <div class="publication-div">
 
             <PublicationsPublication
+              title="Colt: Handling Traffic Bursts using Piecewise Linear Adaptive Traffic Engineering"
+              authors="Abd AlRhman AlQiam, Danish Athar, Ngoc Do, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
+              conference="Proceedings of USENIX Symposium on Networked Systems Design and Implementation (NSDI), May 2027"
+              paper="papers-pdf/Colt_Final.pdf"
+              github="https://github.com/Purdue-ISL/Colt"
+            /><PublicationsSeparator />
+
+
+            <PublicationsPublication
               title="Hattrick: Solving Multiclass TE using Neural Models"
               authors="Abd AlRhman AlQiam, Zhuocong Li, Satyajeet Singh Ahuja, Zhaodong Wang, Ying Zhang, Sanjay G. Rao, Bruno Ribeiro, and Mohit Tawarmalani"
               conference="Proceedings of ACM Special Interest Group on Data Communications (SIGCOMM), 2025"

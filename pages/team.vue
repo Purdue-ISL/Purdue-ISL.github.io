@@ -43,7 +43,7 @@
           <TeamMember
             name="Abd AlRhman AlQiam"
             title="Ph.D. Student"
-            area="ML-Driven Network Synthesis"
+            area="AI for Network Resource Allocation"
             img="2_abd.jpg"
           />
           <TeamMember

@@ -23,12 +23,6 @@
         <h1 class="team-group-header">Graduate Students</h1>
         <div class="team-members-container">
           <TeamMember
-            name="Chandan Bothra"
-            title="Ph.D Student"
-            area="Causal ML models, Data-driven networking, Internet Video"
-            img="5_chandan.jpg"
-          />
-          <TeamMember
             name="Syed Usman Jafri"
             title="Ph.D. Student"
             area="Online traffic analysis, In-network Computing"
@@ -88,6 +82,24 @@
       <div class="team-group-container">
         <h1 class="team-group-header">Alumni</h1>
         <div class="alumni-members-container">
+
+          <TeamAlumni
+            name="Jack Gardel Tyler"
+            title="MS (Thesis)"
+            thesis_title="Network Intrusion Detection Leveraging Targeted Regular Expressions On FPGAs"
+            graduation_year="2025"
+            position="Mercury Systems"
+          /><TeamSeparator />
+
+          
+          <TeamAlumni
+            name="Chandan Bothra"
+            title="Ph.D."
+            thesis_title="Video streaming performance: Diagnosis and reasoning about what-ifs"
+            graduation_year="2025"
+            position="Amazon Prime Video"
+          /><TeamSeparator />
+          
           <TeamAlumni
             name="Ehab Ghabashneh"
             title="Ph.D."

@@ -25,6 +25,13 @@
           venue="ACM SIGCOMM 2026"
           status="accept"
         />
+
+        <HomepageNew
+          date="December 2025"
+          content="Chandan Bothra defends his Ph.D thesis."
+          congrats="Dr. Bothra"
+        />
+
         
         <HomepageNew
           date="May 2025"
